@@ -1,0 +1,113 @@
+name: scan
+
+on:
+  schedule:
+    - cron: "17 2 * * *"   # daily at 02:17 UTC (off-peak minute — top-of-hour slots get delayed/dropped by Actions congestion)
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max candidates to test (0 = full plan)"
+        required: false
+        default: "0"
+      time_budget:
+        description: "Seconds for the test phase"
+        required: false
+        default: "3000"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "sources/**"
+      - ".github/workflows/scan.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: "Collect > Clean > Dedupe > REALLY test > Report"
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -q pyyaml pytest
+
+      - name: Unit tests
+        run: python3 -m pytest tests/ -q
+
+      - name: Download engines
+        run: |
+          mkdir -p bin
+          curl -fsSL -o xray.zip \
+            https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+          unzip -q xray.zip -d xray_tmp
+          mv xray_tmp/xray bin/xray && chmod +x bin/xray
+          SB_VER=$(curl -fsSL https://api.github.com/repos/SagerNet/sing-box/releases/latest \
+                   | python3 -c 'import json,sys; print(json.load(sys.stdin)["tag_name"])')
+          echo "sing-box version: $SB_VER"
+          curl -fsSL -o sb.tgz \
+            "https://github.com/SagerNet/sing-box/releases/download/${SB_VER}/sing-box-${SB_VER#v}-linux-amd64.tar.gz"
+          tar xzf sb.tgz
+          mv "sing-box-${SB_VER#v}-linux-amd64/sing-box" bin/sing-box && chmod +x bin/sing-box
+          bin/xray version | head -1
+          bin/sing-box version | head -1
+
+      - name: Collect proxies
+        run: python3 scripts/collect.py
+
+      - name: Test proxies (real tunnels)
+        run: |
+          python3 scripts/test.py \
+            --xray-bin "$PWD/bin/xray" \
+            --singbox-bin "$PWD/bin/sing-box" \
+            --limit "${{ github.event.inputs.limit || '0' }}" \
+            --time-budget "${{ github.event.inputs.time_budget || '3000' }}"
+
+      - name: Render report & subscriptions
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: python3 scripts/report.py
+
+      - name: Commit results
+        run: |
+          git config user.name  "scanner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A README.md subs badges data state archive
+          # GitHub rejects any file >100MB — never let one into a commit again
+          OVERSIZED=$(git diff --cached --name-only -z \
+            | xargs -0 -r stat --printf='%s\t%n\n' 2>/dev/null \
+            | awk -F'\t' '$1 > 90000000 {print $2}')
+          if [ -n "$OVERSIZED" ]; then
+            echo "::warning::refusing to commit oversized file(s) >90MB: $OVERSIZED"
+            git reset -q -- $OVERSIZED || true
+          fi
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            WORKING=$(python3 -c "import json;d=json.load(open('data/last_run.json'));print(sum(1 for a in d.get('alive',[]) if a.get('work')))" 2>/dev/null || echo "?")
+            git commit -m "scan $(date -u +%F_%H%M): ${WORKING} working [skip ci]"
+            git pull --rebase --autostash origin main || true
+            git push
+          fi
+
+      - name: Upload logs artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scan-logs
+          retention-days: 7
+          path: |
+            logs/
+            data/results.json
