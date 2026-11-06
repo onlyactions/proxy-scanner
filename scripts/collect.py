@@ -128,6 +128,9 @@ def main():
 
     now = time.time()
     states = SourceStates(os.path.join(state_dir, "sources.json"))
+    if states.healed_pause_days:
+        log(f"state was {states.healed_pause_days:.0f} days old (pipeline was paused) — "
+            f"all sources re-armed for a fresh chance")
     registry = Registry(os.path.join(state_dir, "known.json"))
     states.refresh_retirements()
 

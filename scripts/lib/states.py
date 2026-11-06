@@ -74,6 +74,35 @@ class SourceStates:
         self.path = path
         raw = load_json(path, {})
         self.s = raw if isinstance(raw, dict) else {}
+        self.healed_pause_days = 0.0
+        self._heal_after_pause()
+
+    def _heal_after_pause(self):
+        """Re-arm every source if the state itself is stale.
+
+        refresh_retirements() retires a source that contributed no new unique
+        proxy for RETIRE_STALE_DAYS *wall-clock* days. If the whole pipeline
+        was down for longer than that (account suspension, Actions disabled,
+        restore from an archive, ...), EVERY source crosses that line at load
+        time and collect aborts with 0 active sources — exactly what bricked
+        the restored repo on 2026-11-06 after a 34-day gap. So: when the
+        newest activity in the state is older than RETIRE_STALE_DAYS, treat it
+        as a pause, not as 254 simultaneous source deaths — clear retirement
+        marks and streak counters, and re-arm the staleness clock from now.
+        """
+        if not self.s:
+            return
+        newest = max((e.get("last_ok", 0) for e in self.s.values()), default=0)
+        pause = time.time() - newest
+        if not newest or pause <= RETIRE_STALE_DAYS * 86400:
+            return
+        now = time.time()
+        for e in self.s.values():
+            e["retired"] = ""
+            e["fails"] = 0
+            e["dead"] = 0
+            e["last_new"] = now
+        self.healed_pause_days = pause / 86400
 
     def get(self, name, kind="url", url=""):
         e = self.s.get(name)

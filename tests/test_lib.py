@@ -335,6 +335,45 @@ def test_source_states_retirement():
     assert st2.s["good"]["seen"] == ["h1", "h2"]
 
 
+def test_source_states_heal_after_pause():
+    """A state file older than RETIRE_STALE_DAYS must not mass-retire every
+    source at load (restore-after-pause brick, hit on 2026-11-06)."""
+    path = os.path.join(tempfile.mkdtemp(), "sources.json")
+    old = time.time() - (S.RETIRE_STALE_DAYS + 5) * 86400
+    data = {
+        "alive_src": {"kind": "url", "url": "http://a", "last_ok": old,
+                      "last_new": old, "fails": 0, "dead": 0, "seen": ["x"]},
+        "dead_src": {"kind": "url", "url": "http://b", "last_ok": old,
+                     "last_new": old, "fails": 99, "dead": 99,
+                     "retired": "10 consecutive fetch failures", "seen": []},
+    }
+    with open(path, "w") as f:
+        json.dump(data, f)
+    st = S.SourceStates(path)
+    assert st.healed_pause_days > S.RETIRE_STALE_DAYS
+    st.refresh_retirements()
+    assert sorted(st.active_names()) == ["alive_src", "dead_src"]
+    assert all(e["fails"] == 0 and e["dead"] == 0 and not e.get("retired")
+               for e in st.s.values())
+
+
+def test_source_states_fresh_state_not_healed():
+    """A recent state keeps its retirement marks — the heal must only fire
+    after a genuine pipeline pause, not on every load."""
+    path = os.path.join(tempfile.mkdtemp(), "sources.json")
+    fresh = time.time() - 3600
+    data = {
+        "dead_src": {"kind": "url", "url": "http://b", "last_ok": fresh,
+                     "last_new": fresh, "fails": 99, "dead": 99,
+                     "retired": "10 consecutive fetch failures", "seen": []},
+    }
+    with open(path, "w") as f:
+        json.dump(data, f)
+    st = S.SourceStates(path)
+    assert st.healed_pause_days == 0
+    assert "dead_src" not in st.active_names()
+
+
 def test_registry_observe():
     r = S.Registry(os.path.join(tempfile.mkdtemp(), "known.json"))
     p = P.parse_uri("socks://7.7.7.7:1080")
