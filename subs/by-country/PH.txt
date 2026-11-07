@@ -1,1 +1,1 @@
-trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&type=tcp&sni=ph001.zestapp778.com#%23600%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B5%F0%9F%87%AD%20PH
+trojan://5t6i121em5lkmsmk@ph001.zestapp778.com:46298?security=tls&type=tcp&sni=ph001.zestapp778.com#%23696%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B5%F0%9F%87%AD%20PH
