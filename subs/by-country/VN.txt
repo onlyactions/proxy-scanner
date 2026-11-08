@@ -1,2 +1,2 @@
-vless://b83faafc-cbb7-4655-99d4-2c4c39a49d1b@150.95.109.109:2086?encryption=none&security=none&type=tcp#%23821%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@154.21.203.106:51279?encryption=none&security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&pbk=f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A&sid=bb82c8#%23891%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
+vless://57beeeb0-03fc-4fc9-94da-7604488a7134@154.21.203.106:51279?encryption=none&security=reality&type=tcp&sni=www.tesla.com&fp=firefox&flow=xtls-rprx-vision&pbk=f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A&sid=bb82c8#%23645%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
+vless://b83faafc-cbb7-4655-99d4-2c4c39a49d1b@150.95.109.109:2086?encryption=none&security=none&type=tcp#%23907%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
