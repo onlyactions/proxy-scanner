@@ -8,7 +8,7 @@
 
 A GitHub Actions pipeline (runs once a day) that fetches free proxy configs from **173 URL subscriptions** and **81 Telegram channels**, parses 9 protocols (vless / vmess / trojan / ss / hysteria2 / hysteria / tuic / socks / http), deduplicates them, and **actually connects through every single one** to separate working proxies from dead ones.
 
-Latest run: **2026-11-08 02:56:38 UTC** — 177607 unique proxies collected from 173/173 URL sources and 81/81 Telegram channels; **4502** endpoints really tested, **1098** reachable, **1068** verified working (egress IP confirmed changed) across **51 exit countries**.
+Latest run: **2026-11-09 02:55:26 UTC** — 177472 unique proxies collected from 173/173 URL sources and 81/81 Telegram channels; **4509** endpoints really tested, **1081** reachable, **1046** verified working (egress IP confirmed changed) across **51 exit countries**.
 
 ## How the testing works (the *really* part)
 
@@ -31,35 +31,35 @@ flowchart LR
 
 ## Top working proxies
 
-All 1068 working proxies are published in [`subs/all.txt`](subs/all.txt); this table shows the top 25.
+All 1046 working proxies are published in [`subs/all.txt`](subs/all.txt); this table shows the top 25.
 
 | # | proxy | proto | server | exit | latency | speed | engine |
 |---|-------|-------|--------|------|---------|-------|--------|
-| 1 | #1 ❓ ?? → 🇺🇸 US | `ss` | `137.184.89.151:19999` | United States | 329 ms | 107.7 Mbps | xray |
-| 2 | #2 ❓ ?? → 🇺🇸 US | `vless` | `148.135.86.162:10000` | United States | 403 ms | 67.1 Mbps | xray |
-| 3 | #3 ❓ ?? → 🇺🇸 US | `ss` | `23.150.152.38:19999` | United States | 250 ms | 66.6 Mbps | xray |
-| 4 | #4 ❓ ?? → 🇺🇸 US | `ss` | `169.197.142.68:19999` | United States | 406 ms | 66.2 Mbps | xray |
-| 5 | #5 ❓ ?? → 🇺🇸 US | `ss` | `38.145.220.193:8443` | United States | 273 ms | 64.1 Mbps | xray |
-| 6 | #6 ❓ ?? → 🇺🇸 US | `vless` | `107.173.237.146:8443` | United States | 254 ms | 57.9 Mbps | xray |
-| 7 | #7 🇺🇸 US → 🇺🇸 US | `hysteria2` | `155.248.209.237:33333` | United States | 67 ms | 55.7 Mbps | singbox |
-| 8 | #8 ❓ ?? → 🇺🇸 US | `hysteria2` | `hy2.123266.xyz:33333` | United States | 106 ms | 47.8 Mbps | singbox |
-| 9 | #9 ❓ ?? → 🇺🇸 US | `vless` | `169.128.83.4:57259` | United States | 53 ms | 45.2 Mbps | singbox |
-| 10 | #10 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.216:23576` | United States | 228 ms | 42.3 Mbps | xray |
-| 11 | #11 ❓ ?? → 🇺🇸 US | `trojan` | `167.88.61.52:443` | United States | 170 ms | 39.5 Mbps | xray |
-| 12 | #12 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.209:23576` | United States | 225 ms | 38.3 Mbps | xray |
-| 13 | #13 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.197:23576` | United States | 243 ms | 38.1 Mbps | xray |
-| 14 | #14 ❓ ?? → 🇺🇸 US | `vless` | `198.2.251.107:45197` | United States | 47 ms | 37.9 Mbps | xray |
-| 15 | #15 ❓ ?? → 🇺🇸 US | `vmess` | `www.shopify.com:443` | United States | 366 ms | 35.7 Mbps | xray |
-| 16 | #16 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.46:443` | United States | 434 ms | 35.2 Mbps | xray |
-| 17 | #17 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.33:443` | United States | 422 ms | 35.1 Mbps | xray |
-| 18 | #18 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.32:443` | United States | 476 ms | 34.9 Mbps | xray |
-| 19 | #19 🇺🇸 US → 🇺🇸 US | `ss` | `173.244.56.6:443` | United States | 345 ms | 34.8 Mbps | xray |
-| 20 | #20 ❓ ?? → 🇺🇸 US | `vmess` | `172.67.137.158:443` | United States | 490 ms | 34.5 Mbps | xray |
-| 21 | #21 ❓ ?? → 🇺🇸 US | `trojan` | `66.163.112.31:443` | United States | 550 ms | 34.0 Mbps | xray |
-| 22 | #22 ❓ ?? → 🇺🇸 US | `ss` | `38.143.66.146:19999` | United States | 393 ms | 33.9 Mbps | xray |
-| 23 | #23 ❓ ?? → 🇺🇸 US | `ss` | `95.215.201.18:19999` | United States | 438 ms | 33.4 Mbps | xray |
-| 24 | #24 ❓ ?? → 🇺🇸 US | `trojan` | `66.163.112.76:443` | United States | 539 ms | 33.3 Mbps | xray |
-| 25 | #25 🇨🇦 CA → 🇨🇦 CA | `ss` | `149.22.95.183:443` | Canada | 376 ms | 33.3 Mbps | xray |
+| 1 | #1 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.82:443` | United States | 251 ms | 96.5 Mbps | xray |
+| 2 | #2 🇨🇦 CA → 🇨🇦 CA | `ss` | `149.22.95.183:443` | Canada | 284 ms | 73.8 Mbps | xray |
+| 3 | #3 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.209:23576` | United States | 228 ms | 62.2 Mbps | xray |
+| 4 | #4 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.216:23576` | United States | 364 ms | 60.0 Mbps | xray |
+| 5 | #5 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.197:23576` | United States | 246 ms | 59.3 Mbps | xray |
+| 6 | #6 ❓ ?? → 🇺🇸 US | `trojan` | `resources.findlocaljobnetworkandbuildcommunityconnections.com:443` | United States | 360 ms | 59.1 Mbps | xray |
+| 7 | #7 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.206:23576` | United States | 234 ms | 59.0 Mbps | xray |
+| 8 | #8 ❓ ?? → 🇺🇸 US | `trojan` | `www.findlocaljobnetworkandbuildcommunityconnections.com:443` | United States | 211 ms | 49.1 Mbps | xray |
+| 9 | #9 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.195:23576` | United States | 65 ms | 41.7 Mbps | xray |
+| 10 | #10 🇺🇸 US → 🇦🇺 AU | `vmess` | `84.17.41.2:18000` | Australia | 37 ms | 41.3 Mbps | xray |
+| 11 | #11 ❓ ?? → 🇺🇸 US | `trojan` | `blog.findlocaljobnetworkandbuildcommunityconnections.com:443` | United States | 92 ms | 41.1 Mbps | xray |
+| 12 | #12 ❓ ?? → 🇺🇸 US | `ss` | `38.143.66.146:19999` | United States | 37 ms | 36.5 Mbps | xray |
+| 13 | #13 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.66:443` | United States | 1054 ms | 34.2 Mbps | xray |
+| 14 | #14 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.33:443` | United States | 58 ms | 33.2 Mbps | xray |
+| 15 | #15 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.219:23576` | United States | 69 ms | 33.2 Mbps | xray |
+| 16 | #16 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.198:23576` | United States | 62 ms | 32.8 Mbps | xray |
+| 17 | #17 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.32:443` | United States | 38 ms | 32.4 Mbps | xray |
+| 18 | #18 ❓ ?? → 🇺🇸 US | `ss` | `49.51.39.148:443` | United States | 111 ms | 32.4 Mbps | singbox |
+| 19 | #19 ❓ ?? → 🇺🇸 US | `trojan` | `216.106.186.46:443` | United States | 65 ms | 32.2 Mbps | xray |
+| 20 | #20 ❓ ?? → 🇺🇸 US | `vless` | `91.193.19.58:443` | United States | 62 ms | 31.2 Mbps | xray |
+| 21 | #21 🇺🇸 US → 🇺🇸 US | `vless` | `15.204.97.214:23576` | United States | 77 ms | 29.8 Mbps | xray |
+| 22 | #22 ❓ ?? → 🇺🇸 US | `trojan` | `167.88.61.20:443` | United States | 311 ms | 27.6 Mbps | xray |
+| 23 | #23 ❓ ?? → 🇺🇸 US | `vless` | `169.128.83.4:57259` | United States | 105 ms | 27.3 Mbps | singbox |
+| 24 | #24 ❓ ?? → 🇺🇸 US | `vless` | `3h-unitedstates3.09vpn.com:8443` | United States | 173 ms | 27.1 Mbps | singbox |
+| 25 | #25 ❓ ?? → 🇺🇸 US | `trojan` | `167.88.61.85:443` | United States | 367 ms | 27.0 Mbps | xray |
 
 ## Exit locations — which countries work
 
@@ -67,57 +67,57 @@ Every working proxy, grouped by the country of its **verified exit IP** (phase 2
 
 | country | working | avg speed | best latency | share | list |
 |---------|--------:|----------:|-------------:|------:|------|
-| 🇺🇸 United States | 296 | 14.8 Mbps | 38 ms | 28% | [`US.txt`](subs/by-country/US.txt) |
-| 🇳🇱 Netherlands | 158 | 5.1 Mbps | 452 ms | 15% | [`NL.txt`](subs/by-country/NL.txt) |
-| 🇩🇪 Germany | 81 | 4.9 Mbps | 447 ms | 8% | [`DE.txt`](subs/by-country/DE.txt) |
-| 🇯🇵 Japan | 74 | 4.0 Mbps | 353 ms | 7% | [`JP.txt`](subs/by-country/JP.txt) |
-| 🇨🇦 Canada | 42 | 7.8 Mbps | 259 ms | 4% | [`CA.txt`](subs/by-country/CA.txt) |
-| 🇬🇧 United Kingdom | 41 | 5.2 Mbps | 451 ms | 4% | [`GB.txt`](subs/by-country/GB.txt) |
-| 🇫🇷 France | 33 | 4.9 Mbps | 469 ms | 3% | [`FR.txt`](subs/by-country/FR.txt) |
-| 🇸🇬 Singapore | 28 | 3.9 Mbps | 523 ms | 3% | [`SG.txt`](subs/by-country/SG.txt) |
-| 🇵🇱 Poland | 23 | 4.5 Mbps | 548 ms | 2% | [`PL.txt`](subs/by-country/PL.txt) |
-| 🇰🇷 South Korea | 21 | 3.4 Mbps | 522 ms | 2% | [`KR.txt`](subs/by-country/KR.txt) |
-| 🇸🇪 Sweden | 21 | 4.5 Mbps | 585 ms | 2% | [`SE.txt`](subs/by-country/SE.txt) |
-| 🇫🇮 Finland | 20 | 3.1 Mbps | 543 ms | 2% | [`FI.txt`](subs/by-country/FI.txt) |
-| 🇮🇹 Italy | 19 | 5.2 Mbps | 532 ms | 2% | [`IT.txt`](subs/by-country/IT.txt) |
-| 🇨🇭 Switzerland | 18 | 4.3 Mbps | 516 ms | 2% | [`CH.txt`](subs/by-country/CH.txt) |
-| 🇪🇸 Spain | 17 | 5.0 Mbps | 455 ms | 2% | [`ES.txt`](subs/by-country/ES.txt) |
-| 🇦🇺 Australia | 13 | 10.5 Mbps | 70 ms | 1% | [`AU.txt`](subs/by-country/AU.txt) |
-| 🇭🇰 Hong Kong | 13 | 3.4 Mbps | 620 ms | 1% | [`HK.txt`](subs/by-country/HK.txt) |
-| 🇧🇾 BY | 10 | 4.8 Mbps | 721 ms | 1% | [`BY.txt`](subs/by-country/BY.txt) |
-| 🇷🇴 Romania | 9 | 3.1 Mbps | 642 ms | 1% | [`RO.txt`](subs/by-country/RO.txt) |
-| 🇹🇷 Turkey | 9 | 4.1 Mbps | 870 ms | 1% | [`TR.txt`](subs/by-country/TR.txt) |
-| 🇧🇬 Bulgaria | 9 | 3.6 Mbps | 837 ms | 1% | [`BG.txt`](subs/by-country/BG.txt) |
-| 🇲🇩 Moldova | 9 | 3.0 Mbps | 1094 ms | 1% | [`MD.txt`](subs/by-country/MD.txt) |
-| 🇷🇸 Serbia | 8 | 3.6 Mbps | 947 ms | 1% | [`RS.txt`](subs/by-country/RS.txt) |
-| 🇮🇳 India | 8 | 2.9 Mbps | 918 ms | 1% | [`IN.txt`](subs/by-country/IN.txt) |
-| 🇦🇹 Austria | 7 | 4.9 Mbps | 525 ms | 1% | [`AT.txt`](subs/by-country/AT.txt) |
-| 🇪🇪 Estonia | 7 | 4.1 Mbps | 559 ms | 1% | [`EE.txt`](subs/by-country/EE.txt) |
-| 🇷🇺 Russia | 6 | 3.8 Mbps | 832 ms | 1% | [`RU.txt`](subs/by-country/RU.txt) |
-| 🇮🇷 Iran | 6 | 3.3 Mbps | 1394 ms | 1% | [`IR.txt`](subs/by-country/IR.txt) |
-| 🇰🇿 Kazakhstan | 6 | 3.2 Mbps | 1345 ms | 1% | [`KZ.txt`](subs/by-country/KZ.txt) |
-| 🇦🇱 AL | 5 | 4.5 Mbps | 656 ms | 0% | [`AL.txt`](subs/by-country/AL.txt) |
-| 🇨🇿 Czechia | 5 | 3.5 Mbps | 679 ms | 0% | [`CZ.txt`](subs/by-country/CZ.txt) |
-| 🇺🇦 Ukraine | 5 | 3.9 Mbps | 676 ms | 0% | [`UA.txt`](subs/by-country/UA.txt) |
-| 🇱🇻 Latvia | 5 | 4.8 Mbps | 738 ms | 0% | [`LV.txt`](subs/by-country/LV.txt) |
-| 🇦🇪 UAE | 5 | 2.7 Mbps | 1041 ms | 0% | [`AE.txt`](subs/by-country/AE.txt) |
-| 🇹🇼 Taiwan | 4 | 3.0 Mbps | 603 ms | 0% | [`TW.txt`](subs/by-country/TW.txt) |
-| 🇲🇽 Mexico | 3 | 12.6 Mbps | 236 ms | 0% | [`MX.txt`](subs/by-country/MX.txt) |
-| 🇱🇹 Lithuania | 3 | 4.7 Mbps | 765 ms | 0% | [`LT.txt`](subs/by-country/LT.txt) |
-| 🇧🇷 Brazil | 3 | 3.5 Mbps | 735 ms | 0% | [`BR.txt`](subs/by-country/BR.txt) |
-| 🇿🇦 South Africa | 3 | 3.3 Mbps | 1006 ms | 0% | [`ZA.txt`](subs/by-country/ZA.txt) |
-| 🇻🇳 Vietnam | 2 | 3.1 Mbps | 944 ms | 0% | [`VN.txt`](subs/by-country/VN.txt) |
-| 🇹🇭 Thailand | 2 | 4.4 Mbps | 687 ms | 0% | [`TH.txt`](subs/by-country/TH.txt) |
-| 🇮🇱 Israel | 2 | 2.8 Mbps | 913 ms | 0% | [`IL.txt`](subs/by-country/IL.txt) |
-| 🇨🇱 Chile | 1 | 5.6 Mbps | 618 ms | 0% | [`CL.txt`](subs/by-country/CL.txt) |
-| 🇮🇪 Ireland | 1 | 5.6 Mbps | 390 ms | 0% | [`IE.txt`](subs/by-country/IE.txt) |
-| 🇩🇰 Denmark | 1 | 5.0 Mbps | 855 ms | 0% | [`DK.txt`](subs/by-country/DK.txt) |
-| 🇵🇭 Philippines | 1 | 3.9 Mbps | 1021 ms | 0% | [`PH.txt`](subs/by-country/PH.txt) |
-| 🇸🇦 Saudi Arabia | 1 | 3.5 Mbps | 1172 ms | 0% | [`SA.txt`](subs/by-country/SA.txt) |
-| 🇬🇷 Greece | 1 | 1.5 Mbps | 5276 ms | 0% | [`GR.txt`](subs/by-country/GR.txt) |
-| 🇳🇴 Norway | 1 | - | 995 ms | 0% | [`NO.txt`](subs/by-country/NO.txt) |
-| 🇨🇳 China | 1 | - | 1246 ms | 0% | [`CN.txt`](subs/by-country/CN.txt) |
-| 🇮🇩 Indonesia | 1 | - | 1341 ms | 0% | [`ID.txt`](subs/by-country/ID.txt) |
+| 🇺🇸 United States | 306 | 14.3 Mbps | 37 ms | 29% | [`US.txt`](subs/by-country/US.txt) |
+| 🇳🇱 Netherlands | 152 | 5.1 Mbps | 423 ms | 15% | [`NL.txt`](subs/by-country/NL.txt) |
+| 🇩🇪 Germany | 82 | 4.5 Mbps | 445 ms | 8% | [`DE.txt`](subs/by-country/DE.txt) |
+| 🇯🇵 Japan | 69 | 3.4 Mbps | 316 ms | 7% | [`JP.txt`](subs/by-country/JP.txt) |
+| 🇨🇦 Canada | 42 | 9.3 Mbps | 243 ms | 4% | [`CA.txt`](subs/by-country/CA.txt) |
+| 🇬🇧 United Kingdom | 38 | 5.1 Mbps | 454 ms | 4% | [`GB.txt`](subs/by-country/GB.txt) |
+| 🇫🇷 France | 31 | 4.9 Mbps | 487 ms | 3% | [`FR.txt`](subs/by-country/FR.txt) |
+| 🇸🇬 Singapore | 30 | 4.1 Mbps | 492 ms | 3% | [`SG.txt`](subs/by-country/SG.txt) |
+| 🇰🇷 South Korea | 28 | 3.9 Mbps | 473 ms | 3% | [`KR.txt`](subs/by-country/KR.txt) |
+| 🇸🇪 Sweden | 22 | 4.5 Mbps | 520 ms | 2% | [`SE.txt`](subs/by-country/SE.txt) |
+| 🇵🇱 Poland | 21 | 4.8 Mbps | 644 ms | 2% | [`PL.txt`](subs/by-country/PL.txt) |
+| 🇪🇸 Spain | 18 | 4.9 Mbps | 520 ms | 2% | [`ES.txt`](subs/by-country/ES.txt) |
+| 🇮🇹 Italy | 17 | 5.2 Mbps | 491 ms | 2% | [`IT.txt`](subs/by-country/IT.txt) |
+| 🇨🇭 Switzerland | 17 | 4.2 Mbps | 500 ms | 2% | [`CH.txt`](subs/by-country/CH.txt) |
+| 🇦🇺 Australia | 14 | 11.2 Mbps | 37 ms | 1% | [`AU.txt`](subs/by-country/AU.txt) |
+| 🇧🇾 BY | 13 | 4.3 Mbps | 582 ms | 1% | [`BY.txt`](subs/by-country/BY.txt) |
+| 🇫🇮 Finland | 13 | 3.3 Mbps | 735 ms | 1% | [`FI.txt`](subs/by-country/FI.txt) |
+| 🇧🇬 Bulgaria | 10 | 3.5 Mbps | 797 ms | 1% | [`BG.txt`](subs/by-country/BG.txt) |
+| 🇲🇩 Moldova | 9 | 2.9 Mbps | 1045 ms | 1% | [`MD.txt`](subs/by-country/MD.txt) |
+| 🇷🇺 Russia | 8 | 3.3 Mbps | 673 ms | 1% | [`RU.txt`](subs/by-country/RU.txt) |
+| 🇮🇳 India | 8 | 2.9 Mbps | 888 ms | 1% | [`IN.txt`](subs/by-country/IN.txt) |
+| 🇷🇸 Serbia | 8 | 3.5 Mbps | 922 ms | 1% | [`RS.txt`](subs/by-country/RS.txt) |
+| 🇭🇰 Hong Kong | 7 | 3.5 Mbps | 578 ms | 1% | [`HK.txt`](subs/by-country/HK.txt) |
+| 🇪🇪 Estonia | 7 | 4.1 Mbps | 696 ms | 1% | [`EE.txt`](subs/by-country/EE.txt) |
+| 🇮🇷 Iran | 7 | 3.0 Mbps | 1425 ms | 1% | [`IR.txt`](subs/by-country/IR.txt) |
+| 🇨🇿 Czechia | 6 | 3.8 Mbps | 664 ms | 1% | [`CZ.txt`](subs/by-country/CZ.txt) |
+| 🇺🇦 Ukraine | 5 | 3.9 Mbps | 868 ms | 0% | [`UA.txt`](subs/by-country/UA.txt) |
+| 🇱🇻 Latvia | 5 | 4.8 Mbps | 759 ms | 0% | [`LV.txt`](subs/by-country/LV.txt) |
+| 🇷🇴 Romania | 5 | 3.4 Mbps | 609 ms | 0% | [`RO.txt`](subs/by-country/RO.txt) |
+| 🇦🇪 UAE | 5 | 3.2 Mbps | 1118 ms | 0% | [`AE.txt`](subs/by-country/AE.txt) |
+| 🇰🇿 Kazakhstan | 5 | 3.0 Mbps | 1219 ms | 0% | [`KZ.txt`](subs/by-country/KZ.txt) |
+| 🇦🇹 Austria | 4 | 5.2 Mbps | 546 ms | 0% | [`AT.txt`](subs/by-country/AT.txt) |
+| 🇹🇷 Turkey | 4 | 3.9 Mbps | 812 ms | 0% | [`TR.txt`](subs/by-country/TR.txt) |
+| 🇲🇽 Mexico | 3 | 10.3 Mbps | 313 ms | 0% | [`MX.txt`](subs/by-country/MX.txt) |
+| 🇳🇴 Norway | 3 | 4.2 Mbps | 904 ms | 0% | [`NO.txt`](subs/by-country/NO.txt) |
+| 🇹🇼 Taiwan | 3 | 3.2 Mbps | 553 ms | 0% | [`TW.txt`](subs/by-country/TW.txt) |
+| 🇿🇦 South Africa | 3 | 3.2 Mbps | 1012 ms | 0% | [`ZA.txt`](subs/by-country/ZA.txt) |
+| 🇻🇳 Vietnam | 2 | 4.4 Mbps | 820 ms | 0% | [`VN.txt`](subs/by-country/VN.txt) |
+| 🇧🇷 Brazil | 2 | 4.8 Mbps | 787 ms | 0% | [`BR.txt`](subs/by-country/BR.txt) |
+| 🇹🇭 Thailand | 2 | 4.4 Mbps | 724 ms | 0% | [`TH.txt`](subs/by-country/TH.txt) |
+| 🇱🇰 LK | 2 | 3.8 Mbps | 1169 ms | 0% | [`LK.txt`](subs/by-country/LK.txt) |
+| 🇮🇪 Ireland | 1 | 6.0 Mbps | 399 ms | 0% | [`IE.txt`](subs/by-country/IE.txt) |
+| 🇨🇱 Chile | 1 | 5.3 Mbps | 649 ms | 0% | [`CL.txt`](subs/by-country/CL.txt) |
+| 🇮🇸 Iceland | 1 | 4.9 Mbps | 871 ms | 0% | [`IS.txt`](subs/by-country/IS.txt) |
+| 🇮🇱 Israel | 1 | 4.6 Mbps | 792 ms | 0% | [`IL.txt`](subs/by-country/IL.txt) |
+| 🇱🇺 Luxembourg | 1 | 4.4 Mbps | 857 ms | 0% | [`LU.txt`](subs/by-country/LU.txt) |
+| 🇬🇷 Greece | 1 | 4.2 Mbps | 843 ms | 0% | [`GR.txt`](subs/by-country/GR.txt) |
+| 🇩🇰 Denmark | 1 | 4.0 Mbps | 1134 ms | 0% | [`DK.txt`](subs/by-country/DK.txt) |
+| 🇸🇦 Saudi Arabia | 1 | 3.6 Mbps | 1219 ms | 0% | [`SA.txt`](subs/by-country/SA.txt) |
+| 🇲🇾 Malaysia | 1 | - | 772 ms | 0% | [`MY.txt`](subs/by-country/MY.txt) |
+| 🇦🇱 AL | 1 | - | 963 ms | 0% | [`AL.txt`](subs/by-country/AL.txt) |
 
 A `??` exit means the geo lookup could not resolve the exit IP. Base64 variants of every country file sit next to them as `<CC>.base64.txt`.
 
@@ -125,12 +125,12 @@ A `??` exit means the geo lookup could not resolve the exit IP. Base64 variants 
 
 | protocol | tested | alive | working | alive rate |
 |----------|-------:|------:|--------:|-----------:|
-| `vless` | 2699 | 537 | 514 | 20% |
-| `ss` | 622 | 249 | 246 | 40% |
-| `vmess` | 911 | 148 | 145 | 16% |
-| `trojan` | 191 | 124 | 123 | 65% |
-| `hysteria2` | 71 | 38 | 38 | 54% |
-| `socks` | 3 | 2 | 2 | 67% |
+| `vless` | 2692 | 514 | 490 | 19% |
+| `ss` | 621 | 250 | 246 | 40% |
+| `vmess` | 922 | 143 | 136 | 16% |
+| `trojan` | 180 | 123 | 123 | 68% |
+| `hysteria2` | 85 | 48 | 48 | 56% |
+| `socks` | 4 | 3 | 3 | 75% |
 | `http` | 5 | 0 | 0 | 0% |
 
 Per-protocol working lists: [`subs/by-proto/`](subs/by-proto/) (one `vless.txt`, `vmess.txt`, ... per protocol, plus `.base64.txt` variants).
@@ -141,21 +141,21 @@ Which core verified each working proxy. The engine fallback means a proxy that f
 
 | engine | working | note |
 |--------|--------:|------|
-| Xray-core | 974 | [`allxray.txt`](subs/by-engine/allxray.txt) |
-| sing-box | 92 | [`allsingbox.txt`](subs/by-engine/allsingbox.txt) |
-| direct (curl) | 2 | plain http/socks, [`alldirect.txt`](subs/by-engine/alldirect.txt) |
+| Xray-core | 935 | [`allxray.txt`](subs/by-engine/allxray.txt) |
+| sing-box | 108 | [`allsingbox.txt`](subs/by-engine/allsingbox.txt) |
+| direct (curl) | 3 | plain http/socks, [`alldirect.txt`](subs/by-engine/alldirect.txt) |
 
 ## Speed & latency profile
 
 | speed tier | proxies |
 |-----------|--------:|
-| >= 5 Mbps | 589 |
-| 1 - 5 Mbps | 363 |
-| 0.25 - 1 Mbps | 30 |
+| >= 5 Mbps | 588 |
+| 1 - 5 Mbps | 344 |
+| 0.25 - 1 Mbps | 37 |
 | < 0.25 Mbps | 0 |
-| unmeasured | 86 |
+| unmeasured | 77 |
 
-Latency (phase-1 HTTPS round trip): median **666 ms**, p90 **1801 ms**. 30 proxies passed connectivity but failed egress verification (leaked the runner IP or broke on the exit check) and are excluded.
+Latency (phase-1 HTTPS round trip): median **648 ms**, p90 **1893 ms**. 35 proxies passed connectivity but failed egress verification (leaked the runner IP or broke on the exit check) and are excluded.
 
 ## Source health
 
@@ -163,33 +163,34 @@ Latency (phase-1 HTTPS round trip): median **666 ms**, p90 **1801 ms**. 30 proxi
 
 | source | kind | tested | alive | new this run |
 |--------|------|-------:|------:|-------------:|
-| `NK` | url | 947 | 661 | 8812 |
-| `EV` | url | 679 | 618 | 116 |
-| `SK` | url | 830 | 546 | 336 |
-| `HP` | url | 500 | 479 | 48 |
-| `RD-VL` | url | 2315 | 352 | 3528 |
-| `KA` | url | 3008 | 332 | 10163 |
-| `HC` | url | 1279 | 311 | 129 |
-| `AG-PL` | url | 505 | 288 | 698 |
-| `Ni` | url | 328 | 268 | 115 |
-| `RD-SS` | url | 506 | 243 | 351 |
-| `EV-VL` | url | 277 | 240 | 684 |
-| `ST-VL` | url | 2177 | 231 | 662 |
-| `F0` | url | 233 | 227 | 8 |
-| `EV-SS` | url | 229 | 221 | 98 |
-| `SB` | url | 2322 | 181 | 0 |
-| `RD-VM` | url | 645 | 138 | 3464 |
-| `SB-VL` | url | 1980 | 134 | 2 |
-| `LA` | url | 780 | 127 | 14901 |
+| `NK` | url | 977 | 677 | 8731 |
+| `EV` | url | 669 | 584 | 800 |
+| `SK` | url | 882 | 582 | 0 |
+| `HP` | url | 403 | 374 | 57 |
+| `RD-VL` | url | 2262 | 308 | 3736 |
+| `KA` | url | 2888 | 306 | 10756 |
+| `HC` | url | 1281 | 297 | 188 |
+| `Ni` | url | 339 | 266 | 90 |
+| `RD-SS` | url | 512 | 244 | 338 |
+| `ET` | url | 347 | 235 | 1822 |
+| `F0` | url | 234 | 229 | 2 |
+| `AG-PL` | url | 464 | 228 | 588 |
+| `EV-SS` | url | 221 | 213 | 99 |
+| `EV-VL` | url | 267 | 210 | 0 |
+| `ST-VL` | url | 2072 | 192 | 364 |
+| `SB` | url | 2156 | 159 | 1 |
+| `LA` | url | 764 | 137 | 14895 |
+| `RD-VM` | url | 641 | 132 | 3480 |
+| `SB-VL` | url | 1927 | 127 | 3 |
 | `EP-ALL` | url | 1325 | 124 | 0 |
-| `ST-VM` | url | 641 | 119 | 30 |
 
 ## History
 
-working per run (last 21): ▁▁▆▆▇█▇▆▇█▇▆▇▆▇▇█▇▇██
+working per run (last 22): ▁▁▆▆▇█▇▆▇█▇▆▇▆▇▇█▇▇███
 
 | date (UTC) | tested | alive | working | avg | max |
 |------------|-------:|------:|--------:|----:|----:|
+| 2026-11-09 03:34 | 4509 | 1081 | 1046 | 7.6M | 96.5M |
 | 2026-11-08 03:39 | 4502 | 1098 | 1068 | 7.7M | 107.7M |
 | 2026-11-07 03:34 | 4503 | 1040 | 994 | 7.6M | 82.2M |
 | 2026-11-06 10:53 | 4846 | 900 | 837 | 8.5M | 49.1M |
@@ -204,7 +205,6 @@ working per run (last 21): ▁▁▆▆▇█▇▆▇█▇▆▇▆▇▇█�
 | 2026-10-01 03:00 | 4500 | 1112 | 1075 | 8.1M | 45.4M |
 | 2026-09-30 21:54 | 4500 | 899 | 866 | 9.3M | 69.4M |
 | 2026-09-30 17:26 | 4500 | 838 | 795 | 7.3M | 57.9M |
-| 2026-09-30 11:48 | 4500 | 860 | 810 | 7.9M | 64.4M |
 
 ## Subscription files
 
@@ -212,13 +212,13 @@ Everything under [`subs/`](subs/) is regenerated every run. Plain lists are one 
 
 | file | contents | direct subscription URL |
 |------|----------|--------------------------|
-| [`all.txt`](subs/all.txt) | ALL working proxies, ranked by speed (1068) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/all.txt` |
+| [`all.txt`](subs/all.txt) | ALL working proxies, ranked by speed (1046) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/all.txt` |
 | [`all.base64.txt`](subs/all.base64.txt) | same, base64 | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/all.base64.txt` |
 | [`top150.txt`](subs/top150.txt) | top 150 ranked (150) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/top150.txt` |
 | [`top150.base64.txt`](subs/top150.base64.txt) | same, base64 | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/top150.base64.txt` |
 | [`by-proto/`](subs/by-proto/) | one list per protocol (6 protocols) | ...`/subs/by-proto/<proto>.txt` |
-| [`by-engine/allxray.txt`](subs/by-engine/allxray.txt) | verified on Xray (974) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-engine/allxray.txt` |
-| [`by-engine/allsingbox.txt`](subs/by-engine/allsingbox.txt) | verified on sing-box (92) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-engine/allsingbox.txt` |
+| [`by-engine/allxray.txt`](subs/by-engine/allxray.txt) | verified on Xray (935) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-engine/allxray.txt` |
+| [`by-engine/allsingbox.txt`](subs/by-engine/allsingbox.txt) | verified on sing-box (108) | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/by-engine/allsingbox.txt` |
 | [`by-country/`](subs/by-country/) | one list per exit country (51 countries, e.g. [`US.txt`](subs/by-country/US.txt), [`DE.txt`](subs/by-country/DE.txt)) | ...`/subs/by-country/<CC>.txt` |
 | [`sing-box-client.json`](subs/sing-box-client.json) | top 150 as a ready-to-run sing-box client config | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/sing-box-client.json` |
 | [`xray-client.json`](subs/xray-client.json) | top 150 as a ready-to-run xray client config | `https://raw.githubusercontent.com/onlyactions/proxy-scanner/main/subs/xray-client.json` |
@@ -248,7 +248,7 @@ archive/            gz snapshots of every collection
 
 ## Why most "free proxy lists" lie
 
-The typical aggregator relists whatever it scraped, so 80-95% of entries are dead within hours — this run found **76% unreachable** and **76% unusable** overall. Only tunnels that completed a real HTTPS handshake, returned a verifiable foreign exit IP, and pushed a 1 MB download are counted as working here.
+The typical aggregator relists whatever it scraped, so 80-95% of entries are dead within hours — this run found **76% unreachable** and **77% unusable** overall. Only tunnels that completed a real HTTPS handshake, returned a verifiable foreign exit IP, and pushed a 1 MB download are counted as working here.
 
 ## Disclaimers
 
