@@ -1,0 +1,2 @@
+vless://53555197-bf0a-49e6-bea1-211fcfc1d962@germany3.banovano.space:2053?encryption=none&security=tls&type=grpc&sni=germany3.banovano.space&alpn=h2#%231005%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B1%F0%9F%87%B9%20LT
+vless://53555197-bf0a-49e6-bea1-211fcfc1d962@45.81.252.143:2053?encryption=none&security=tls&type=grpc&sni=germany3.banovano.space&alpn=h2#%231006%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B1%F0%9F%87%B9%20LT
