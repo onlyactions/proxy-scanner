@@ -1,2 +1,1 @@
-vless://b83faafc-cbb7-4655-99d4-2c4c39a49d1b@150.95.109.109:2086?encryption=none&security=none&type=tcp#%23854%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
-vless://9a5e7b1c-bf39-4b1f-891f-ac87824ee38f@23.95.72.244:60013?encryption=none&security=reality&type=tcp&sni=api.adidas.com&fp=firefox&flow=xtls-rprx-vision&pbk=mcL0jagupr0AWJCb80sHTxhsAgD1xnrpb1bM20UTT0U&sid=31cef3438d#%23955%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN
+vless://b83faafc-cbb7-4655-99d4-2c4c39a49d1b@150.95.109.109:2086?encryption=none&security=none&type=tcp#%23906%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%BB%F0%9F%87%B3%20VN

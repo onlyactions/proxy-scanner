@@ -1,2 +1,0 @@
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@130.94.95.198:57353?encryption=none&security=tls&type=tcp&sni=in001.zestapp778.com&fp=firefox#%23625%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%AE%F0%9F%87%A9%20ID
-vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@in001.zestapp778.com:57353?encryption=none&security=tls&type=tcp&sni=in001.zestapp778.com&fp=chrome#%23656%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%AE%F0%9F%87%A9%20ID

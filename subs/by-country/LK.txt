@@ -1,2 +1,0 @@
-vless://efd11a89-7506-44ce-95b6-6654859f155b@170.114.46.6:2096?encryption=none&security=tls&type=ws&sni=pcloud.z-tas.com&fp=firefox&host=pcloud.z-tas.com#%23744%20%F0%9F%87%BA%F0%9F%87%B8%20US%20%E2%86%92%20%F0%9F%87%B1%F0%9F%87%B0%20LK
-vless://efd11a89-7506-44ce-95b6-6654859f155b@170.114.45.6:2096?encryption=none&security=tls&type=ws&sni=pcloud.z-tas.com&fp=firefox&host=pcloud.z-tas.com#%23756%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B1%F0%9F%87%B0%20LK

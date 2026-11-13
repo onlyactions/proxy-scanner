@@ -1,1 +1,1 @@
-vless://9a5e7b1c-bf39-4b1f-891f-ac87824ee38f@23.95.72.244:50889?encryption=none&security=reality&type=tcp&sni=api.adidas.com&fp=chrome&flow=xtls-rprx-vision&pbk=nRsOy4cUKjMIi5k8HtdfY9qnrm8fMe031yi56zMtzSg&sid=2eae70bfca3776cc#%231123%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B3%F0%9F%87%AC%20NG
+trojan://d9064589-74af-432a-9390-5d8a9da281bf@sclass-c2.catcat321.com:20051?security=tls&type=tcp&sni=hk.catxstar.com#%231062%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B3%F0%9F%87%AC%20NG
