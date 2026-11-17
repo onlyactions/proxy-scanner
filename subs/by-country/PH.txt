@@ -1,0 +1,1 @@
+vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@120.89.61.213:443?encryption=none&security=reality&type=tcp&sni=ph1.gofizz.in&fp=chrome&flow=xtls-rprx-vision&pbk=wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM&sid=87395f88#%23916%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%B5%F0%9F%87%AD%20PH
