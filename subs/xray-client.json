@@ -17,228 +17,6 @@
  "outbounds": [
   {
    "tag": "#1 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.7",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "www.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#2 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "67.220.95.49",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#3 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.113",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "api.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#4 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.30",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "tag": "#5 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "45.86.51.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#6 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.107.226.5",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#7 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.26",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#8 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.46",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#9 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.25",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#10 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
@@ -255,40 +33,7 @@
    }
   },
   {
-   "tag": "#11 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "172.233.201.244",
-      "port": 61635,
-      "users": [
-       {
-        "id": "5cbc4b74-5352-4e64-af65-bcbabf46a18a",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "www.cloudflare.com",
-     "publicKey": "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU",
-     "shortId": "1f2519bb96e5589c",
-     "fingerprint": "chrome",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#13 ❓ ?? → 🇺🇸 US",
+   "tag": "#2 ❓ ?? → 🇺🇸 US",
    "protocol": "vmess",
    "settings": {
     "vnext": [
@@ -318,108 +63,41 @@
    }
   },
   {
-   "tag": "#14 🇺🇸 US → 🇦🇺 AU",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "67.220.95.3",
-      "port": 18000,
-      "users": [
-       {
-        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-        "security": "aes-128-gcm",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "none"
-   }
-  },
-  {
-   "tag": "#15 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "45.138.100.248",
-      "port": 10443,
-      "users": [
-       {
-        "id": "ae908ff5-f749-402c-af25-e6e9aef4d6bb",
-        "encryption": "none"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "none"
-   }
-  },
-  {
-   "tag": "#16 ❓ ?? → 🇺🇸 US",
+   "tag": "#3 🇺🇸 US → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "149.40.57.134",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#17 🇺🇸 US → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "169.40.42.229",
+      "address": "37.19.198.236",
       "port": 443,
-      "users": [
-       {
-        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
      }
     ]
    },
    "mux": {
     "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "yahoo.com",
-     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "shortId": "c39cc7310a",
-     "fingerprint": "ios",
-     "spiderX": ""
-    }
    }
   },
   {
-   "tag": "#18 ❓ ?? → 🇺🇸 US",
+   "tag": "#4 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "40.160.86.43",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#5 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
@@ -436,96 +114,7 @@
    }
   },
   {
-   "tag": "#19 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.122.81",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "courses.searchnationwidecareerchangehelperandguidancetoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#20 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "149.40.57.135",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#21 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "45.138.100.248",
-      "port": 14430,
-      "users": [
-       {
-        "id": "ae908ff5-f749-402c-af25-e6e9aef4d6bb",
-        "encryption": "none"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "ws",
-    "security": "none",
-    "wsSettings": {
-     "path": "/vless",
-     "headers": {
-      "Host": "45.138.100.248"
-     }
-    }
-   }
-  },
-  {
-   "tag": "#22 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "149.40.57.133",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#23 ❓ ?? → 🇺🇸 US",
+   "tag": "#6 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
@@ -542,84 +131,15 @@
    }
   },
   {
-   "tag": "#24 ❓ ?? → 🇨🇦 CA",
+   "tag": "#7 🇺🇸 US → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "15.235.121.109",
-      "port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "575hiopq2h28yao6"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#25 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "149.40.57.138",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#26 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "200.102.179.69",
+      "address": "37.19.198.244",
       "port": 443,
-      "users": [
-       {
-        "id": "7592ca5c-b352-4562-8856-a9c936a3331b",
-        "encryption": "none"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "xhttp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "dmbdnpctq8hjxx.hat.onl",
-     "insecure": true,
-     "fingerprint": "chrome"
-    },
-    "xhttpSettings": {
-     "path": "/hls/014373eq/seg",
-     "mode": "auto",
-     "host": "dmbdnpctq8hjxx.hat.onl"
-    }
-   }
-  },
-  {
-   "tag": "#27 ❓ ?? → 🇨🇦 CA",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "15.235.57.6",
-      "port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "kxhnt5jtykd328cg"
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
      }
     ]
    },
@@ -628,207 +148,7 @@
    }
   },
   {
-   "tag": "#28 🇺🇸 US → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "169.40.42.90",
-      "port": 443,
-      "users": [
-       {
-        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "yahoo.com",
-     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "shortId": "c39cc7310a",
-     "fingerprint": "ios",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#29 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "23.129.180.171",
-      "port": 443,
-      "users": [
-       {
-        "id": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "us5.gofizzin.com",
-     "publicKey": "tKA5ivaRbvqJ9RcSgp1ZtcCNfHAAuhWfve3tjMXse2w",
-     "shortId": "678ce913b8266e",
-     "fingerprint": "firefox",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#30 🇺🇸 US → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "169.40.42.89",
-      "port": 443,
-      "users": [
-       {
-        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "yahoo.com",
-     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "shortId": "c39cc7310a",
-     "fingerprint": "chrome",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#31 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.91.100.39",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#32 ❓ ?? → 🇨🇦 CA",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "54.39.96.233",
-      "port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2cvhpvdg4x7mvbps"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#33 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "15.204.247.206",
-      "port": 4444,
-      "method": "aes-256-gcm",
-      "password": "pKEW8JPByTVTLtM"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#34 🇺🇸 US → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "159.89.87.21",
-      "port": 28190,
-      "users": [
-       {
-        "id": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "aws.amazon.com",
-     "publicKey": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
-     "shortId": "",
-     "fingerprint": "chrome",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#35 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "15.204.233.41",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#36 🇺🇸 US → 🇺🇸 US",
+   "tag": "#8 🇺🇸 US → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
@@ -861,46 +181,16 @@
    }
   },
   {
-   "tag": "#37 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "142.202.48.87",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#38 ❓ ?? → 🇨🇦 CA",
+   "tag": "#9 ❓ ?? → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "104.152.211.47",
+      "address": "slot4.ipoxxo.online",
       "port": 443,
       "users": [
        {
-        "id": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+        "id": "f54ce397-4e7e-4e24-b815-7f1891a4b511",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -915,267 +205,59 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "ca1.gofizz.in",
-     "publicKey": "ohlUVAqq5MT6I7ozknXy0Mi5zW_uH94DV-lC7Ip2Ygk",
-     "shortId": "37f069d7ad",
+     "serverName": "github.com",
+     "publicKey": "nsygKb893m_SuA1BfH55efjT0sQlJQDCwIWGM8krawQ",
+     "shortId": "b5870ad75616c0da",
      "fingerprint": "chrome",
      "spiderX": ""
     }
    }
   },
   {
-   "tag": "#39 🇺🇸 US → 🇺🇸 US",
+   "tag": "#10 🇺🇸 US → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "15.204.246.111",
-      "port": 5498,
-      "method": "aes-256-gcm",
-      "password": "lGqs95QkFHo2NV"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#40 ❓ ?? → 🇨🇦 CA",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "198.100.154.175",
-      "port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3h3hb2gptqz6suyt"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#41 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.106.178.169",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#42 ❓ ?? → 🇨🇦 CA",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "158.51.121.246",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#43 🇺🇸 US → 🇦🇺 AU",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "67.220.85.46",
-      "port": 18000,
-      "users": [
-       {
-        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "none"
-   }
-  },
-  {
-   "tag": "#44 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "15.204.246.108",
-      "port": 8881,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#45 ❓ ?? → 🇨🇦 CA",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "158.51.121.221",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#46 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.64.138.187",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#47 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.128.66.32",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#48 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.128.66.212",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#49 ❓ ?? → 🇨🇦 CA",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.147.89",
+      "address": "37.19.198.160",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
      }
     ]
    },
    "mux": {
     "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "www.connectingpeoplewithgreatjobs.com",
-     "insecure": true
-    }
    }
   },
   {
-   "tag": "#50 🇺🇸 US → 🇺🇸 US",
+   "tag": "#11 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "37.19.198.243",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#12 ❓ ?? → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "167.17.69.171",
+      "address": "45.144.112.55",
       "port": 443,
       "users": [
        {
-        "id": "00144519-7e0d-476b-8d28-435576af9262",
+        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -1190,25 +272,56 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "www.cloudflare.com",
-     "publicKey": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
-     "shortId": "0990d22f",
+     "serverName": "yahoo.com",
+     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "shortId": "c39cc7310a",
      "fingerprint": "chrome",
      "spiderX": ""
     }
    }
   },
   {
-   "tag": "#51 🇨🇦 CA → 🇨🇦 CA",
+   "tag": "#13 ❓ ?? → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "209.200.246.148",
+      "address": "45.138.100.248",
+      "port": 14430,
+      "users": [
+       {
+        "id": "ae908ff5-f749-402c-af25-e6e9aef4d6bb",
+        "encryption": "none"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "ws",
+    "security": "none",
+    "wsSettings": {
+     "path": "/vless",
+     "headers": {
+      "Host": "45.138.100.248"
+     }
+    }
+   }
+  },
+  {
+   "tag": "#14 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "169.40.42.90",
       "port": 443,
       "users": [
        {
-        "id": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
+        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -1223,23 +336,46 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "www.cloudflare.com",
-     "publicKey": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-     "shortId": "f98843107912e782",
-     "fingerprint": "firefox",
+     "serverName": "yahoo.com",
+     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "shortId": "c39cc7310a",
+     "fingerprint": "ios",
      "spiderX": ""
     }
    }
   },
   {
-   "tag": "#52 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
+   "tag": "#15 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "216.152.155.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+      "address": "149.40.57.134",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#16 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "159.89.87.21",
+      "port": 28190,
+      "users": [
+       {
+        "id": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
      }
     ]
    },
@@ -1248,15 +384,52 @@
    },
    "streamSettings": {
     "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "www.nextjobopportunityandclaimyouridealrole.com",
-     "insecure": true
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "aws.amazon.com",
+     "publicKey": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
+     "shortId": "",
+     "fingerprint": "chrome",
+     "spiderX": ""
     }
    }
   },
   {
-   "tag": "#53 ❓ ?? → 🇨🇦 CA",
+   "tag": "#17 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "135.148.42.13",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#18 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "149.40.57.138",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#19 ❓ ?? → 🇨🇦 CA",
    "protocol": "trojan",
    "settings": {
     "servers": [
@@ -1280,69 +453,15 @@
    }
   },
   {
-   "tag": "#54 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.128.66.249",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#55 ❓ ?? → 🇨🇦 CA",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.147.201",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.connectingpeoplewithgreatjobs.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#56 🇺🇸 US → 🇺🇸 US",
+   "tag": "#20 ❓ ?? → 🇨🇦 CA",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "15.204.246.132",
-      "port": 7307,
-      "method": "aes-256-gcm",
-      "password": "FoOiGlkAA9yPEGP"
+      "address": "15.235.57.6",
+      "port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "kxhnt5jtykd328cg"
      }
     ]
    },
@@ -1351,157 +470,7 @@
    }
   },
   {
-   "tag": "#57 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#58 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.91.107.57",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#59 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.237",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#60 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.64.138.135",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#61 ❓ ?? → 🇨🇦 CA",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.147.93",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "connectingpeoplewithgreatjobs.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#62 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "ipfast.kingmna.com",
-      "port": 443,
-      "password": "SiFvGI5bX01GGtGOJ2_nxA"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "ws",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "cdn.akamai.steamstatic.com",
-     "insecure": true,
-     "fingerprint": "chrome"
-    },
-    "wsSettings": {
-     "path": "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER",
-     "headers": {
-      "Host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."
-     }
-    }
-   }
-  },
-  {
-   "tag": "#63 ❓ ?? → 🇺🇸 US",
+   "tag": "#21 ❓ ?? → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
@@ -1534,14 +503,20 @@
    }
   },
   {
-   "tag": "#64 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
+   "tag": "#22 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
    "settings": {
-    "servers": [
+    "vnext": [
      {
-      "address": "216.152.155.59",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+      "address": "142.202.48.87",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
      }
     ]
    },
@@ -1552,116 +527,52 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
-     "insecure": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "tag": "#65 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.245",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "serverName": "xmfhlpy.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#66 ❓ ?? → 🇨🇦 CA",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.147.152",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "learn.connectingpeoplewithgreatjobs.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#67 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.214",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#68 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.53",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true,
-     "fingerprint": "chrome"
-    }
-   }
-  },
-  {
-   "tag": "#69 ❓ ?? → 🇺🇸 US",
+   "tag": "#23 🇺🇸 US → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "38.91.107.188",
+      "address": "15.204.247.124",
+      "port": 2375,
+      "method": "aes-256-gcm",
+      "password": "faBAoD54k87UJG7"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#24 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "136.148.77.250",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#25 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "149.40.57.135",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -1673,29 +584,12 @@
    }
   },
   {
-   "tag": "#70 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "193.151.160.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#71 ❓ ?? → 🇨🇦 CA",
+   "tag": "#26 ❓ ?? → 🇨🇦 CA",
    "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "216.152.147.85",
+      "address": "216.152.147.201",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
@@ -1708,88 +602,13 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "cdn.connectingpeoplewithgreatjobs.com",
+     "serverName": "resources.connectingpeoplewithgreatjobs.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#72 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.171",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#73 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.247",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#74 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.163.125.120",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#75 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "193.151.160.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#76 🇺🇸 US → 🇺🇸 US",
+   "tag": "#27 🇺🇸 US → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
@@ -1822,12 +641,46 @@
    }
   },
   {
-   "tag": "#77 ❓ ?? → 🇺🇸 US",
+   "tag": "#28 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.204.233.41",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#29 ❓ ?? → 🇨🇦 CA",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.235.121.109",
+      "port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "575hiopq2h28yao6"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#30 ❓ ?? → 🇨🇦 CA",
    "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "216.152.155.54",
+      "address": "216.152.147.152",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
@@ -1840,18 +693,52 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "learn.nextjobopportunityandclaimyouridealrole.com",
+     "serverName": "learn.connectingpeoplewithgreatjobs.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#78 ❓ ?? → 🇺🇸 US",
+   "tag": "#31 ❓ ?? → 🇨🇦 CA",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "158.51.121.221",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#32 ❓ ?? → 🇨🇦 CA",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "54.39.96.233",
+      "port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2cvhpvdg4x7mvbps"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#33 ❓ ?? → 🇨🇦 CA",
    "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "169.197.140.218",
+      "address": "216.152.147.85",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
@@ -1864,127 +751,30 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "serverName": "cdn.connectingpeoplewithgreatjobs.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#79 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
+   "tag": "#34 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "170.101.101.131",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+      "address": "38.91.100.39",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
      }
     ]
    },
    "mux": {
     "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "blog.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
    }
   },
   {
-   "tag": "#80 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "162.251.61.46",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#81 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "162.251.62.35",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#82 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.91.100.69",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#83 ❓ ?? → 🇨🇦 CA",
+   "tag": "#35 ❓ ?? → 🇨🇦 CA",
    "protocol": "trojan",
    "settings": {
     "servers": [
@@ -2008,20 +798,48 @@
    }
   },
   {
-   "tag": "#84 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
+   "tag": "#36 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
    "settings": {
-    "vnext": [
+    "servers": [
      {
-      "address": "67.220.74.250",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
+      "address": "15.204.246.108",
+      "port": 8881,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#37 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.204.246.132",
+      "port": 7307,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#38 ❓ ?? → 🇨🇦 CA",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.147.93",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
     ]
    },
@@ -2032,22 +850,22 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "xmfhlpy.com",
+     "serverName": "connectingpeoplewithgreatjobs.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#85 ❓ ?? → 🇺🇸 US",
+   "tag": "#39 🇨🇦 CA → 🇨🇦 CA",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "136.176.65.251",
+      "address": "209.200.246.148",
       "port": 443,
       "users": [
        {
-        "id": "39826f32-f5ca-42a5-ab33-188f7d199478",
+        "id": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -2062,190 +880,16 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "www.apple.com",
-     "publicKey": "O5NcKiTtNcJZiLMJhxT5d0Pn8KjVBvXGmztGd4_D-RI",
-     "shortId": "cdac1a856b81390f",
-     "fingerprint": "chrome",
+     "serverName": "www.cloudflare.com",
+     "publicKey": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
+     "shortId": "f98843107912e782",
+     "fingerprint": "firefox",
      "spiderX": ""
     }
    }
   },
   {
-   "tag": "#86 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.128.66.241",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#87 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.91.107.57",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#88 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "216.106.182.225",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#89 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "67.220.74.197",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#90 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "66.163.125.51",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#91 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.211",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "api.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#92 ❓ ?? → 🇨🇦 CA",
+   "tag": "#40 ❓ ?? → 🇨🇦 CA",
    "protocol": "vmess",
    "settings": {
     "vnext": [
@@ -2275,16 +919,65 @@
    }
   },
   {
-   "tag": "#93 ❓ ?? → 🇺🇸 US",
+   "tag": "#41 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "193.151.160.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#42 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.204.247.175",
+      "port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#43 ❓ ?? → 🇺🇸 US",
+   "protocol": "socks",
+   "settings": {
+    "servers": [
+     {
+      "address": "69.55.49.177",
+      "port": 38182
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#44 🇺🇸 US → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "216.152.155.189",
+      "address": "167.17.69.171",
       "port": 443,
       "users": [
        {
-        "id": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+        "id": "00144519-7e0d-476b-8d28-435576af9262",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -2299,21 +992,38 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "www.apple.com",
-     "publicKey": "F5BVp5XkY93lll_Ju34lOIE6A1-dx16_frY6eu9Nzzk",
-     "shortId": "fecf2b55bb11bb0d",
+     "serverName": "www.cloudflare.com",
+     "publicKey": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
+     "shortId": "0990d22f",
      "fingerprint": "chrome",
      "spiderX": ""
     }
    }
   },
   {
-   "tag": "#94 ❓ ?? → 🇨🇦 CA",
+   "tag": "#45 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.204.246.111",
+      "port": 5498,
+      "method": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#46 ❓ ?? → 🇺🇸 US",
    "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "216.152.147.48",
+      "address": "169.197.140.224",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
@@ -2326,19 +1036,18 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "courses.connectingpeoplewithgreatjobs.com",
-     "insecure": true,
-     "fingerprint": "chrome"
+     "serverName": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
     }
    }
   },
   {
-   "tag": "#95 ❓ ?? → 🇺🇸 US",
+   "tag": "#47 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "38.64.138.135",
+      "address": "193.151.160.9",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2350,246 +1059,12 @@
    }
   },
   {
-   "tag": "#96 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "67.220.74.188",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#97 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.112",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#98 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.91.106.182",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#99 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "185.230.230.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#100 🇺🇸 US → 🇦🇺 AU",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.110.1.246",
-      "port": 18000,
-      "users": [
-       {
-        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "none"
-   }
-  },
-  {
-   "tag": "#101 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.91.107.84",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#102 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "15.204.247.124",
-      "port": 2375,
-      "method": "aes-256-gcm",
-      "password": "faBAoD54k87UJG7"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#103 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.91.107.188",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#104 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "162.251.62.42",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#105 🇺🇸 US → 🇺🇸 US",
+   "tag": "#48 🇺🇸 US → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "169.40.42.168",
+      "address": "169.40.42.202",
       "port": 443,
       "users": [
        {
@@ -2617,75 +1092,15 @@
    }
   },
   {
-   "tag": "#106 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "162.251.60.97",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#107 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "162.251.62.31",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#108 🇺🇸 US → 🇺🇸 US",
+   "tag": "#49 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "156.146.38.168",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "address": "169.197.140.247",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
      }
     ]
    },
@@ -2694,7 +1109,324 @@
    }
   },
   {
-   "tag": "#109 🇺🇸 US → 🇺🇸 US",
+   "tag": "#50 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.100.69",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#51 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.91.107.57",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#52 🇨🇦 CA → 🇦🇺 AU",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "134.195.196.211",
+      "port": 18000,
+      "users": [
+       {
+        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "none"
+   }
+  },
+  {
+   "tag": "#53 🇺🇸 US → 🇦🇺 AU",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "67.220.85.46",
+      "port": 18000,
+      "users": [
+       {
+        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "none"
+   }
+  },
+  {
+   "tag": "#54 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.214",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#55 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "15.204.247.206",
+      "port": 4444,
+      "method": "aes-256-gcm",
+      "password": "pKEW8JPByTVTLtM"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#56 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.218",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#57 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.59",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
+     "insecure": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#58 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.54",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "learn.nextjobopportunityandclaimyouridealrole.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#59 ❓ ?? → 🇨🇦 CA",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "158.51.121.246",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#60 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#61 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "195.211.98.43",
+      "port": 443,
+      "users": [
+       {
+        "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "www.cloudflare.com",
+     "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+     "shortId": "9c56fddf237e8eaf",
+     "fingerprint": "firefox",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#62 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "185.230.230.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#63 🇺🇸 US → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
@@ -2727,7 +1459,1302 @@
    }
   },
   {
+   "tag": "#64 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.107.57",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#65 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.176",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "blog.nextjobopportunityandclaimyouridealrole.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#66 ❓ ?? → 🇨🇦 CA",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "192.99.151.230",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#67 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.91.107.19",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#68 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.128.66.212",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#69 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.7",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#70 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.30",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#71 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.64.138.135",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#72 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.128.66.249",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#73 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.50",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "cdn.nextjobopportunityandclaimyouridealrole.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#74 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.64.138.135",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#75 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "149.40.57.133",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#76 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.128.66.32",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#77 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.81",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#78 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.171",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#79 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.113",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "api.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#80 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.245",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#81 🇨🇦 CA → 🇦🇺 AU",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "23.162.200.198",
+      "port": 18000,
+      "users": [
+       {
+        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "none"
+   }
+  },
+  {
+   "tag": "#82 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.64.138.187",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#83 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "169.40.42.168",
+      "port": 443,
+      "users": [
+       {
+        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "yahoo.com",
+     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "shortId": "c39cc7310a",
+     "fingerprint": "chrome",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#84 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.46",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#85 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.107.84",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#86 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "104.20.26.192",
+      "port": 2053,
+      "password": "IDgAbZbs8cZw"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "ws",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "rAyan02-1d7cmk9v-t3.rayAn-02.worKers.dEV",
+     "insecure": true,
+     "fingerprint": "chrome"
+    },
+    "wsSettings": {
+     "path": "/?ed=2560",
+     "headers": {
+      "Host": "rAyan02-1d7cmk9v-t3.rayAn-02.worKers.dEV"
+     }
+    }
+   }
+  },
+  {
+   "tag": "#87 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "67.220.73.178",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#88 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "169.197.140.169",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "api.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#89 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.128.66.241",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#90 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "185.215.132.9",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#91 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "170.101.101.53",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
+     "insecure": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#92 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.23",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.nextjobopportunityandclaimyouridealrole.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#93 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "162.251.62.31",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#94 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "67.220.74.197",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#95 ❓ ?? → 🇨🇦 CA",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.147.48",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.connectingpeoplewithgreatjobs.com",
+     "insecure": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#96 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "67.220.74.250",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#97 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "200.102.179.179",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#98 ❓ ?? → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "216.152.155.189",
+      "port": 443,
+      "users": [
+       {
+        "id": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "www.apple.com",
+     "publicKey": "F5BVp5XkY93lll_Ju34lOIE6A1-dx16_frY6eu9Nzzk",
+     "shortId": "fecf2b55bb11bb0d",
+     "fingerprint": "chrome",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#99 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "162.251.60.97",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#100 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.106.178.169",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#101 🇺🇸 US → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "156.146.38.168",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#102 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "170.101.101.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#103 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "170.101.101.237",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#104 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.26",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "blog.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#105 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "169.40.42.89",
+      "port": 443,
+      "users": [
+       {
+        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "yahoo.com",
+     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "shortId": "c39cc7310a",
+     "fingerprint": "chrome",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#106 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "162.251.62.42",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#107 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "162.251.62.31",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#108 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.106.182",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#109 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.107.226.5",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
    "tag": "#110 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "170.101.101.112",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "resources.explorecreativejobsandenhanceyourcareerportfolio.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#111 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "216.106.182.225",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#112 🇺🇸 US → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "169.40.42.35",
+      "port": 443,
+      "users": [
+       {
+        "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "yahoo.com",
+     "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+     "shortId": "c39cc7310a",
+     "fingerprint": "ios",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#113 🇨🇦 CA → 🇨🇦 CA",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#114 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.125.120",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#115 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "170.101.101.67",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.explorecreativejobsandenhanceyourcareerportfolio.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#116 ❓ ?? → 🇺🇸 US",
    "protocol": "vmess",
    "settings": {
     "vnext": [
@@ -2757,179 +2784,177 @@
    }
   },
   {
-   "tag": "#111 🇨🇦 CA → 🇨🇦 CA",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#112 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.208",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#113 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "156.146.38.169",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#114 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "170.101.101.67",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "courses.explorecreativejobsandenhanceyourcareerportfolio.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#115 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "167.88.62.203",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#116 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "167.17.67.171",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
    "tag": "#117 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
+   "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "167.88.63.99",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "address": "216.152.156.159",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
     ]
    },
    "mux": {
     "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+     "insecure": true
+    }
    }
   },
   {
    "tag": "#118 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
+   "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "38.22.17.214",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "address": "216.152.156.81",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
     ]
    },
    "mux": {
     "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+     "insecure": true
+    }
    }
   },
   {
-   "tag": "#119 🇨🇦 CA → 🇨🇦 CA",
-   "protocol": "shadowsocks",
+   "tag": "#119 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
    "settings": {
-    "servers": [
+    "vnext": [
      {
-      "address": "51.222.136.236",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "address": "172.111.36.253",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
      }
     ]
    },
    "mux": {
     "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
    }
   },
   {
    "tag": "#120 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "67.220.74.188",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#121 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.155.131",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "www.nextjobopportunityandclaimyouridealrole.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#122 ❓ ?? → 🇺🇸 US",
+   "protocol": "vless",
+   "settings": {
+    "vnext": [
+     {
+      "address": "147.45.60.136",
+      "port": 443,
+      "users": [
+       {
+        "id": "a346c521-7a7f-452b-9356-a4893feb5982",
+        "encryption": "none",
+        "flow": "xtls-rprx-vision"
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "reality",
+    "realitySettings": {
+     "serverName": "usahk2-r.bankai.party",
+     "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+     "shortId": "457fab2ac885dbe0",
+     "fingerprint": "chrome",
+     "spiderX": ""
+    }
+   }
+  },
+  {
+   "tag": "#123 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "185.215.132.9",
+      "address": "38.91.107.188",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -2941,7 +2966,61 @@
    }
   },
   {
-   "tag": "#121 🇺🇸 US → 🇺🇸 US",
+   "tag": "#124 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.107.188",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#125 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "216.152.156.212",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#126 🇺🇸 US → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
@@ -2958,98 +3037,16 @@
    }
   },
   {
-   "tag": "#122 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "167.88.62.56",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#123 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "167.88.63.39",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#124 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.22.17.139",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#125 ❓ ?? → 🇺🇸 US",
+   "tag": "#127 ❓ ?? → 🇺🇸 US",
    "protocol": "vless",
    "settings": {
     "vnext": [
      {
-      "address": "uspanel.unixzone.us",
-      "port": 30016,
+      "address": "45.138.100.248",
+      "port": 10444,
       "users": [
        {
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "encryption": "none"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "ws",
-    "security": "none",
-    "wsSettings": {
-     "path": "/usserver",
-     "headers": {
-      "Host": "uspanel.unixzone.us"
-     }
-    }
-   }
-  },
-  {
-   "tag": "#126 ❓ ?? → 🇺🇸 US",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "192.177.26.55",
-      "port": 443,
-      "users": [
-       {
-        "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+        "id": "ae908ff5-f749-402c-af25-e6e9aef4d6bb",
         "encryption": "none",
         "flow": "xtls-rprx-vision"
        }
@@ -3064,29 +3061,12 @@
     "network": "tcp",
     "security": "reality",
     "realitySettings": {
-     "serverName": "repo-16.topp-con.xyz",
-     "publicKey": "cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8",
-     "shortId": "bdaddda4cbc8c7bf",
-     "fingerprint": "chrome",
+     "serverName": "ads.x5.ru",
+     "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+     "shortId": "8debcf36f1cc69ff",
+     "fingerprint": "firefox",
      "spiderX": ""
     }
-   }
-  },
-  {
-   "tag": "#127 🇺🇸 US → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "156.146.38.167",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
    }
   },
   {
@@ -3095,7 +3075,7 @@
    "settings": {
     "vnext": [
      {
-      "address": "167.88.62.134",
+      "address": "167.88.62.51",
       "port": 1270,
       "users": [
        {
@@ -3121,19 +3101,32 @@
   },
   {
    "tag": "#129 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
+   "protocol": "vmess",
    "settings": {
-    "servers": [
+    "vnext": [
      {
-      "address": "38.22.17.129",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "address": "162.251.61.46",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
      }
     ]
    },
    "mux": {
     "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
    }
   },
   {
@@ -3142,7 +3135,7 @@
    "settings": {
     "servers": [
      {
-      "address": "38.22.17.219",
+      "address": "84.20.27.183",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -3155,67 +3148,17 @@
   },
   {
    "tag": "#131 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "172.111.36.123",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#132 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.121.43.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#133 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "38.121.43.225",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#134 🇺🇸 US → 🇺🇸 US",
-   "protocol": "vless",
+   "protocol": "vmess",
    "settings": {
     "vnext": [
      {
-      "address": "69.48.201.136",
-      "port": 30016,
+      "address": "167.88.62.56",
+      "port": 1270,
       "users": [
        {
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "encryption": "none"
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
        }
       ]
      }
@@ -3225,18 +3168,16 @@
     "enabled": false
    },
    "streamSettings": {
-    "network": "ws",
-    "security": "none",
-    "wsSettings": {
-     "path": "/usserver",
-     "headers": {
-      "Host": "uspanel.unixzone.us"
-     }
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
     }
    }
   },
   {
-   "tag": "#135 ❓ ?? → 🇺🇸 US",
+   "tag": "#132 ❓ ?? → 🇺🇸 US",
    "protocol": "vmess",
    "settings": {
     "vnext": [
@@ -3266,36 +3207,12 @@
    }
   },
   {
-   "tag": "#136 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "169.197.140.224",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#137 ❓ ?? → 🇺🇸 US",
+   "tag": "#133 ❓ ?? → 🇺🇸 US",
    "protocol": "shadowsocks",
    "settings": {
     "servers": [
      {
-      "address": "38.121.43.231",
+      "address": "167.88.62.56",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -3307,12 +3224,12 @@
    }
   },
   {
-   "tag": "#138 ❓ ?? → 🇺🇸 US",
+   "tag": "#134 ❓ ?? → 🇺🇸 US",
    "protocol": "trojan",
    "settings": {
     "servers": [
      {
-      "address": "216.152.156.81",
+      "address": "170.101.101.211",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
      }
@@ -3325,273 +3242,13 @@
     "network": "tcp",
     "security": "tls",
     "tlsSettings": {
-     "serverName": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
+     "serverName": "api.explorecreativejobsandenhanceyourcareerportfolio.com",
      "insecure": true
     }
    }
   },
   {
-   "tag": "#139 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.156.159",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#140 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.156.42",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#141 ❓ ?? → 🇨🇦 CA",
-   "protocol": "vless",
-   "settings": {
-    "vnext": [
-     {
-      "address": "78.138.17.65",
-      "port": 443,
-      "users": [
-       {
-        "id": "8415d003-15be-4f6d-b452-b5b5bdc187e6",
-        "encryption": "none",
-        "flow": "xtls-rprx-vision"
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "reality",
-    "realitySettings": {
-     "serverName": "ca-3.earlyoak.sbs",
-     "publicKey": "3ifh7TZGRkfJMxFeUug-YXR4EB5BFLJQ8DEfayvmWBE",
-     "shortId": "168b19fa874b9934",
-     "fingerprint": "chrome",
-     "spiderX": ""
-    }
-   }
-  },
-  {
-   "tag": "#142 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "66.23.203.21",
-      "port": 59689,
-      "password": "ae7eb4dwyaz25pxwgq59"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "66.23.203.21",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#143 ❓ ?? → 🇺🇸 US",
-   "protocol": "shadowsocks",
-   "settings": {
-    "servers": [
-     {
-      "address": "185.215.132.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   }
-  },
-  {
-   "tag": "#144 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "167.88.63.99",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#145 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.156.65",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "learn.healthcarejobshubenhancemedicalprofessionalskillstoday.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#146 ❓ ?? → 🇺🇸 US",
-   "protocol": "trojan",
-   "settings": {
-    "servers": [
-     {
-      "address": "216.152.155.158",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "resources.nextjobopportunityandclaimyouridealrole.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#147 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "38.22.17.89",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#148 ❓ ?? → 🇺🇸 US",
-   "protocol": "vmess",
-   "settings": {
-    "vnext": [
-     {
-      "address": "167.88.63.39",
-      "port": 1270,
-      "users": [
-       {
-        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
-        "security": "auto",
-        "alterId": 0
-       }
-      ]
-     }
-    ]
-   },
-   "mux": {
-    "enabled": false
-   },
-   "streamSettings": {
-    "network": "tcp",
-    "security": "tls",
-    "tlsSettings": {
-     "serverName": "xmfhlpy.com",
-     "insecure": true
-    }
-   }
-  },
-  {
-   "tag": "#149 ❓ ?? → 🇺🇸 US",
+   "tag": "#135 ❓ ?? → 🇺🇸 US",
    "protocol": "vmess",
    "settings": {
     "vnext": [
@@ -3621,12 +3278,347 @@
    }
   },
   {
+   "tag": "#136 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "167.88.63.99",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#137 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.121.43.225",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#138 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "162.251.62.35",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#139 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "167.88.62.134",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#140 🇺🇸 US → 🇦🇺 AU",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.110.1.246",
+      "port": 18000,
+      "users": [
+       {
+        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "none"
+   }
+  },
+  {
+   "tag": "#141 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.91.100.16",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#142 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "38.22.17.89",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#143 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "167.17.67.171",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#144 ❓ ?? → 🇺🇸 US",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "66.163.125.51",
+      "port": 1270,
+      "users": [
+       {
+        "id": "5c040f1d-45db-43bd-8d46-e4950e433735",
+        "security": "auto",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "xmfhlpy.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#145 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.163.122.25",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#146 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.121.43.231",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
+   "tag": "#147 ❓ ?? → 🇺🇸 US",
+   "protocol": "trojan",
+   "settings": {
+    "servers": [
+     {
+      "address": "66.23.203.21",
+      "port": 59689,
+      "password": "ae7eb4dwyaz25pxwgq59"
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "tls",
+    "tlsSettings": {
+     "serverName": "66.23.203.21",
+     "insecure": true
+    }
+   }
+  },
+  {
+   "tag": "#148 🇺🇸 US → 🇦🇺 AU",
+   "protocol": "vmess",
+   "settings": {
+    "vnext": [
+     {
+      "address": "67.220.95.3",
+      "port": 18000,
+      "users": [
+       {
+        "id": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+        "security": "aes-128-gcm",
+        "alterId": 0
+       }
+      ]
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   },
+   "streamSettings": {
+    "network": "tcp",
+    "security": "none"
+   }
+  },
+  {
+   "tag": "#149 ❓ ?? → 🇺🇸 US",
+   "protocol": "shadowsocks",
+   "settings": {
+    "servers": [
+     {
+      "address": "38.22.17.214",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+     }
+    ]
+   },
+   "mux": {
+    "enabled": false
+   }
+  },
+  {
    "tag": "#150 ❓ ?? → 🇺🇸 US",
    "protocol": "vmess",
    "settings": {
     "vnext": [
      {
-      "address": "172.111.36.147",
+      "address": "172.111.36.137",
       "port": 1270,
       "users": [
        {
