@@ -1,1 +1,1 @@
-vless://d73e3cdc-a80b-4e73-a11b-cc467d7a84f8@45.88.176.223:443?encryption=none&security=tls&type=xhttp&sni=m.yourvibe.my&fp=firefox&path=%2Fmedia%2Fe1c76c&mode=auto#%23596%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%A8%F0%9F%87%BE%20CY
+vless://d73e3cdc-a80b-4e73-a11b-cc467d7a84f8@45.88.176.223:443?encryption=none&security=tls&type=xhttp&sni=m.yourvibe.my&fp=firefox&path=%2Fmedia%2Fe1c76c&mode=auto#%23689%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%A8%F0%9F%87%BE%20CY
