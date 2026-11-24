@@ -48,16 +48,28 @@ jobs:
         run: python3 -m pytest tests/ -q
 
       - name: Download engines
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p bin
           curl -fsSL --retry 5 --retry-delay 5 --retry-all-errors -o xray.zip \
             https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
           unzip -q xray.zip -d xray_tmp
           mv xray_tmp/xray bin/xray && chmod +x bin/xray
-          SB_VER=$(curl -fsSL --retry 5 --retry-delay 5 --retry-all-errors \
+          # api.github.com 403s from shared runner IPs when unauthenticated
+          # (killed runs 19 & 21) -> authenticate, and fall back to parsing the
+          # releases/latest redirect, which never touches the API.
+          SB_VER=$(curl -fsSL --retry 3 --retry-delay 5 -H "Authorization: Bearer $GH_TOKEN" \
                    https://api.github.com/repos/SagerNet/sing-box/releases/latest \
-                   | python3 -c 'import json,sys; print(json.load(sys.stdin)["tag_name"])')
+                   | python3 -c 'import json,sys; print(json.load(sys.stdin).get("tag_name",""))' \
+                   || true)
+          if [ -z "$SB_VER" ]; then
+            SB_VER=$(curl -fsSL -o /dev/null -w '%{url_effective}' \
+                     https://github.com/SagerNet/sing-box/releases/latest \
+                     | sed 's|.*/tag/||')
+          fi
           echo "sing-box version: $SB_VER"
+          test -n "$SB_VER"
           curl -fsSL --retry 5 --retry-delay 5 --retry-all-errors -o sb.tgz \
             "https://github.com/SagerNet/sing-box/releases/download/${SB_VER}/sing-box-${SB_VER#v}-linux-amd64.tar.gz"
           tar xzf sb.tgz
