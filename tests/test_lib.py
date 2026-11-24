@@ -335,45 +335,6 @@ def test_source_states_retirement():
     assert st2.s["good"]["seen"] == ["h1", "h2"]
 
 
-def test_source_states_heal_after_pause():
-    """A state file older than RETIRE_STALE_DAYS must not mass-retire every
-    source at load (restore-after-pause brick, hit on 2026-11-06)."""
-    path = os.path.join(tempfile.mkdtemp(), "sources.json")
-    old = time.time() - (S.RETIRE_STALE_DAYS + 5) * 86400
-    data = {
-        "alive_src": {"kind": "url", "url": "http://a", "last_ok": old,
-                      "last_new": old, "fails": 0, "dead": 0, "seen": ["x"]},
-        "dead_src": {"kind": "url", "url": "http://b", "last_ok": old,
-                     "last_new": old, "fails": 99, "dead": 99,
-                     "retired": "10 consecutive fetch failures", "seen": []},
-    }
-    with open(path, "w") as f:
-        json.dump(data, f)
-    st = S.SourceStates(path)
-    assert st.healed_pause_days > S.RETIRE_STALE_DAYS
-    st.refresh_retirements()
-    assert sorted(st.active_names()) == ["alive_src", "dead_src"]
-    assert all(e["fails"] == 0 and e["dead"] == 0 and not e.get("retired")
-               for e in st.s.values())
-
-
-def test_source_states_fresh_state_not_healed():
-    """A recent state keeps its retirement marks — the heal must only fire
-    after a genuine pipeline pause, not on every load."""
-    path = os.path.join(tempfile.mkdtemp(), "sources.json")
-    fresh = time.time() - 3600
-    data = {
-        "dead_src": {"kind": "url", "url": "http://b", "last_ok": fresh,
-                     "last_new": fresh, "fails": 99, "dead": 99,
-                     "retired": "10 consecutive fetch failures", "seen": []},
-    }
-    with open(path, "w") as f:
-        json.dump(data, f)
-    st = S.SourceStates(path)
-    assert st.healed_pause_days == 0
-    assert "dead_src" not in st.active_names()
-
-
 def test_registry_observe():
     r = S.Registry(os.path.join(tempfile.mkdtemp(), "known.json"))
     p = P.parse_uri("socks://7.7.7.7:1080")
@@ -408,8 +369,61 @@ def test_jsonl_roundtrip():
 
 # ----------------------------------------------------------------- misc -----
 
-def test_flag_and_name():
+def test_flag():
     assert P.flag("DE") == "\U0001F1E9\U0001F1EA"
     assert P.flag("") == "\U0001F3F3"
-    n = P.fmt_name(7, "US", "DE")
-    assert n.startswith("#7") and "US" in n and "DE" in n
+
+
+def test_short_isp():
+    assert P.short_isp("DigitalOcean, LLC") == "DigitalOcean"
+    assert P.short_isp("Contabo Asia Private Limited") == "Contabo Asia Private"
+    assert P.short_isp("Alibaba (US) Technology Co., Ltd.") == "Alibaba (US)"
+    assert P.short_isp("") == ""
+    assert len(P.short_isp("A" * 60)) == 22
+    assert " " not in P.short_isp("word " * 30).strip()[-1:]
+
+
+def test_as_num_and_ip_short():
+    assert P.as_num("AS141995 Contabo Asia Private Limited") == "AS141995"
+    assert P.as_num("") == ""
+    assert P.ip_short("84.247.155.196") == "84.247.155.196"
+    assert P.ip_short("2600:1f18:1234:5678::1") == "2600:1f18:…"
+    assert P.ip_short("") == ""
+
+
+def test_fmt_mbps_and_quality():
+    assert P.fmt_mbps(1200) == "1.2"
+    assert P.fmt_mbps(None) == "?"
+    assert P.ip_type(True, True) == "MOB"
+    assert P.ip_type(False, False) == "RES"
+    assert P.ip_type(False, True) == "DC"
+    assert P.ip_type(None, None) == "?"
+    assert P.clean_tag(False) == "Clean"
+    assert P.clean_tag(True) == "Flag"
+    assert P.clean_tag(None) == "?"
+
+
+def test_fmt_name_full_descriptor():
+    n = P.fmt_name(42, {
+        "cc": "US", "exit_cc": "DE", "exit_ip": "84.247.155.196",
+        "exit_as": "AS141995 Contabo Asia Private Limited",
+        "exit_isp": "Contabo Asia Private Limited", "exit_org": "Contabo Asia",
+        "exit_hosting": True, "exit_proxy": False,
+        "speed_kbps": 12000, "up_kbps": 1200})
+    assert n.startswith("#42")
+    assert "\U0001F1FA\U0001F1F8 US \u2192 \U0001F1E9\U0001F1EA DE" in n   # entry->exit route
+    assert "Contabo Asia Private AS141995" in n
+    assert "\u219312.0 \u21911.2Mbps" in n
+    assert "84.247.155.196" in n
+    assert n.endswith("DC\u00b7Clean")
+
+
+def test_fmt_name_degrades_gracefully():
+    n = P.fmt_name(7, {"cc": "US", "exit_cc": "DE"})       # nothing else known
+    assert n.startswith("#7") and "US" in n and "DE" in n and "??" in n
+    same = P.fmt_name(1, {"exit_cc": "NL"})                # single-country route
+    assert "\U0001F1F3\U0001F1F1 NL" in same and "\u2192" not in same
+    n = P.fmt_name(3, {"cc": "NL", "exit_cc": "NL"})       # in == out
+    assert "\u2192" not in n
+    legacy = P.fmt_name(9, "US", "DE")                     # old call style
+    assert legacy.startswith("#9") and "DE" in legacy

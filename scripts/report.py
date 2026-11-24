@@ -118,8 +118,7 @@ def main():
         p = plan.get(r["phash"])
         if not p:
             continue
-        u = uri_from_proxy(p, name=fmt_name(r["rank"], r.get("cc", ""),
-                                            r.get("exit_cc", "")))
+        u = uri_from_proxy(p, name=fmt_name(r["rank"], r))
         if u:
             pairs.append((r, u))
     log(f"{len(pairs)} working proxies to publish")
@@ -156,7 +155,7 @@ def main():
 
     top_pairs = pairs[:TOP_SUB]
     top_proxies = [plan[r["phash"]] for r, _ in top_pairs if r["phash"] in plan]
-    tags = [fmt_name(r["rank"], r.get("cc", ""), r.get("exit_cc", ""))
+    tags = [fmt_name(r["rank"], r)
             for r, _ in top_pairs if r["phash"] in plan]
     if top_proxies:
         sb_cfg = engines.singbox_client_config(top_proxies, tags)
@@ -178,13 +177,19 @@ def main():
 
     avg = tstats.get("avg_speed_kbps") or 0
     mx = tstats.get("max_speed_kbps") or 0
+    avg_up = tstats.get("avg_up_kbps") or 0
+    mx_up = tstats.get("max_up_kbps") or 0
     badge("working", "working", f"{len(working)}/{tstats.get('tested', 0)}",
           "brightgreen" if len(working) > 50 else ("green" if working else "red"))
     badge("alive", "alive (204 OK)", tstats.get("alive", 0), "blue")
-    badge("speed", "avg speed", f"{avg/1000:.1f} Mbps" if avg else "n/a",
+    badge("speed", "avg \u2193", f"{avg/1000:.1f} Mbps" if avg else "n/a",
           "blueviolet")
-    badge("max-speed", "max speed", f"{mx/1000:.1f} Mbps" if mx else "n/a",
+    badge("max-speed", "max \u2193", f"{mx/1000:.1f} Mbps" if mx else "n/a",
           "purple")
+    badge("up-speed", "avg \u2191", f"{avg_up/1000:.1f} Mbps" if avg_up else "n/a",
+          "orange")
+    badge("clean", "clean exits",
+          f"{tstats.get('clean_exits', 0)} unflagged", "green")
     badge("countries", "exit countries", len(by_country), "teal")
     badge("sources", "sources",
           f"{cstats.get('url_ok', 0)}+{cstats.get('tg_ok', 0)} ok",
@@ -199,6 +204,8 @@ def main():
         "tested": tstats.get("tested", 0), "alive": tstats.get("alive", 0),
         "working": len(working), "unique": cstats.get("unique_proxies", 0),
         "avg_kbps": avg, "max_kbps": mx,
+        "avg_up_kbps": avg_up,
+        "clean": tstats.get("clean_exits", 0),
         "duration_s": tstats.get("duration_s", 0),
     }
     hist = load_jsonl(hist_path)
@@ -248,14 +255,15 @@ def main():
       "change your egress IP. No CSV-validation theater, no blind relisting.")
     A("")
     A(f"![working](badges/working.json) ![alive](badges/alive.json) "
-      f"![speed](badges/speed.json) ![max-speed](badges/max-speed.json) "
+      f"![speed](badges/speed.json) ![up-speed](badges/up-speed.json) "
+      f"![max-speed](badges/max-speed.json) ![clean](badges/clean.json) "
       f"![countries](badges/countries.json) ![sources](badges/sources.json) "
       f"![updated](badges/updated.json)")
     A("")
 
     A("## What this is")
     A("")
-    A(f"A GitHub Actions pipeline (runs once a day) that fetches free proxy "
+    A(f"A GitHub Actions pipeline (runs daily) that fetches free proxy "
       f"configs from **{cstats.get('url_sources_total', 0)} URL subscriptions** and "
       f"**{cstats.get('tg_channels_total', 0)} Telegram channels**, parses 9 protocols "
       f"(vless / vmess / trojan / ss / hysteria2 / hysteria / tuic / socks / http), "
@@ -268,7 +276,9 @@ def main():
       f"{cstats.get('tg_ok', 0)}/{cstats.get('tg_channels_active', 0)} Telegram channels; "
       f"**{tested}** endpoints really tested, **{alive_n}** reachable, "
       f"**{len(working)}** verified working (egress IP confirmed changed) across "
-      f"**{len(cc_rows)} exit countries**.")
+      f"**{len(cc_rows)} exit countries** — **{tstats.get('clean_exits', 0)}** of them "
+      f"on unflagged ('clean') exit IPs and **{tstats.get('residential_exits', 0)}** "
+      f"on residential IPs.")
     A("")
 
     A("## How the testing works (the *really* part)")
@@ -278,9 +288,9 @@ def main():
     A("  S1[URL subs<br/>+ Telegram] --> F[fetch &<br/>parse]")
     A("  F --> C[clean &<br/>dedupe]")
     A("  C --> T1[phase 1<br/>connectivity<br/>gstatic 204]")
-    A("  T1 -->|reachable| T2[phase 2<br/>exit IP check<br/>ip-api]")
+    A("  T1 -->|reachable| T2[phase 2<br/>exit IP + ISP +<br/>reputation check]")
     A("  T1 -->|dead| X[drop]")
-    A("  T2 -->|egress changed| T3[1 MB speed<br/>test]")
+    A("  T2 -->|egress changed| T3[\u2193 1 MB + \u2191 0.5 MB<br/>speed test]")
     A("  T2 -->|same IP| X2[mark leak]")
     A("  T3 --> R[README + subs<br/>+ badges]")
     A("```")
@@ -290,30 +300,66 @@ def main():
       "An HTTPS request to `gstatic.com/generate_204` goes through the tunnel with "
       "**DNS resolved on the proxy side**. Only an HTTP 204 counts as reachable.")
     A("2. **Phase 2 — egress verification.** An ip-api request through the same tunnel "
-      "must return an exit IP **different from the runner's own IP**, plus its country "
-      "and AS. Proxies that pass phase 1 but keep your IP are marked as leaks and "
-      "excluded from the working list. Server country vs exit country mismatches are "
-      "flagged in the tables.")
-    A("3. **Throughput.** Working proxies download 1 MB from `speed.cloudflare.com` "
-      "through the tunnel; the measured rate is the speed you see in the tables.")
+      "must return an exit IP **different from the runner's own IP**. The same lookup "
+      "also returns the exit's **country, city, ISP, AS number and IP-reputation "
+      "flags** (datacenter / residential / mobile, proxy-DB listing) — all of which "
+      "end up in the proxy's name. Proxies that pass phase 1 but keep your IP are "
+      "marked as leaks and excluded from the working list.")
+    A("3. **Throughput, both directions.** Working proxies download 1 MB from and "
+      "upload 512 KB to `speed.cloudflare.com` through the tunnel; the measured "
+      "down/up rates are the `\u2193`/`\u2191` numbers you see in the names and tables.")
     A("4. **Engine fallback.** If a proxy fails on Xray, it is retried on sing-box "
       "(and vice versa) before being declared dead — some configs only work on one core.")
+    A("")
+
+    A("## How to read a proxy name")
+    A("")
+    A("Every proxy in the subscription files is named so that the node list in your "
+      "client already tells you **exactly what you would be connecting to** — entry "
+      "and exit country, the ISP and AS operating the **verified exit IP**, measured "
+      "download **and upload** speed, the exit IP itself, and the IP's reputation:")
+    A("")
+    A("```text")
+    A("#42 \U0001F1FA\U0001F1F8 US \u2192 \U0001F1E9\U0001F1EA DE | Contabo AS141995 | \u219312.0 \u21911.2Mbps | 84.247.155.196 | DC\u00b7Clean")
+    A("  \u2502            \u2502        \u2502               \u2502               \u2502                \u2502")
+    A(" rank   entry\u2192exit   ISP + AS   measured \u2193/\u2191   verified exit   IP type\u00b7reputation")
+    A("```")
+    A("")
+    A("| tag | meaning |")
+    A("|-----|---------|")
+    A("| `\u2193` / `\u2191` | measured download / upload throughput through the live "
+      "tunnel (Mbps); `?` = test failed or skipped")
+    A("| `DC` | the exit IP belongs to a datacenter / hosting network")
+    A("| `RES` | residential IP (not in hosting ranges — usually the best bet for "
+      "not getting blocked as a bot/VPN)")
+    A("| `MOB` | mobile / carrier IP (CGNAT — often the \"cleanest\" class for "
+      "streaming and sign-ups)")
+    A("| `Clean` | exit IP is **not** listed in ip-api's proxy/VPN/Tor database")
+    A("| `Flag` | exit IP **is** listed as a proxy/VPN exit — expect streaming and "
+      "anti-bot blocks")
+    A("| `\u2192` | entry country \u2192 exit country; a single flag means the tunnel "
+      "exits where it enters (no cross-country relay)")
+    A("")
+    A("So `#42 \U0001F1FA\U0001F1F8 US \u2192 \U0001F1E9\U0001F1EA DE | Contabo AS141995 | \u219312.0 \u21911.2Mbps | 84.247.155.196 | DC\u00b7Clean` "
+      "reads as: rank 42, enter in the US, exit in Germany on a Contabo "
+      "datacenter address (AS141995) at 12 Mbps down / 1.2 Mbps up, and the exit "
+      "is not listed in proxy databases.")
     A("")
 
     A("## Top working proxies")
     A("")
     A(f"All {len(working)} working proxies are published in "
       f"[`subs/all.txt`](subs/all.txt); this table shows the top "
-      f"{min(TOP_TABLE, len(working))}.")
+      f"{min(TOP_TABLE, len(working))}. The `name` column is exactly what your "
+      "client will show (see [How to read a proxy name](#how-to-read-a-proxy-name)).")
     A("")
-    A("| # | proxy | proto | server | exit | latency | speed | engine |")
-    A("|---|-------|-------|--------|------|---------|-------|--------|")
+    A("| # | name | proto | entry server | latency | engine |")
+    A("|---|------|-------|--------------|---------|--------|")
     for r in working[:TOP_TABLE]:
         lat = f"{r['latency_ms']} ms" if r.get("latency_ms") is not None else "-"
-        spd = f"{r['speed_kbps']/1000:.1f} Mbps" if r.get("speed_kbps") else "-"
-        A(f"| {r['rank']} | {fmt_name(r['rank'], r.get('cc'), r.get('exit_cc'))} "
-          f"| `{r['proto']}` | `{r['server']}:{r['port']}` "
-          f"| {country(r.get('exit_cc'))} | {lat} | {spd} | {r.get('engine') or '-'} |")
+        A(f"| {r['rank']} | {fmt_name(r['rank'], r)} "
+          f"| `{r['proto']}` | `{r['server']}:{r['port']}` | {lat} "
+          f"| {r.get('engine') or '-'} |")
     A("")
 
     A("## Exit locations — which countries work")
@@ -394,13 +440,15 @@ def main():
     A("")
     A(f"working per run (last {len(hist)}): {spark([h.get('working', 0) for h in hist], 0, None)}")
     A("")
-    A("| date (UTC) | tested | alive | working | avg | max |")
-    A("|------------|-------:|------:|--------:|----:|----:|")
+    A("| date (UTC) | tested | alive | working | avg \u2193 | max \u2193 | avg \u2191 | clean |")
+    A("|------------|-------:|------:|--------:|----:|----:|----:|------:|")
     for h in reversed(hist[-15:]):
         avg_h = f"{h.get('avg_kbps', 0)/1000:.1f}M" if h.get("avg_kbps") else "-"
         mx_h = f"{h.get('max_kbps', 0)/1000:.1f}M" if h.get("max_kbps") else "-"
+        up_h = f"{h.get('avg_up_kbps', 0)/1000:.1f}M" if h.get("avg_up_kbps") else "-"
+        cl_h = h.get("clean") if h.get("clean") is not None else "-"
         A(f"| {h.get('date', '?')} | {h.get('tested', 0)} | {h.get('alive', 0)} "
-          f"| {h.get('working', 0)} | {avg_h} | {mx_h} |")
+          f"| {h.get('working', 0)} | {avg_h} | {mx_h} | {up_h} | {cl_h} |")
     A("")
 
     A("## Subscription files")
@@ -479,7 +527,8 @@ def main():
        f"and **{100 * (tested - len(working)) / tested:.0f}% unusable** overall."
        if tested else ".")
     + " Only tunnels that completed a real HTTPS handshake, returned a verifiable "
-      "foreign exit IP, and pushed a 1 MB download are counted as working here.")
+      "foreign exit IP, and moved a 1 MB download **and** a 512 KB upload through "
+      "the tunnel are counted as working here.")
     A("")
 
     A("## Disclaimers")
@@ -502,7 +551,9 @@ def main():
     # keep a compact, git-friendly copy of the alive subset
     compact = [{k: r.get(k) for k in
                 ("phash", "rank", "proto", "server", "port", "cc", "exit_cc",
-                 "exit_as", "latency_ms", "speed_kbps", "engine", "alive", "work")}
+                 "exit_ip", "exit_as", "exit_isp", "exit_org", "exit_city",
+                 "exit_mobile", "exit_proxy", "exit_hosting",
+                 "latency_ms", "speed_kbps", "up_kbps", "engine", "alive", "work")}
                for r in results if r.get("alive")]
     save_json(os.path.join(data_dir, "last_run.json"), {
         "ts": now, "ts_iso": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(now)),
@@ -525,7 +576,10 @@ def main():
                     f"- tested: **{tested}** endpoints (real tunnels)\n"
                     f"- alive: **{alive_n}** | verified working: **{len(working)}** "
                     f"across **{len(cc_rows)}** exit countries\n"
-                    f"- avg speed: **{avg/1000:.1f} Mbps**, max: **{mx/1000:.1f} Mbps**\n"
+                    f"- avg speed: **{avg/1000:.1f} Mbps** down, max: **{mx/1000:.1f} Mbps**; "
+                    f"avg upload: **{avg_up/1000:.1f} Mbps**, max: **{mx_up/1000:.1f} Mbps**\n"
+                    f"- clean (unflagged) exits: **{tstats.get('clean_exits', 0)}**, "
+                    f"residential exits: **{tstats.get('residential_exits', 0)}**\n"
                     f"- files: all={len(pairs)}, by-proto={len(by_proto)}, "
                     f"by-country={len(by_country)}, by-engine={len(by_engine)}\n"
                     f"- duration: {tstats.get('duration_s', 0)}s test + "

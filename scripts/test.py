@@ -5,8 +5,9 @@ Two phases:
   1. connectivity: HTTPS request to gstatic/generate_204 through the proxy
      (via a local xray or sing-box socks inbound, or curl -x for plain
      http/socks proxies). DNS goes through the proxy (--socks5-hostname).
-  2. verification: egress identity (exit IP + country + AS via ip-api through
-     the tunnel; must differ from the runner's own IP) + 1 MB throughput test.
+  2. verification: egress identity (exit IP, country, AS, ISP and IP-reputation
+     flags via ip-api through the tunnel; must differ from the runner's own IP)
+     + throughput: 1 MB down and 512 KB up through the same tunnel.
 
 If an engine fails for a proxy, the other engine gets one retry (some configs
 only work on one core). Results -> data/results.json.
@@ -27,13 +28,18 @@ from lib.states import (load_json, save_json, update_alive_recall,  # noqa: E402
                         SourceStates, GeoCache)
 
 CHECK_URL = "https://www.gstatic.com/generate_204"
-EXIT_URL = "http://ip-api.com/json/?fields=status,query,countryCode,as"
+EXIT_URL = ("http://ip-api.com/json/?fields=status,query,countryCode,city,"
+            "isp,org,as,reverse,mobile,proxy,hosting")
 EXIT_URL2 = "https://api.ip.sb/geoip"
 SPEED_URL = "https://speed.cloudflare.com/__down?bytes=1048576"
+UPLOAD_URL = "https://speed.cloudflare.com/__up"
+UPLOAD_BYTES = 524288          # 512 KB upload probe
+UPLOAD_PAYLOAD = "/tmp/ps_upload.bin"
 
 P1_MAXTIME = 9          # connectivity check
 P2_MAXTIME = 12         # exit identity
 SP_MAXTIME = 15         # 1 MB throughput
+UP_MAXTIME = 20         # 512 KB upload
 BATCH = 240             # proxies per engine process
 P1_WORKERS = 48
 P2_WORKERS = 24
@@ -114,8 +120,16 @@ def check_connectivity(p, local_port):
     return {"alive": True, "lat_ms": lat, "err": ""}
 
 
+def _exit_from_ipapi(j):
+    return {"ip": j.get("query", ""), "cc": j.get("countryCode", ""),
+            "as": j.get("as", ""), "isp": j.get("isp", ""),
+            "org": j.get("org", ""), "city": j.get("city", ""),
+            "mobile": j.get("mobile"), "proxy": j.get("proxy"),
+            "hosting": j.get("hosting"), "err": ""}
+
+
 def check_exit(p, local_port):
-    """Phase 2 identity: returns {ip, cc, as, err}."""
+    """Phase 2 identity: {ip, cc, as, isp, org, city, mobile, proxy, hosting}."""
     cmd = ["curl", "-sS", "--max-time", str(P2_MAXTIME), *proxy_args(p, local_port),
            EXIT_URL]
     try:
@@ -123,8 +137,7 @@ def check_exit(p, local_port):
         if r.returncode == 0 and r.stdout.strip().startswith("{"):
             j = json.loads(r.stdout)
             if j.get("status") == "success":
-                return {"ip": j.get("query", ""), "cc": j.get("countryCode", ""),
-                        "as": j.get("as", ""), "err": ""}
+                return _exit_from_ipapi(j)
         # try https fallback (some http proxies only allow CONNECT)
         cmd2 = ["curl", "-sS", "--max-time", str(P2_MAXTIME), *proxy_args(p, local_port),
                 EXIT_URL2]
@@ -134,31 +147,51 @@ def check_exit(p, local_port):
             ip = j.get("ip") or j.get("query") or ""
             cc = j.get("country_code") or ""
             asn = j.get("asn") or ""
-            org = j.get("organization") or ""
+            org = j.get("asn_organization") or j.get("organization") or ""
             return {"ip": ip, "cc": cc,
-                    "as": (f"AS{asn} {org}" if asn else org), "err": ""}
-        return {"ip": "", "cc": "", "as": "",
+                    "as": (f"AS{asn} {org}" if asn else org),
+                    "isp": j.get("isp") or "", "org": org,
+                    "city": j.get("city") or "",
+                    "mobile": None, "proxy": None, "hosting": None, "err": ""}
+        return {"ip": "", "cc": "", "as": "", "isp": "", "org": "",
+                "city": "", "mobile": None, "proxy": None, "hosting": None,
                 "err": f"exit_lookup_failed:{(r.stderr or r2.stderr)[:50]}"}
     except subprocess.TimeoutExpired:
-        return {"ip": "", "cc": "", "as": "", "err": "exit_timeout"}
+        return {"ip": "", "cc": "", "as": "", "isp": "", "org": "",
+                "city": "", "mobile": None, "proxy": None, "hosting": None,
+                "err": "exit_timeout"}
     except Exception as e:
-        return {"ip": "", "cc": "", "as": "", "err": f"exit_err:{str(e)[:50]}"}
+        return {"ip": "", "cc": "", "as": "", "isp": "", "org": "",
+                "city": "", "mobile": None, "proxy": None, "hosting": None,
+                "err": f"exit_err:{str(e)[:50]}"}
 
 
 def check_speed(p, local_port):
-    """Phase 2 throughput: 1 MB download, returns {kbps}."""
-    w = fmt_w(["size_download", "speed_download"])
-    code, out = curl(["--max-time", str(SP_MAXTIME), *proxy_args(p, local_port),
-                      *w, SPEED_URL], timeout=SP_MAXTIME + 20)
+    """Phase 2 throughput: 1 MB down + (if that worked) 512 KB up.
+    Returns {kbps, up_kbps} — either may be None when unmeasurable."""
+    down = _probe(p, local_port, ["size_download", "speed_download"],
+                  SPEED_URL, SP_MAXTIME)
+    up = None
+    if down.get("kbps"):          # only upload through tunnels that move data
+        up = _probe(p, local_port, ["size_upload", "speed_upload"],
+                    UPLOAD_URL, UP_MAXTIME, upload=True)
+    return {"kbps": down.get("kbps"), "up_kbps": up.get("kbps") if up else None}
+
+
+def _probe(p, local_port, wkeys, url, maxtime, upload=False):
+    args = ["--max-time", str(maxtime), *proxy_args(p, local_port)]
+    if upload:
+        args += ["-X", "POST", "--data-binary", "@" + UPLOAD_PAYLOAD,
+                 "-H", "Content-Type: application/octet-stream"]
+    code, out = curl([*args, *fmt_w(wkeys), url], timeout=maxtime + 20)
     parts = out.split("|")
     if len(parts) < 2:
         return {"kbps": None}
     try:
-        size = float(parts[0])
-        spd = float(parts[1])
+        size, spd = float(parts[0]), float(parts[1])
     except ValueError:
         return {"kbps": None}
-    if size < 100_000:   # <100KB received -> unusable measurement
+    if size < 100_000:   # <100KB transferred -> unusable measurement
         return {"kbps": None}
     return {"kbps": int(spd * 8 / 1000)}
 
@@ -372,7 +405,18 @@ def main():
                                "name": p.get("name", ""), "srcs": p.get("srcs", []),
                                "alive": False, "work": False, "latency_ms": None,
                                "exit_ip": "", "exit_cc": "", "exit_as": "",
-                               "speed_kbps": None, "engine": "", "error": "untested"}
+                               "exit_isp": "", "exit_org": "", "exit_city": "",
+                               "exit_mobile": None, "exit_proxy": None,
+                               "exit_hosting": None,
+                               "speed_kbps": None, "up_kbps": None,
+                               "engine": "", "error": "untested"}
+
+    # one shared upload payload for the whole run (random bytes, 512 KB)
+    try:
+        with open(UPLOAD_PAYLOAD, "wb") as f:
+            f.write(os.urandom(UPLOAD_BYTES))
+    except OSError as e:
+        log(f"WARN could not create upload payload: {e}")
 
     def budget_left():
         return args.time_budget - (time.time() - t0)
@@ -453,7 +497,13 @@ def main():
                 rec = results[h]
                 if r.get("ip"):
                     rec.update(exit_ip=r["ip"], exit_cc=r.get("cc", ""),
-                               exit_as=r.get("as", ""))
+                               exit_as=r.get("as", ""),
+                               exit_isp=r.get("isp", "") or "",
+                               exit_org=r.get("org", "") or "",
+                               exit_city=r.get("city", "") or "",
+                               exit_mobile=r.get("mobile"),
+                               exit_proxy=r.get("proxy"),
+                               exit_hosting=r.get("hosting"))
                     rec["work"] = bool(runner_ip and r["ip"] != runner_ip)
                     if not rec["work"]:
                         rec["error"] = "egress_not_changed"
@@ -486,7 +536,9 @@ def main():
             for h, r in res.items():
                 if r.get("kbps"):
                     results[h]["speed_kbps"] = r["kbps"]
-        log(f"speed done at {int(time.time() - t0)}s")
+                if r.get("up_kbps"):
+                    results[h]["up_kbps"] = r["up_kbps"]
+        log(f"speed (down+up) done at {int(time.time() - t0)}s")
 
     # --------------------------------------- server-side geo (inbound cc) ----
     hosts = sorted({p["server"] for p in plan if p["server"]})
@@ -533,13 +585,19 @@ def main():
     n_alive = sum(1 for r in out if r["alive"])
     n_work = sum(1 for r in out if r["work"])
     speeds = [r["speed_kbps"] for r in out if r["speed_kbps"]]
+    ups = [r["up_kbps"] for r in out if r["up_kbps"]]
     stats = {
         "ts": time.time(),
         "tested": len(out), "alive": n_alive, "working": n_work,
         "exit_checked": sum(1 for r in out if r["exit_ip"]),
-        "speed_tested": len(speeds),
+        "speed_tested": len(speeds), "up_tested": len(ups),
         "avg_speed_kbps": int(sum(speeds) / len(speeds)) if speeds else 0,
         "max_speed_kbps": max(speeds) if speeds else 0,
+        "avg_up_kbps": int(sum(ups) / len(ups)) if ups else 0,
+        "max_up_kbps": max(ups) if ups else 0,
+        "clean_exits": sum(1 for r in out if r["work"] and r.get("exit_proxy") is False),
+        "residential_exits": sum(1 for r in out if r["work"]
+                                  and r.get("exit_hosting") is False),
         "duration_s": int(time.time() - t0),
         "runner_ip": runner_ip, "runner_cc": runner_cc,
         "errors": top_errors(out),

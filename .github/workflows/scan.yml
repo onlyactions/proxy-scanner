@@ -12,7 +12,7 @@ on:
       time_budget:
         description: "Seconds for the test phase"
         required: false
-        default: "3000"
+        default: "3600"
   push:
     branches: [main]
     paths:
@@ -73,7 +73,7 @@ jobs:
             --xray-bin "$PWD/bin/xray" \
             --singbox-bin "$PWD/bin/sing-box" \
             --limit "${{ github.event.inputs.limit || '0' }}" \
-            --time-budget "${{ github.event.inputs.time_budget || '3000' }}"
+            --time-budget "${{ github.event.inputs.time_budget || '3600' }}"
 
       - name: Render report & subscriptions
         env:

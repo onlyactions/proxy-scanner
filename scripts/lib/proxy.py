@@ -550,8 +550,125 @@ def flag(cc):
     return _CC_CACHE[cc]
 
 
-def fmt_name(pid, in_cc, out_cc):
-    """Display name: '#ID INBOUND -> OUTBOUND' e.g. '#42 US -> DE'."""
-    def side(cc):
-        return f"{flag(cc)} {cc.upper()}" if cc and len(cc) == 2 else "\u2753 ??"
-    return f"#{pid} {side(in_cc)} \u2192 {side(out_cc)}"
+# ------------------------------------------------------------- naming -------
+#
+# Full-descriptor node name. Everything a user needs to know about what the
+# tunnel actually exits through, readable straight from the client's node list:
+#
+#   #42 🇺🇸→🇩🇪 DE | Contabo AS141995 | ↓12.0 ↑1.2Mbps | 84.247.155.196 | DC·Clean
+#    │  entry→exit  | ISP        AS   | measured ↓/↑   | verified exit  | type·reputation
+#
+# Sections: rank+route / ISP+AS / down+up speed / exit IP / IP type & clean flag.
+
+LEGAL_SUFFIX_RE = re.compile(
+    r'(?i)[,\s]*(co\.,? ?ltd\.?|ltd[a-z]?\.?|llc|inc\.?|incorporated|gmbh|'
+    r's\.?a\.?r\.?l\.?|sarl|s\.?p\.?a?\.?|srl|s\.?a\.?s\.?|a\/s|ab|as|oyj|plc|'
+    r'pty\.?|pte\.?|b\.?v\.?|n\.?v\.?|s\.?a\.?|corp\.?|corporation|company|'
+    r'holding|holdings|group|limited|partners|llp|kft|ooo|zrt|s\.?d\.?n\.?bhd)'
+    r'[,\s]*\.?$')
+AS_RE = re.compile(r'(A[Ss]\d{1,10})')
+
+
+def short_isp(name, cap=22):
+    """Compact ISP label: drop legal suffixes, collapse whitespace, cap length
+    without cutting a word in half."""
+    if not name:
+        return ""
+    s = re.sub(r'\s+', ' ', str(name)).strip(' .,-')
+    prev = None
+    while prev != s:
+        prev = s
+        s = LEGAL_SUFFIX_RE.sub('', s).strip(' .,-')
+    if len(s) > cap:
+        s = s[:cap]
+        if " " in s:
+            s = s.rsplit(" ", 1)[0]
+    return s
+
+
+def as_num(as_field):
+    """'AS141995 Contabo Asia Private Limited' -> 'AS141995'."""
+    m = AS_RE.search(str(as_field or ""))
+    return m.group(1) if m else ""
+
+
+def ip_short(ip):
+    """Full IPv4; IPv6 shortened to its first two groups."""
+    ip = str(ip or "").strip()
+    if not ip:
+        return ""
+    if ":" in ip:
+        groups = ip.split(":")
+        return ":".join(groups[:2]) + ":…"
+    return ip
+
+
+def fmt_mbps(kbps):
+    """1200 (kbps) -> '1.2'; None -> '?'."""
+    if kbps is None:
+        return "?"
+    try:
+        v = float(kbps) / 1000.0
+    except (TypeError, ValueError):
+        return "?"
+    return f"{v:.1f}"
+
+
+def ip_type(mobile, hosting):
+    """MOB / DC / RES / ? — what kind of address the exit IP is."""
+    if mobile is True:
+        return "MOB"
+    if hosting is True:
+        return "DC"
+    if hosting is False:
+        return "RES"
+    return "?"
+
+
+def clean_tag(proxy_flag):
+    """'Clean' (not in ip-api's proxy/VPN DB) / 'Flag' (listed) / '?'."""
+    if proxy_flag is True:
+        return "Flag"
+    if proxy_flag is False:
+        return "Clean"
+    return "?"
+
+
+def _quality(rec):
+    parts = [p for p in (ip_type(rec.get("exit_mobile"), rec.get("exit_hosting")),
+                         clean_tag(rec.get("exit_proxy"))) if p != "?"]
+    return "·".join(parts) if parts else "?"
+
+
+def fmt_name(rank, rec, *legacy):
+    """Display name that fully describes the verified exit.
+
+    rec: result dict (cc, exit_cc, exit_ip, exit_as, exit_isp/exit_org,
+    exit_mobile/exit_hosting/exit_proxy, speed_kbps, up_kbps). A legacy
+    call fmt_name(rank, in_cc, out_cc) still works (deprecated).
+    """
+    if legacy and isinstance(rec, str):        # legacy: fmt_name(rank, in_cc, out_cc)
+        rec = {"cc": rec, "exit_cc": legacy[0] if legacy else ""}
+
+    in_cc = (rec.get("cc") or "").upper()
+    out_cc = (rec.get("exit_cc") or "").upper()
+    if in_cc and out_cc and in_cc != out_cc:
+        route = f"{flag(in_cc)} {in_cc} → {flag(out_cc)} {out_cc}"
+    elif out_cc:
+        route = f"{flag(out_cc)} {out_cc}"
+    elif in_cc:
+        route = f"{flag(in_cc)} {in_cc}"
+    else:
+        route = "\u2753 ??"
+
+    as_field = str(rec.get("exit_as") or "")
+    asn = as_num(as_field)
+    org_from_as = as_field.split(" ", 1)[1].strip() if " " in as_field else ""
+    if org_from_as == asn:
+        org_from_as = ""
+    isp = short_isp(rec.get("exit_isp") or rec.get("exit_org") or org_from_as)
+    who = " ".join(x for x in (isp, asn) if x) or "??"
+    speed = f"\u2193{fmt_mbps(rec.get('speed_kbps'))} " \
+            f"\u2191{fmt_mbps(rec.get('up_kbps'))}Mbps"
+    ip = ip_short(rec.get("exit_ip")) or "??"
+    return f"#{rank} {route} | {who} | {speed} | {ip} | {_quality(rec)}"
