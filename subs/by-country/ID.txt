@@ -1,1 +1,1 @@
-trojan://57beeeb0-03fc-4fc9-94da-7604488a7134@i1tr.mateflora.com:443?security=tls&type=tcp&sni=i1tr.mateflora.com#%23945%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%AE%F0%9F%87%A9%20ID
+trojan://57beeeb0-03fc-4fc9-94da-7604488a7134@i1tr.mateflora.com:443?security=tls&type=tcp&sni=i1tr.mateflora.com#%23946%20%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20M247%20Europe%20AS9009%20%7C%20%E2%86%93%3F%20%E2%86%91%3FMbps%20%7C%20149.33.27.162%20%7C%20DC%C2%B7Clean

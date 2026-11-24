@@ -1,1 +1,1 @@
-hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@87.121.112.83:443?sni=bulghys.live#%23587%20%E2%9D%93%20%3F%3F%20%E2%86%92%20%F0%9F%87%A7%F0%9F%87%AC%20BG
+vless://37af0181-5598-4aad-a040-d926bcb65757@78.159.240.72:8443?encryption=none&security=tls&type=xhttp&sni=plaindune.com&fp=chrome&host=plaindune.com&path=%2Fapi%2Fv1%2Fupload&mode=auto#%23657%20%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20Belcloud%20AS44901%20%7C%20%E2%86%931.4%20%E2%86%91%3FMbps%20%7C%2088.80.148.179%20%7C%20DC%C2%B7Flag
