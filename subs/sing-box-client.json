@@ -31,156 +31,156 @@
    "tag": "🐟 proxy",
    "outbounds": [
     "⚡ auto",
-    "#1 🇺🇸 US | Datacamp AS60068 | ↓60.1 ↑57.0Mbps | 84.17.41.2 | ?",
-    "#2 🇨🇦 CA | Datacamp AS212238 | ↓58.9 ↑49.1Mbps | 149.22.95.183 | DC·Flag",
-    "#3 🇺🇸 US | GTHost AS63023 | ↓58.6 ↑0.4Mbps | 38.143.66.146 | RES·Flag",
-    "#4 🇺🇸 US | OVH AS16276 | ↓54.8 ↑19.8Mbps | 15.204.97.198 | DC·Flag",
-    "#5 🇺🇸 US | OVH AS16276 | ↓54.5 ↑38.5Mbps | 15.204.97.197 | DC·Flag",
-    "#6 🇺🇸 US | OVH AS16276 | ↓53.9 ↑29.9Mbps | 15.204.97.216 | DC·Flag",
-    "#7 🇺🇸 US | OVH AS16276 | ↓53.7 ↑38.6Mbps | 15.204.97.195 | DC·Flag",
-    "#8 🇺🇸 US | OVH AS16276 | ↓52.6 ↑38.5Mbps | 15.204.97.209 | DC·Flag",
-    "#9 🇺🇸 US | OVH AS16276 | ↓50.4 ↑38.7Mbps | 15.204.97.214 | DC·Flag",
-    "#10 🇺🇸 US | OVH AS16276 | ↓46.1 ↑39.9Mbps | 15.204.97.206 | DC·Flag",
-    "#11 🇺🇸 US | OVH AS16276 | ↓45.5 ↑40.7Mbps | 15.204.97.219 | DC·Flag",
-    "#12 🇺🇸 US | DigitalOcean AS14061 | ↓31.2 ↑4.9Mbps | 137.184.89.151 | DC·Flag",
-    "#13 🇺🇸 US | Oracle AS31898 | ↓28.8 ↑10.2Mbps | 147.224.54.25 | DC·Clean",
-    "#14 🇺🇸 US | GTHost AS63023 | ↓27.4 ↑13.3Mbps | 169.197.142.68 | DC·Flag",
-    "#15 🇺🇸 US | GTHost AS63023 | ↓27.3 ↑15.0Mbps | 169.197.142.68 | DC·Flag",
-    "#16 🇺🇸 US | OVH AS16276 | ↓27.0 ↑33.0Mbps | 15.204.97.206 | DC·Flag",
-    "#17 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.0 ↑15.3Mbps | 167.88.61.20 | DC·Flag",
-    "#18 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.1 ↑12.8Mbps | 167.88.61.85 | DC·Clean",
-    "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓25.2 ↑15.3Mbps | 167.88.61.159 | DC·Flag",
-    "#20 🇺🇸 US | Oracle AS31898 | ↓24.8 ↑14.6Mbps | 147.224.54.25 | DC·Clean",
-    "#21 🇺🇸 US | GTHost AS63023 | ↓23.0 ↑12.7Mbps | 23.150.152.65 | RES·Flag",
-    "#22 🇺🇸 US | Akamai Technologies AS63949 | ↓22.9 ↑13.3Mbps | 172.235.49.52 | DC·Clean",
-    "#23 🇺🇸 US | Akamai Technologies AS63949 | ↓22.8 ↑11.1Mbps | 172.239.67.142 | DC·Clean",
-    "#24 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑15.5Mbps | 167.88.61.85 | DC·Clean",
-    "#25 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑14.4Mbps | 167.88.61.159 | DC·Flag",
-    "#26 🇺🇸 US | Akamai Technologies AS63949 | ↓22.4 ↑12.1Mbps | 172.236.233.130 | DC·Clean",
-    "#27 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑9.4Mbps | 45.63.53.81 | DC·Flag",
-    "#28 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑12.2Mbps | 45.32.70.42 | DC·Clean",
-    "#29 🇺🇸 US | Akamai Technologies AS63949 | ↓21.9 ↑13.1Mbps | 172.236.231.45 | DC·Clean",
-    "#30 🇺🇸 US | GTHost AS63023 | ↓21.5 ↑11.8Mbps | 95.215.201.143 | DC·Clean",
-    "#31 🇺🇸 US | GTT Americ AS48529 | ↓19.9 ↑17.9Mbps | 69.17.3.150 | RES·Flag",
-    "#32 🇺🇸 US | The Constant AS20473 | ↓19.7 ↑12.6Mbps | 45.76.172.197 | DC·Flag",
-    "#33 🇺🇸 US | GTHost AS63023 | ↓19.5 ↑6.0Mbps | 216.106.185.141 | DC·Flag",
-    "#34 🇺🇸 US | GTHost AS63023 | ↓19.2 ↑14.9Mbps | 169.197.142.22 | ?",
-    "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓18.8 ↑8.2Mbps | 172.236.227.60 | DC·Clean",
-    "#36 🇺🇸 US | NetLab Global AS979 | ↓18.0 ↑12.6Mbps | 154.12.49.239 | RES·Clean",
-    "#37 🇺🇸 US | GSL Networks AS137409 | ↓17.9 ↑10.0Mbps | 173.244.56.9 | DC·Flag",
-    "#38 🇺🇸 US | Datacamp AS60068 | ↓17.8 ↑8.4Mbps | 156.146.38.170 | DC·Flag",
-    "#39 🇺🇸 US | GSL Networks AS137409 | ↓17.5 ↑10.7Mbps | 173.244.56.6 | DC·Flag",
-    "#40 🇺🇸 US | NTT America AS2914 | ↓17.4 ↑14.1Mbps | 198.247.127.131 | RES·Clean",
-    "#41 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
-    "#42 🇺🇸 US | Oracle AS31898 | ↓17.3 ↑8.8Mbps | 129.146.77.248 | DC·Flag",
-    "#43 🇺🇸 US | GTHost AS63023 | ↓17.1 ↑8.0Mbps | 38.64.138.135 | RES·Flag",
-    "#44 🇺🇸 US | Datacamp AS60068 | ↓16.8 ↑7.9Mbps | 156.146.38.168 | DC·Flag",
-    "#45 🇺🇸 US | HostPapa AS36352 | ↓16.7 ↑6.1Mbps | 107.175.54.116 | ?",
-    "#46 🇺🇸 US | GTHost AS63023 | ↓16.3 ↑9.7Mbps | 216.106.185.141 | DC·Flag",
-    "#47 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.7Mbps | 38.128.66.241 | DC·Flag",
-    "#48 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑8.1Mbps | 216.106.178.169 | RES·Flag",
-    "#49 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑2.4Mbps | 38.128.66.212 | DC·Flag",
-    "#50 🇺🇸 US | HostPapa AS36352 | ↓15.7 ↑7.5Mbps | 107.175.54.116 | ?",
-    "#51 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
-    "#52 🇺🇸 US | GTHost AS63023 | ↓15.5 ↑7.7Mbps | 67.220.73.178 | DC·Flag",
-    "#53 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑7.8Mbps | 162.251.61.46 | DC·Flag",
-    "#54 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.7Mbps | 38.64.138.135 | RES·Flag",
-    "#55 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.8Mbps | 38.128.66.32 | DC·Flag",
-    "#56 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑8.3Mbps | 67.220.73.204 | DC·Flag",
-    "#57 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑6.4Mbps | 107.175.54.116 | ?",
-    "#58 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓14.5 ↑6.5Mbps | 23.162.200.198 | ?",
-    "#59 🇺🇸 US | GlobalTeleHost AS63023 | ↓14.3 ↑14.2Mbps | 167.88.61.198 | DC·Clean",
-    "#60 🇺🇸 US | Alibaba Cloud AS45102 | ↓14.1 ↑19.8Mbps | 47.89.232.46 | DC·Clean",
-    "#61 🇺🇸 US | Datacamp AS212238 | ↓14.1 ↑8.3Mbps | 149.40.57.138 | DC·Flag",
-    "#62 🇺🇸 US | Datacamp AS212238 | ↓14.0 ↑8.0Mbps | 37.19.198.243 | DC·Flag",
-    "#63 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
-    "#64 🇺🇸 US | GTHost AS63023 | ↓13.9 ↑8.3Mbps | 45.86.51.144 | DC·Flag",
-    "#65 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.3Mbps | 172.111.38.72 | DC·Flag",
-    "#66 🇺🇸 US | Washington DC AS63023 | ↓13.8 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
-    "#67 🇺🇸 US | Datacamp AS212238 | ↓13.7 ↑8.3Mbps | 149.40.57.133 | DC·Flag",
-    "#68 🇺🇸 US | Datacamp AS212238 | ↓13.6 ↑8.0Mbps | 37.19.198.244 | DC·Flag",
-    "#69 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓13.5 ↑7.3Mbps | 107.175.54.116 | ?",
-    "#70 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.7Mbps | 185.215.132.134 | DC·Flag",
-    "#71 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑8.2Mbps | 134.195.196.211 | ?",
-    "#72 🇺🇸 US | Datacamp AS212238 | ↓13.3 ↑?Mbps | 37.19.198.236 | DC·Flag",
-    "#73 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑9.2Mbps | 67.220.73.167 | DC·Flag",
-    "#74 🇺🇸 US | PEG TECH AS54600 | ↓12.9 ↑0.8Mbps | 38.11.50.193 | RES·Flag",
-    "#75 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.6Mbps | 38.128.66.249 | DC·Flag",
-    "#76 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.1Mbps | 38.22.17.89 | RES·Flag",
-    "#77 🇺🇸 US | GTHost AS63023 | ↓12.7 ↑6.3Mbps | 38.107.226.5 | RES·Flag",
-    "#78 🇺🇸 US | Cogent Communications AS63023 | ↓12.6 ↑6.7Mbps | 38.22.17.139 | RES·Flag",
-    "#79 🇺🇸 US | Hetzner Online AS213230 | ↓12.6 ↑7.0Mbps | 178.156.194.168 | DC·Clean",
-    "#80 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.6Mbps | 167.88.63.39 | DC·Flag",
-    "#81 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.6 ↑1.2Mbps | 45.138.100.248 | RES·Flag",
-    "#82 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.2Mbps | 172.111.38.246 | DC·Flag",
-    "#83 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.3Mbps | 38.121.43.231 | RES·Flag",
-    "#84 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.1Mbps | 38.91.100.39 | DC·Flag",
-    "#85 🇺🇸 US | Cogent Communications AS63023 | ↓12.5 ↑6.5Mbps | 38.22.17.219 | RES·Flag",
-    "#86 🇺🇸 US | New Jersey AS63023 | ↓12.5 ↑7.3Mbps | 193.151.163.139 | DC·Flag",
-    "#87 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑6.4Mbps | 38.121.43.18 | RES·Flag",
-    "#88 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.1Mbps | 167.88.63.47 | DC·Flag",
-    "#89 🇺🇸 US | HostPapa AS36352 | ↓12.2 ↑5.5Mbps | 107.175.54.116 | ?",
-    "#90 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑7.9Mbps | 185.215.132.144 | DC·Flag",
-    "#91 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑6.6Mbps | 172.111.36.123 | DC·Clean",
-    "#92 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.6Mbps | 38.121.43.225 | RES·Flag",
-    "#93 🇺🇸 US | Clouvider AS62240 | ↓11.9 ↑6.1Mbps | 185.195.57.174 | DC·Flag",
-    "#94 🇺🇸 US | Cogent Communications AS63023 | ↓11.9 ↑6.6Mbps | 38.22.17.129 | RES·Flag",
-    "#95 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑6.0Mbps | 167.88.63.99 | DC·Flag",
-    "#96 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
-    "#97 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.5Mbps | 193.151.160.131 | DC·Clean",
-    "#98 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 172.111.36.253 | DC·Clean",
-    "#99 🇺🇸 US | Cogent Communications AS63023 | ↓11.8 ↑6.2Mbps | 38.22.17.64 | RES·Flag",
-    "#100 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-    "#101 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 172.111.36.137 | DC·Flag",
-    "#102 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 193.151.160.141 | DC·Flag",
-    "#103 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑6.8Mbps | 134.195.198.212 | DC·Flag",
-    "#104 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.0Mbps | 38.22.17.251 | RES·Flag",
-    "#105 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓11.6 ↑11.9Mbps | 179.254.94.184 | RES·Clean",
-    "#106 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 167.88.63.39 | DC·Flag",
-    "#107 🇺🇸 US | OVH AS16276 | ↓11.6 ↑8.2Mbps | 15.204.246.107 | DC·Flag",
-    "#108 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 38.91.100.69 | DC·Flag",
-    "#109 🇺🇸 US | Cogent Communications AS63023 | ↓11.6 ↑6.0Mbps | 38.22.17.197 | RES·Flag",
-    "#110 🇺🇸 US | Oracle AS31898 | ↓11.5 ↑8.2Mbps | 129.146.200.49 | DC·Clean",
-    "#111 🇨🇦 CA | iWeb Technologies AS32613 | ↓11.5 ↑7.6Mbps | 184.107.106.78 | ?",
-    "#112 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑6.0Mbps | 172.111.36.123 | DC·Clean",
-    "#113 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑5.7Mbps | 142.202.48.87 | DC·Flag",
-    "#114 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑5.5Mbps | 38.91.100.16 | DC·Flag",
-    "#115 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-    "#116 🇺🇸 US | GTHost AS63023 | ↓11.2 ↑6.7Mbps | 172.111.36.126 | DC·Clean",
-    "#117 🇺🇸 US | Digital Ocean AS14061 | ↓11.2 ↑7.0Mbps | 206.189.229.48 | ?",
-    "#118 🇨🇦 CA | OVHcloud AS16276 | ↓11.1 ↑6.5Mbps | 192.99.151.230 | ?",
-    "#119 🇺🇸 US | GTHost AS63023 | ↓11.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
-    "#120 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑5.9Mbps | 185.195.57.177 | DC·Flag",
-    "#121 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑6.6Mbps | 162.120.69.88 | RES·Flag",
-    "#122 🇺🇸 US | GTHost AS63023 | ↓11.0 ↑7.0Mbps | 67.220.85.46 | ?",
-    "#123 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑6.4Mbps | 169.197.140.247 | DC·Flag",
-    "#124 🇺🇸 US | Clouvider AS62240 | ↓10.9 ↑5.7Mbps | 45.144.112.54 | DC·Flag",
-    "#125 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑5.6Mbps | 38.91.107.188 | DC·Flag",
-    "#126 🇨🇦 CA | OVH AS16276 | ↓10.8 ↑5.7Mbps | 51.222.12.127 | DC·Flag",
-    "#127 🇨🇦 CA | Regxa Company for AS215311 | ↓10.8 ↑6.2Mbps | 209.200.246.148 | DC·Flag",
-    "#128 🇺🇸 US | Clouvider AS62240 | ↓10.7 ↑5.4Mbps | 162.120.69.84 | RES·Flag",
-    "#129 🇺🇸 US | GTHost AS63023 | ↓10.6 ↑15.9Mbps | 23.150.152.38 | RES·Flag",
-    "#130 🇺🇸 US | Clouvider AS62240 | ↓10.6 ↑5.4Mbps | 185.195.57.168 | DC·Flag",
-    "#131 🇺🇸 US | Datacamp AS212238 | ↓10.3 ↑8.4Mbps | 149.40.57.134 | DC·Flag",
-    "#132 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.0Mbps | 162.251.62.42 | DC·Flag",
-    "#133 🇺🇸 US | Clouvider AS62240 | ↓10.3 ↑5.2Mbps | 45.144.112.55 | DC·Flag",
-    "#134 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑1.8Mbps | 66.163.125.120 | RES·Flag",
-    "#135 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.6Mbps | 162.251.62.31 | DC·Flag",
-    "#136 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.3Mbps | 162.251.62.31 | DC·Flag",
-    "#137 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.7Mbps | 67.220.74.197 | DC·Flag",
-    "#138 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.1Mbps | 38.91.107.188 | DC·Flag",
-    "#139 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.0Mbps | 162.251.62.35 | DC·Flag",
-    "#140 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑4.9Mbps | 162.251.62.44 | DC·Flag",
-    "#141 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 67.220.74.188 | DC·Flag",
-    "#142 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.7Mbps | 216.106.182.225 | RES·Flag",
-    "#143 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 66.163.125.51 | RES·Flag",
-    "#144 🇺🇸 US | GTHost AS63023 | ↓10.0 ↑5.7Mbps | 38.91.107.19 | DC·Flag",
-    "#145 🇺🇸 US | OVH AS16276 | ↓10.0 ↑8.3Mbps | 15.204.246.111 | DC·Flag",
-    "#146 🇺🇸 US | GTHost AS63023 | ↓9.9 ↑5.7Mbps | 38.110.1.246 | ?",
-    "#147 🇺🇸 US | Clouvider AS62240 | ↓9.8 ↑5.7Mbps | 45.144.112.55 | DC·Flag",
-    "#148 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.4Mbps | 38.91.107.84 | DC·Flag",
-    "#149 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.8Mbps | 172.111.36.147 | DC·Clean",
-    "#150 🇨🇦 CA | OVH AS16276 | ↓9.5 ↑5.5Mbps | 51.222.136.236 | DC·Flag",
+    "#1 🇺🇸 US | GTHost AS63023 | ↓76.6 ↑48.2Mbps | 38.143.66.146 | RES·Flag",
+    "#2 🇺🇸 US | OVH AS16276 | ↓63.0 ↑19.8Mbps | 15.204.97.197 | DC·Flag",
+    "#3 🇺🇸 US | OVH AS16276 | ↓59.5 ↑41.4Mbps | 15.204.97.219 | DC·Flag",
+    "#4 🇺🇸 US | OVH AS16276 | ↓47.2 ↑41.4Mbps | 15.204.97.198 | DC·Flag",
+    "#5 🇨🇦 CA | Datacamp AS212238 | ↓45.8 ↑46.7Mbps | 149.22.95.183 | DC·Flag",
+    "#6 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓44.7 ↑58.7Mbps | 45.76.115.243 | DC·Clean",
+    "#7 🇺🇸 US | OVH AS16276 | ↓42.9 ↑14.3Mbps | 15.204.97.206 | DC·Flag",
+    "#8 🇺🇸 US | OVH AS16276 | ↓42.3 ↑27.5Mbps | 15.204.97.214 | DC·Flag",
+    "#9 🇺🇸 US | OVH AS16276 | ↓40.9 ↑35.1Mbps | 15.204.97.195 | DC·Flag",
+    "#10 🇺🇸 US | OVH AS16276 | ↓39.3 ↑39.4Mbps | 15.204.97.209 | DC·Flag",
+    "#11 🇺🇸 US | Alibaba Cloud AS45102 | ↓29.0 ↑24.2Mbps | 47.89.232.46 | DC·Clean",
+    "#12 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.9 ↑16.6Mbps | 167.88.61.20 | DC·Flag",
+    "#13 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.8 ↑15.4Mbps | 167.88.61.85 | DC·Clean",
+    "#14 🇺🇸 US | DigitalOcean AS14061 | ↓27.1 ↑16.9Mbps | 137.184.89.151 | DC·Flag",
+    "#15 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.9 ↑15.0Mbps | 167.88.61.159 | DC·Flag",
+    "#16 🇺🇸 US | GTHost AS63023 | ↓26.2 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
+    "#17 🇺🇸 US | OVH AS16276 | ↓25.1 ↑40.1Mbps | 15.204.97.216 | DC·Flag",
+    "#18 🇺🇸 US | GTT Americ AS48529 | ↓24.8 ↑18.7Mbps | 69.17.3.150 | RES·Flag",
+    "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.7 ↑16.4Mbps | 167.88.61.193 | DC·Flag",
+    "#20 🇺🇸 US | GTHost AS63023 | ↓24.7 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
+    "#21 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.5 ↑8.3Mbps | 167.88.61.52 | DC·Clean",
+    "#22 🇺🇸 US | GTHost AS63023 | ↓24.1 ↑7.0Mbps | 23.150.152.65 | RES·Flag",
+    "#23 🇺🇸 US | GTHost AS63023 | ↓23.4 ↑10.9Mbps | 23.150.152.38 | RES·Flag",
+    "#24 🇺🇸 US | NetLab Global AS979 | ↓23.3 ↑9.9Mbps | 154.12.49.239 | RES·Clean",
+    "#25 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓23.2 ↑18.7Mbps | 179.254.94.184 | RES·Clean",
+    "#26 🇺🇸 US | OVH AS16276 | ↓22.9 ↑16.1Mbps | 15.204.97.206 | DC·Flag",
+    "#27 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.7 ↑16.7Mbps | 167.88.61.198 | DC·Clean",
+    "#28 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓22.1 ↑13.1Mbps | 66.163.113.3 | DC·Clean",
+    "#29 🇺🇸 US | The Constant AS20473 | ↓22.1 ↑12.9Mbps | 45.76.172.197 | DC·Flag",
+    "#30 🇺🇸 US | GTHost AS63023 | ↓21.9 ↑13.1Mbps | 95.215.201.143 | DC·Clean",
+    "#31 🇺🇸 US | The Constant AS20473 | ↓21.2 ↑10.8Mbps | 45.63.53.81 | DC·Flag",
+    "#32 🇺🇸 US | Akamai Technologies AS63949 | ↓21.2 ↑11.8Mbps | 172.236.227.60 | DC·Clean",
+    "#33 🇺🇸 US | Akamai Technologies AS63949 | ↓20.8 ↑12.7Mbps | 172.239.67.142 | DC·Clean",
+    "#34 🇺🇸 US | Cogent Communications AS197196 | ↓20.7 ↑9.0Mbps | 38.244.5.231 | RES·Clean",
+    "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓20.5 ↑12.7Mbps | 172.236.231.45 | DC·Clean",
+    "#36 🇺🇸 US | Uscloud AS402169 | ↓19.7 ↑15.7Mbps | 186.241.113.196 | DC·Clean",
+    "#37 🇺🇸 US | Catixs AS213169 | ↓19.0 ↑11.5Mbps | 156.229.167.109 | DC·Clean",
+    "#38 🇺🇸 US | GSL Networks AS137409 | ↓18.8 ↑10.1Mbps | 173.244.56.6 | DC·Flag",
+    "#39 🇺🇸 US | GSL Networks AS137409 | ↓18.4 ↑11.2Mbps | 173.244.56.9 | DC·Flag",
+    "#40 🇺🇸 US | HostPapa AS36352 | ↓18.0 ↑9.7Mbps | 107.175.54.116 | ?",
+    "#41 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓17.6 ↑17.2Mbps | 45.76.115.243 | DC·Clean",
+    "#42 🇺🇸 US | Datacamp AS60068 | ↓17.5 ↑10.2Mbps | 156.146.38.168 | DC·Flag",
+    "#43 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
+    "#44 🇺🇸 US | GTHost AS63023 | ↓17.0 ↑9.6Mbps | 38.64.138.135 | RES·Flag",
+    "#45 🇺🇸 US | GTHost AS63023 | ↓16.6 ↑10.1Mbps | 67.220.73.178 | DC·Flag",
+    "#46 🇺🇸 US | Oracle AS31898 | ↓16.5 ↑8.3Mbps | 129.146.77.248 | DC·Flag",
+    "#47 🇺🇸 US | GTHost AS63023 | ↓16.4 ↑6.7Mbps | 216.152.155.158 | DC·Flag",
+    "#48 🇺🇸 US | Akamai Technologies AS63949 | ↓16.4 ↑9.2Mbps | 172.236.233.130 | DC·Clean",
+    "#49 🇺🇸 US | GTHost AS63023 | ↓16.2 ↑8.9Mbps | 216.152.155.176 | DC·Flag",
+    "#50 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.249 | DC·Flag",
+    "#51 🇺🇸 US | HostPapa AS36352 | ↓16.1 ↑10.7Mbps | 107.175.54.116 | ?",
+    "#52 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.9Mbps | 38.64.138.135 | RES·Flag",
+    "#53 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.212 | DC·Flag",
+    "#54 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.9Mbps | 162.251.61.46 | DC·Flag",
+    "#55 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
+    "#56 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑9.0Mbps | 216.106.178.169 | RES·Flag",
+    "#57 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑2.5Mbps | 216.152.155.63 | DC·Flag",
+    "#58 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.1Mbps | 38.128.66.32 | DC·Flag",
+    "#59 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑8.0Mbps | 38.128.66.241 | DC·Flag",
+    "#60 🇺🇸 US | Datacamp AS60068 | ↓15.1 ↑9.1Mbps | 156.146.38.170 | DC·Flag",
+    "#61 🇺🇸 US | GTHost AS63023 | ↓15.1 ↑9.2Mbps | 216.152.155.59 | DC·Flag",
+    "#62 🇺🇸 US | Multacom AS35916 | ↓14.9 ↑9.6Mbps | 148.135.86.162 | RES·Clean",
+    "#63 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.9Mbps | 107.175.54.116 | ?",
+    "#64 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.2Mbps | 107.175.54.116 | ?",
+    "#65 🇺🇸 US | GTHost AS63023 | ↓14.8 ↑9.8Mbps | 67.220.73.167 | DC·Flag",
+    "#66 🇺🇸 US | HostPapa AS36352 | ↓14.7 ↑10.8Mbps | 107.175.54.116 | ?",
+    "#67 🇺🇸 US | Datacamp AS212238 | ↓14.6 ↑8.6Mbps | 149.40.57.138 | DC·Flag",
+    "#68 🇺🇸 US | Datacamp AS212238 | ↓14.5 ↑8.6Mbps | 149.40.57.135 | DC·Flag",
+    "#69 🇺🇸 US | GTHost AS63023 | ↓14.5 ↑5.3Mbps | 216.152.155.50 | DC·Flag",
+    "#70 🇺🇸 US | Washington DC AS63023 | ↓14.5 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
+    "#71 🇺🇸 US | GTHost AS63023 | ↓14.4 ↑8.4Mbps | 45.86.51.144 | DC·Flag",
+    "#72 🇺🇸 US | Datacamp AS212238 | ↓14.4 ↑8.6Mbps | 149.40.57.134 | DC·Flag",
+    "#73 🇺🇸 US | GTHost AS63023 | ↓14.3 ↑7.1Mbps | 172.111.38.72 | DC·Flag",
+    "#74 🇨🇦 CA → 🇦🇺 AU | The Constant AS20473 | ↓14.2 ↑8.6Mbps | 45.76.115.243 | DC·Clean",
+    "#75 🇺🇸 US | HostPapa AS36352 | ↓14.1 ↑10.1Mbps | 107.175.54.116 | ?",
+    "#76 🇺🇸 US | Dedicated.com AS63018 | ↓14.0 ↑?Mbps | 66.23.203.18 | DC·Flag",
+    "#77 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.243 | DC·Flag",
+    "#78 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
+    "#79 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.7Mbps | 170.101.101.211 | DC·Clean",
+    "#80 🇺🇸 US | Datacamp AS212238 | ↓13.8 ↑8.1Mbps | 37.19.198.244 | DC·Flag",
+    "#81 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑7.8Mbps | 170.101.101.131 | DC·Flag",
+    "#82 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑5.8Mbps | 170.101.101.207 | DC·Clean",
+    "#83 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.8Mbps | 170.101.101.237 | DC·Clean",
+    "#84 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑5.7Mbps | 66.163.122.30 | DC·Flag",
+    "#85 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑7.5Mbps | 66.163.122.25 | DC·Flag",
+    "#86 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑1.6Mbps | 66.163.122.30 | DC·Flag",
+    "#87 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑?Mbps | 66.163.122.30 | DC·Flag",
+    "#88 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑3.4Mbps | 67.220.95.49 | DC·Flag",
+    "#89 🇺🇸 US | OVH AS16276 | ↓13.4 ↑8.4Mbps | 40.160.86.43 | DC·Clean",
+    "#90 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑4.4Mbps | 216.152.147.85 | RES·Flag",
+    "#91 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓13.2 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+    "#92 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑7.2Mbps | 185.215.132.134 | DC·Flag",
+    "#93 🇺🇸 US | Datacamp AS212238 | ↓13.2 ↑8.7Mbps | 149.40.57.133 | DC·Flag",
+    "#94 🇺🇸 US | OVH AS16276 | ↓13.1 ↑0.3Mbps | 15.204.246.132 | DC·Flag",
+    "#95 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑2.0Mbps | 66.163.122.46 | DC·Flag",
+    "#96 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑8.3Mbps | 216.152.155.59 | DC·Flag",
+    "#97 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.0 ↑1.1Mbps | 216.152.147.152 | RES·Flag",
+    "#98 🇺🇸 US | Cogent Communications AS63023 | ↓12.9 ↑6.9Mbps | 38.22.17.219 | RES·Flag",
+    "#99 🇺🇸 US | GTHost AS63023 | ↓12.9 ↑7.3Mbps | 38.91.100.39 | DC·Flag",
+    "#100 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 172.111.36.123 | DC·Clean",
+    "#101 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 38.107.226.5 | RES·Flag",
+    "#102 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑6.5Mbps | 38.121.43.231 | RES·Flag",
+    "#103 🇺🇸 US | Wedeploy AS210699 | ↓12.8 ↑?Mbps | 200.102.179.179 | DC·Clean",
+    "#104 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.7Mbps | 38.22.17.214 | RES·Flag",
+    "#105 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.4Mbps | 38.22.17.89 | RES·Flag",
+    "#106 🇺🇸 US | OVH AS16276 | ↓12.8 ↑8.5Mbps | 135.148.42.13 | DC·Flag",
+    "#107 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑5.7Mbps | 38.22.17.129 | RES·Flag",
+    "#108 🇺🇸 US | Datacamp AS212238 | ↓12.7 ↑7.3Mbps | 37.19.198.236 | DC·Flag",
+    "#109 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑7.1Mbps | 38.22.17.139 | RES·Flag",
+    "#110 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.3Mbps | 172.111.36.126 | DC·Clean",
+    "#111 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.0Mbps | 216.152.156.242 | RES·Flag",
+    "#112 🇺🇸 US | New Jersey AS63023 | ↓12.6 ↑5.6Mbps | 193.151.163.139 | DC·Flag",
+    "#113 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.3Mbps | 38.121.43.18 | RES·Flag",
+    "#114 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑4.4Mbps | 216.152.156.242 | RES·Flag",
+    "#115 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.2Mbps | 167.88.63.39 | DC·Flag",
+    "#116 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑5.7Mbps | 172.111.38.246 | DC·Flag",
+    "#117 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.8Mbps | 172.111.36.253 | DC·Clean",
+    "#118 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
+    "#119 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.4Mbps | 15.204.246.111 | DC·Flag",
+    "#120 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑1.5Mbps | 216.152.156.242 | RES·Flag",
+    "#121 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.5Mbps | 15.204.233.41 | DC·Flag",
+    "#122 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑9.2Mbps | 216.152.155.176 | DC·Flag",
+    "#123 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 216.152.156.242 | RES·Flag",
+    "#124 🇺🇸 US | OVH AS16276 | ↓12.3 ↑2.8Mbps | 15.204.246.107 | DC·Flag",
+    "#125 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.3 ↑6.8Mbps | 185.95.231.156 | RES·Flag",
+    "#126 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 172.111.36.123 | DC·Clean",
+    "#127 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓12.3 ↑0.9Mbps | 216.152.147.74 | RES·Flag",
+    "#128 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓12.3 ↑7.3Mbps | 45.76.115.243 | DC·Clean",
+    "#129 🇨🇦 CA | Leaseweb Canada AS32613 | ↓12.2 ↑7.3Mbps | 184.107.106.77 | DC·Clean",
+    "#130 🇺🇸 US | Clouvider AS62240 | ↓12.2 ↑2.1Mbps | 162.120.69.84 | RES·Flag",
+    "#131 🇺🇸 US | Cogent Communications AS63023 | ↓12.2 ↑6.1Mbps | 38.22.17.251 | RES·Flag",
+    "#132 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑5.8Mbps | 38.91.100.16 | DC·Flag",
+    "#133 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑8.0Mbps | 185.215.132.144 | DC·Flag",
+    "#134 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.3Mbps | 142.202.48.87 | DC·Flag",
+    "#135 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
+    "#136 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.0Mbps | 193.151.160.141 | DC·Flag",
+    "#137 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.6Mbps | 170.101.101.211 | DC·Clean",
+    "#138 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.1 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+    "#139 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑2.0Mbps | 216.152.156.65 | RES·Flag",
+    "#140 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.5Mbps | 170.101.101.207 | DC·Clean",
+    "#141 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑8.0Mbps | 162.251.60.97 | DC·Flag",
+    "#142 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑7.1Mbps | 193.151.160.131 | DC·Clean",
+    "#143 🇺🇸 US | Clouvider AS62240 | ↓12.0 ↑5.4Mbps | 45.144.112.54 | DC·Flag",
+    "#144 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 66.163.122.46 | DC·Flag",
+    "#145 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 169.197.140.247 | DC·Flag",
+    "#146 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.6Mbps | 38.91.107.57 | DC·Flag",
+    "#147 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.8 ↑7.4Mbps | 134.195.198.212 | DC·Flag",
+    "#148 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑3.3Mbps | 216.152.147.48 | RES·Flag",
+    "#149 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.0Mbps | 172.111.36.137 | DC·Flag",
+    "#150 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.5Mbps | 38.22.17.64 | RES·Flag",
     "direct"
    ],
    "default": "⚡ auto"
@@ -189,179 +189,162 @@
    "type": "urltest",
    "tag": "⚡ auto",
    "outbounds": [
-    "#1 🇺🇸 US | Datacamp AS60068 | ↓60.1 ↑57.0Mbps | 84.17.41.2 | ?",
-    "#2 🇨🇦 CA | Datacamp AS212238 | ↓58.9 ↑49.1Mbps | 149.22.95.183 | DC·Flag",
-    "#3 🇺🇸 US | GTHost AS63023 | ↓58.6 ↑0.4Mbps | 38.143.66.146 | RES·Flag",
-    "#4 🇺🇸 US | OVH AS16276 | ↓54.8 ↑19.8Mbps | 15.204.97.198 | DC·Flag",
-    "#5 🇺🇸 US | OVH AS16276 | ↓54.5 ↑38.5Mbps | 15.204.97.197 | DC·Flag",
-    "#6 🇺🇸 US | OVH AS16276 | ↓53.9 ↑29.9Mbps | 15.204.97.216 | DC·Flag",
-    "#7 🇺🇸 US | OVH AS16276 | ↓53.7 ↑38.6Mbps | 15.204.97.195 | DC·Flag",
-    "#8 🇺🇸 US | OVH AS16276 | ↓52.6 ↑38.5Mbps | 15.204.97.209 | DC·Flag",
-    "#9 🇺🇸 US | OVH AS16276 | ↓50.4 ↑38.7Mbps | 15.204.97.214 | DC·Flag",
-    "#10 🇺🇸 US | OVH AS16276 | ↓46.1 ↑39.9Mbps | 15.204.97.206 | DC·Flag",
-    "#11 🇺🇸 US | OVH AS16276 | ↓45.5 ↑40.7Mbps | 15.204.97.219 | DC·Flag",
-    "#12 🇺🇸 US | DigitalOcean AS14061 | ↓31.2 ↑4.9Mbps | 137.184.89.151 | DC·Flag",
-    "#13 🇺🇸 US | Oracle AS31898 | ↓28.8 ↑10.2Mbps | 147.224.54.25 | DC·Clean",
-    "#14 🇺🇸 US | GTHost AS63023 | ↓27.4 ↑13.3Mbps | 169.197.142.68 | DC·Flag",
-    "#15 🇺🇸 US | GTHost AS63023 | ↓27.3 ↑15.0Mbps | 169.197.142.68 | DC·Flag",
-    "#16 🇺🇸 US | OVH AS16276 | ↓27.0 ↑33.0Mbps | 15.204.97.206 | DC·Flag",
-    "#17 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.0 ↑15.3Mbps | 167.88.61.20 | DC·Flag",
-    "#18 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.1 ↑12.8Mbps | 167.88.61.85 | DC·Clean",
-    "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓25.2 ↑15.3Mbps | 167.88.61.159 | DC·Flag",
-    "#20 🇺🇸 US | Oracle AS31898 | ↓24.8 ↑14.6Mbps | 147.224.54.25 | DC·Clean",
-    "#21 🇺🇸 US | GTHost AS63023 | ↓23.0 ↑12.7Mbps | 23.150.152.65 | RES·Flag",
-    "#22 🇺🇸 US | Akamai Technologies AS63949 | ↓22.9 ↑13.3Mbps | 172.235.49.52 | DC·Clean",
-    "#23 🇺🇸 US | Akamai Technologies AS63949 | ↓22.8 ↑11.1Mbps | 172.239.67.142 | DC·Clean",
-    "#24 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑15.5Mbps | 167.88.61.85 | DC·Clean",
-    "#25 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑14.4Mbps | 167.88.61.159 | DC·Flag",
-    "#26 🇺🇸 US | Akamai Technologies AS63949 | ↓22.4 ↑12.1Mbps | 172.236.233.130 | DC·Clean",
-    "#27 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑9.4Mbps | 45.63.53.81 | DC·Flag",
-    "#28 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑12.2Mbps | 45.32.70.42 | DC·Clean",
-    "#29 🇺🇸 US | Akamai Technologies AS63949 | ↓21.9 ↑13.1Mbps | 172.236.231.45 | DC·Clean",
-    "#30 🇺🇸 US | GTHost AS63023 | ↓21.5 ↑11.8Mbps | 95.215.201.143 | DC·Clean",
-    "#31 🇺🇸 US | GTT Americ AS48529 | ↓19.9 ↑17.9Mbps | 69.17.3.150 | RES·Flag",
-    "#32 🇺🇸 US | The Constant AS20473 | ↓19.7 ↑12.6Mbps | 45.76.172.197 | DC·Flag",
-    "#33 🇺🇸 US | GTHost AS63023 | ↓19.5 ↑6.0Mbps | 216.106.185.141 | DC·Flag",
-    "#34 🇺🇸 US | GTHost AS63023 | ↓19.2 ↑14.9Mbps | 169.197.142.22 | ?",
-    "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓18.8 ↑8.2Mbps | 172.236.227.60 | DC·Clean",
-    "#36 🇺🇸 US | NetLab Global AS979 | ↓18.0 ↑12.6Mbps | 154.12.49.239 | RES·Clean",
-    "#37 🇺🇸 US | GSL Networks AS137409 | ↓17.9 ↑10.0Mbps | 173.244.56.9 | DC·Flag",
-    "#38 🇺🇸 US | Datacamp AS60068 | ↓17.8 ↑8.4Mbps | 156.146.38.170 | DC·Flag",
-    "#39 🇺🇸 US | GSL Networks AS137409 | ↓17.5 ↑10.7Mbps | 173.244.56.6 | DC·Flag",
-    "#40 🇺🇸 US | NTT America AS2914 | ↓17.4 ↑14.1Mbps | 198.247.127.131 | RES·Clean",
-    "#41 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
-    "#42 🇺🇸 US | Oracle AS31898 | ↓17.3 ↑8.8Mbps | 129.146.77.248 | DC·Flag",
-    "#43 🇺🇸 US | GTHost AS63023 | ↓17.1 ↑8.0Mbps | 38.64.138.135 | RES·Flag",
-    "#44 🇺🇸 US | Datacamp AS60068 | ↓16.8 ↑7.9Mbps | 156.146.38.168 | DC·Flag",
-    "#45 🇺🇸 US | HostPapa AS36352 | ↓16.7 ↑6.1Mbps | 107.175.54.116 | ?",
-    "#46 🇺🇸 US | GTHost AS63023 | ↓16.3 ↑9.7Mbps | 216.106.185.141 | DC·Flag",
-    "#47 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.7Mbps | 38.128.66.241 | DC·Flag",
-    "#48 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑8.1Mbps | 216.106.178.169 | RES·Flag",
-    "#49 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑2.4Mbps | 38.128.66.212 | DC·Flag",
-    "#50 🇺🇸 US | HostPapa AS36352 | ↓15.7 ↑7.5Mbps | 107.175.54.116 | ?",
-    "#51 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
-    "#52 🇺🇸 US | GTHost AS63023 | ↓15.5 ↑7.7Mbps | 67.220.73.178 | DC·Flag",
-    "#53 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑7.8Mbps | 162.251.61.46 | DC·Flag",
-    "#54 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.7Mbps | 38.64.138.135 | RES·Flag",
-    "#55 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.8Mbps | 38.128.66.32 | DC·Flag",
-    "#56 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑8.3Mbps | 67.220.73.204 | DC·Flag",
-    "#57 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑6.4Mbps | 107.175.54.116 | ?",
-    "#58 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓14.5 ↑6.5Mbps | 23.162.200.198 | ?",
-    "#59 🇺🇸 US | GlobalTeleHost AS63023 | ↓14.3 ↑14.2Mbps | 167.88.61.198 | DC·Clean",
-    "#60 🇺🇸 US | Alibaba Cloud AS45102 | ↓14.1 ↑19.8Mbps | 47.89.232.46 | DC·Clean",
-    "#61 🇺🇸 US | Datacamp AS212238 | ↓14.1 ↑8.3Mbps | 149.40.57.138 | DC·Flag",
-    "#62 🇺🇸 US | Datacamp AS212238 | ↓14.0 ↑8.0Mbps | 37.19.198.243 | DC·Flag",
-    "#63 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
-    "#64 🇺🇸 US | GTHost AS63023 | ↓13.9 ↑8.3Mbps | 45.86.51.144 | DC·Flag",
-    "#65 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.3Mbps | 172.111.38.72 | DC·Flag",
-    "#66 🇺🇸 US | Washington DC AS63023 | ↓13.8 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
-    "#67 🇺🇸 US | Datacamp AS212238 | ↓13.7 ↑8.3Mbps | 149.40.57.133 | DC·Flag",
-    "#68 🇺🇸 US | Datacamp AS212238 | ↓13.6 ↑8.0Mbps | 37.19.198.244 | DC·Flag",
-    "#69 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓13.5 ↑7.3Mbps | 107.175.54.116 | ?",
-    "#70 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.7Mbps | 185.215.132.134 | DC·Flag",
-    "#71 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑8.2Mbps | 134.195.196.211 | ?",
-    "#72 🇺🇸 US | Datacamp AS212238 | ↓13.3 ↑?Mbps | 37.19.198.236 | DC·Flag",
-    "#73 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑9.2Mbps | 67.220.73.167 | DC·Flag",
-    "#74 🇺🇸 US | PEG TECH AS54600 | ↓12.9 ↑0.8Mbps | 38.11.50.193 | RES·Flag",
-    "#75 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.6Mbps | 38.128.66.249 | DC·Flag",
-    "#76 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.1Mbps | 38.22.17.89 | RES·Flag",
-    "#77 🇺🇸 US | GTHost AS63023 | ↓12.7 ↑6.3Mbps | 38.107.226.5 | RES·Flag",
-    "#78 🇺🇸 US | Cogent Communications AS63023 | ↓12.6 ↑6.7Mbps | 38.22.17.139 | RES·Flag",
-    "#79 🇺🇸 US | Hetzner Online AS213230 | ↓12.6 ↑7.0Mbps | 178.156.194.168 | DC·Clean",
-    "#80 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.6Mbps | 167.88.63.39 | DC·Flag",
-    "#81 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.6 ↑1.2Mbps | 45.138.100.248 | RES·Flag",
-    "#82 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.2Mbps | 172.111.38.246 | DC·Flag",
-    "#83 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.3Mbps | 38.121.43.231 | RES·Flag",
-    "#84 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.1Mbps | 38.91.100.39 | DC·Flag",
-    "#85 🇺🇸 US | Cogent Communications AS63023 | ↓12.5 ↑6.5Mbps | 38.22.17.219 | RES·Flag",
-    "#86 🇺🇸 US | New Jersey AS63023 | ↓12.5 ↑7.3Mbps | 193.151.163.139 | DC·Flag",
-    "#87 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑6.4Mbps | 38.121.43.18 | RES·Flag",
-    "#88 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.1Mbps | 167.88.63.47 | DC·Flag",
-    "#89 🇺🇸 US | HostPapa AS36352 | ↓12.2 ↑5.5Mbps | 107.175.54.116 | ?",
-    "#90 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑7.9Mbps | 185.215.132.144 | DC·Flag",
-    "#91 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑6.6Mbps | 172.111.36.123 | DC·Clean",
-    "#92 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.6Mbps | 38.121.43.225 | RES·Flag",
-    "#93 🇺🇸 US | Clouvider AS62240 | ↓11.9 ↑6.1Mbps | 185.195.57.174 | DC·Flag",
-    "#94 🇺🇸 US | Cogent Communications AS63023 | ↓11.9 ↑6.6Mbps | 38.22.17.129 | RES·Flag",
-    "#95 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑6.0Mbps | 167.88.63.99 | DC·Flag",
-    "#96 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
-    "#97 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.5Mbps | 193.151.160.131 | DC·Clean",
-    "#98 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 172.111.36.253 | DC·Clean",
-    "#99 🇺🇸 US | Cogent Communications AS63023 | ↓11.8 ↑6.2Mbps | 38.22.17.64 | RES·Flag",
-    "#100 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-    "#101 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 172.111.36.137 | DC·Flag",
-    "#102 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 193.151.160.141 | DC·Flag",
-    "#103 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑6.8Mbps | 134.195.198.212 | DC·Flag",
-    "#104 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.0Mbps | 38.22.17.251 | RES·Flag",
-    "#105 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓11.6 ↑11.9Mbps | 179.254.94.184 | RES·Clean",
-    "#106 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 167.88.63.39 | DC·Flag",
-    "#107 🇺🇸 US | OVH AS16276 | ↓11.6 ↑8.2Mbps | 15.204.246.107 | DC·Flag",
-    "#108 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 38.91.100.69 | DC·Flag",
-    "#109 🇺🇸 US | Cogent Communications AS63023 | ↓11.6 ↑6.0Mbps | 38.22.17.197 | RES·Flag",
-    "#110 🇺🇸 US | Oracle AS31898 | ↓11.5 ↑8.2Mbps | 129.146.200.49 | DC·Clean",
-    "#111 🇨🇦 CA | iWeb Technologies AS32613 | ↓11.5 ↑7.6Mbps | 184.107.106.78 | ?",
-    "#112 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑6.0Mbps | 172.111.36.123 | DC·Clean",
-    "#113 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑5.7Mbps | 142.202.48.87 | DC·Flag",
-    "#114 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑5.5Mbps | 38.91.100.16 | DC·Flag",
-    "#115 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-    "#116 🇺🇸 US | GTHost AS63023 | ↓11.2 ↑6.7Mbps | 172.111.36.126 | DC·Clean",
-    "#117 🇺🇸 US | Digital Ocean AS14061 | ↓11.2 ↑7.0Mbps | 206.189.229.48 | ?",
-    "#118 🇨🇦 CA | OVHcloud AS16276 | ↓11.1 ↑6.5Mbps | 192.99.151.230 | ?",
-    "#119 🇺🇸 US | GTHost AS63023 | ↓11.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
-    "#120 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑5.9Mbps | 185.195.57.177 | DC·Flag",
-    "#121 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑6.6Mbps | 162.120.69.88 | RES·Flag",
-    "#122 🇺🇸 US | GTHost AS63023 | ↓11.0 ↑7.0Mbps | 67.220.85.46 | ?",
-    "#123 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑6.4Mbps | 169.197.140.247 | DC·Flag",
-    "#124 🇺🇸 US | Clouvider AS62240 | ↓10.9 ↑5.7Mbps | 45.144.112.54 | DC·Flag",
-    "#125 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑5.6Mbps | 38.91.107.188 | DC·Flag",
-    "#126 🇨🇦 CA | OVH AS16276 | ↓10.8 ↑5.7Mbps | 51.222.12.127 | DC·Flag",
-    "#127 🇨🇦 CA | Regxa Company for AS215311 | ↓10.8 ↑6.2Mbps | 209.200.246.148 | DC·Flag",
-    "#128 🇺🇸 US | Clouvider AS62240 | ↓10.7 ↑5.4Mbps | 162.120.69.84 | RES·Flag",
-    "#129 🇺🇸 US | GTHost AS63023 | ↓10.6 ↑15.9Mbps | 23.150.152.38 | RES·Flag",
-    "#130 🇺🇸 US | Clouvider AS62240 | ↓10.6 ↑5.4Mbps | 185.195.57.168 | DC·Flag",
-    "#131 🇺🇸 US | Datacamp AS212238 | ↓10.3 ↑8.4Mbps | 149.40.57.134 | DC·Flag",
-    "#132 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.0Mbps | 162.251.62.42 | DC·Flag",
-    "#133 🇺🇸 US | Clouvider AS62240 | ↓10.3 ↑5.2Mbps | 45.144.112.55 | DC·Flag",
-    "#134 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑1.8Mbps | 66.163.125.120 | RES·Flag",
-    "#135 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.6Mbps | 162.251.62.31 | DC·Flag",
-    "#136 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.3Mbps | 162.251.62.31 | DC·Flag",
-    "#137 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.7Mbps | 67.220.74.197 | DC·Flag",
-    "#138 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.1Mbps | 38.91.107.188 | DC·Flag",
-    "#139 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.0Mbps | 162.251.62.35 | DC·Flag",
-    "#140 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑4.9Mbps | 162.251.62.44 | DC·Flag",
-    "#141 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 67.220.74.188 | DC·Flag",
-    "#142 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.7Mbps | 216.106.182.225 | RES·Flag",
-    "#143 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 66.163.125.51 | RES·Flag",
-    "#144 🇺🇸 US | GTHost AS63023 | ↓10.0 ↑5.7Mbps | 38.91.107.19 | DC·Flag",
-    "#145 🇺🇸 US | OVH AS16276 | ↓10.0 ↑8.3Mbps | 15.204.246.111 | DC·Flag",
-    "#146 🇺🇸 US | GTHost AS63023 | ↓9.9 ↑5.7Mbps | 38.110.1.246 | ?",
-    "#147 🇺🇸 US | Clouvider AS62240 | ↓9.8 ↑5.7Mbps | 45.144.112.55 | DC·Flag",
-    "#148 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.4Mbps | 38.91.107.84 | DC·Flag",
-    "#149 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.8Mbps | 172.111.36.147 | DC·Clean",
-    "#150 🇨🇦 CA | OVH AS16276 | ↓9.5 ↑5.5Mbps | 51.222.136.236 | DC·Flag"
+    "#1 🇺🇸 US | GTHost AS63023 | ↓76.6 ↑48.2Mbps | 38.143.66.146 | RES·Flag",
+    "#2 🇺🇸 US | OVH AS16276 | ↓63.0 ↑19.8Mbps | 15.204.97.197 | DC·Flag",
+    "#3 🇺🇸 US | OVH AS16276 | ↓59.5 ↑41.4Mbps | 15.204.97.219 | DC·Flag",
+    "#4 🇺🇸 US | OVH AS16276 | ↓47.2 ↑41.4Mbps | 15.204.97.198 | DC·Flag",
+    "#5 🇨🇦 CA | Datacamp AS212238 | ↓45.8 ↑46.7Mbps | 149.22.95.183 | DC·Flag",
+    "#6 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓44.7 ↑58.7Mbps | 45.76.115.243 | DC·Clean",
+    "#7 🇺🇸 US | OVH AS16276 | ↓42.9 ↑14.3Mbps | 15.204.97.206 | DC·Flag",
+    "#8 🇺🇸 US | OVH AS16276 | ↓42.3 ↑27.5Mbps | 15.204.97.214 | DC·Flag",
+    "#9 🇺🇸 US | OVH AS16276 | ↓40.9 ↑35.1Mbps | 15.204.97.195 | DC·Flag",
+    "#10 🇺🇸 US | OVH AS16276 | ↓39.3 ↑39.4Mbps | 15.204.97.209 | DC·Flag",
+    "#11 🇺🇸 US | Alibaba Cloud AS45102 | ↓29.0 ↑24.2Mbps | 47.89.232.46 | DC·Clean",
+    "#12 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.9 ↑16.6Mbps | 167.88.61.20 | DC·Flag",
+    "#13 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.8 ↑15.4Mbps | 167.88.61.85 | DC·Clean",
+    "#14 🇺🇸 US | DigitalOcean AS14061 | ↓27.1 ↑16.9Mbps | 137.184.89.151 | DC·Flag",
+    "#15 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.9 ↑15.0Mbps | 167.88.61.159 | DC·Flag",
+    "#16 🇺🇸 US | GTHost AS63023 | ↓26.2 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
+    "#17 🇺🇸 US | OVH AS16276 | ↓25.1 ↑40.1Mbps | 15.204.97.216 | DC·Flag",
+    "#18 🇺🇸 US | GTT Americ AS48529 | ↓24.8 ↑18.7Mbps | 69.17.3.150 | RES·Flag",
+    "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.7 ↑16.4Mbps | 167.88.61.193 | DC·Flag",
+    "#20 🇺🇸 US | GTHost AS63023 | ↓24.7 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
+    "#21 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.5 ↑8.3Mbps | 167.88.61.52 | DC·Clean",
+    "#22 🇺🇸 US | GTHost AS63023 | ↓24.1 ↑7.0Mbps | 23.150.152.65 | RES·Flag",
+    "#23 🇺🇸 US | GTHost AS63023 | ↓23.4 ↑10.9Mbps | 23.150.152.38 | RES·Flag",
+    "#24 🇺🇸 US | NetLab Global AS979 | ↓23.3 ↑9.9Mbps | 154.12.49.239 | RES·Clean",
+    "#25 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓23.2 ↑18.7Mbps | 179.254.94.184 | RES·Clean",
+    "#26 🇺🇸 US | OVH AS16276 | ↓22.9 ↑16.1Mbps | 15.204.97.206 | DC·Flag",
+    "#27 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.7 ↑16.7Mbps | 167.88.61.198 | DC·Clean",
+    "#28 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓22.1 ↑13.1Mbps | 66.163.113.3 | DC·Clean",
+    "#29 🇺🇸 US | The Constant AS20473 | ↓22.1 ↑12.9Mbps | 45.76.172.197 | DC·Flag",
+    "#30 🇺🇸 US | GTHost AS63023 | ↓21.9 ↑13.1Mbps | 95.215.201.143 | DC·Clean",
+    "#31 🇺🇸 US | The Constant AS20473 | ↓21.2 ↑10.8Mbps | 45.63.53.81 | DC·Flag",
+    "#32 🇺🇸 US | Akamai Technologies AS63949 | ↓21.2 ↑11.8Mbps | 172.236.227.60 | DC·Clean",
+    "#33 🇺🇸 US | Akamai Technologies AS63949 | ↓20.8 ↑12.7Mbps | 172.239.67.142 | DC·Clean",
+    "#34 🇺🇸 US | Cogent Communications AS197196 | ↓20.7 ↑9.0Mbps | 38.244.5.231 | RES·Clean",
+    "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓20.5 ↑12.7Mbps | 172.236.231.45 | DC·Clean",
+    "#36 🇺🇸 US | Uscloud AS402169 | ↓19.7 ↑15.7Mbps | 186.241.113.196 | DC·Clean",
+    "#37 🇺🇸 US | Catixs AS213169 | ↓19.0 ↑11.5Mbps | 156.229.167.109 | DC·Clean",
+    "#38 🇺🇸 US | GSL Networks AS137409 | ↓18.8 ↑10.1Mbps | 173.244.56.6 | DC·Flag",
+    "#39 🇺🇸 US | GSL Networks AS137409 | ↓18.4 ↑11.2Mbps | 173.244.56.9 | DC·Flag",
+    "#40 🇺🇸 US | HostPapa AS36352 | ↓18.0 ↑9.7Mbps | 107.175.54.116 | ?",
+    "#41 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓17.6 ↑17.2Mbps | 45.76.115.243 | DC·Clean",
+    "#42 🇺🇸 US | Datacamp AS60068 | ↓17.5 ↑10.2Mbps | 156.146.38.168 | DC·Flag",
+    "#43 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
+    "#44 🇺🇸 US | GTHost AS63023 | ↓17.0 ↑9.6Mbps | 38.64.138.135 | RES·Flag",
+    "#45 🇺🇸 US | GTHost AS63023 | ↓16.6 ↑10.1Mbps | 67.220.73.178 | DC·Flag",
+    "#46 🇺🇸 US | Oracle AS31898 | ↓16.5 ↑8.3Mbps | 129.146.77.248 | DC·Flag",
+    "#47 🇺🇸 US | GTHost AS63023 | ↓16.4 ↑6.7Mbps | 216.152.155.158 | DC·Flag",
+    "#48 🇺🇸 US | Akamai Technologies AS63949 | ↓16.4 ↑9.2Mbps | 172.236.233.130 | DC·Clean",
+    "#49 🇺🇸 US | GTHost AS63023 | ↓16.2 ↑8.9Mbps | 216.152.155.176 | DC·Flag",
+    "#50 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.249 | DC·Flag",
+    "#51 🇺🇸 US | HostPapa AS36352 | ↓16.1 ↑10.7Mbps | 107.175.54.116 | ?",
+    "#52 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.9Mbps | 38.64.138.135 | RES·Flag",
+    "#53 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.212 | DC·Flag",
+    "#54 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.9Mbps | 162.251.61.46 | DC·Flag",
+    "#55 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
+    "#56 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑9.0Mbps | 216.106.178.169 | RES·Flag",
+    "#57 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑2.5Mbps | 216.152.155.63 | DC·Flag",
+    "#58 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.1Mbps | 38.128.66.32 | DC·Flag",
+    "#59 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑8.0Mbps | 38.128.66.241 | DC·Flag",
+    "#60 🇺🇸 US | Datacamp AS60068 | ↓15.1 ↑9.1Mbps | 156.146.38.170 | DC·Flag",
+    "#61 🇺🇸 US | GTHost AS63023 | ↓15.1 ↑9.2Mbps | 216.152.155.59 | DC·Flag",
+    "#62 🇺🇸 US | Multacom AS35916 | ↓14.9 ↑9.6Mbps | 148.135.86.162 | RES·Clean",
+    "#63 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.9Mbps | 107.175.54.116 | ?",
+    "#64 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.2Mbps | 107.175.54.116 | ?",
+    "#65 🇺🇸 US | GTHost AS63023 | ↓14.8 ↑9.8Mbps | 67.220.73.167 | DC·Flag",
+    "#66 🇺🇸 US | HostPapa AS36352 | ↓14.7 ↑10.8Mbps | 107.175.54.116 | ?",
+    "#67 🇺🇸 US | Datacamp AS212238 | ↓14.6 ↑8.6Mbps | 149.40.57.138 | DC·Flag",
+    "#68 🇺🇸 US | Datacamp AS212238 | ↓14.5 ↑8.6Mbps | 149.40.57.135 | DC·Flag",
+    "#69 🇺🇸 US | GTHost AS63023 | ↓14.5 ↑5.3Mbps | 216.152.155.50 | DC·Flag",
+    "#70 🇺🇸 US | Washington DC AS63023 | ↓14.5 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
+    "#71 🇺🇸 US | GTHost AS63023 | ↓14.4 ↑8.4Mbps | 45.86.51.144 | DC·Flag",
+    "#72 🇺🇸 US | Datacamp AS212238 | ↓14.4 ↑8.6Mbps | 149.40.57.134 | DC·Flag",
+    "#73 🇺🇸 US | GTHost AS63023 | ↓14.3 ↑7.1Mbps | 172.111.38.72 | DC·Flag",
+    "#74 🇨🇦 CA → 🇦🇺 AU | The Constant AS20473 | ↓14.2 ↑8.6Mbps | 45.76.115.243 | DC·Clean",
+    "#75 🇺🇸 US | HostPapa AS36352 | ↓14.1 ↑10.1Mbps | 107.175.54.116 | ?",
+    "#76 🇺🇸 US | Dedicated.com AS63018 | ↓14.0 ↑?Mbps | 66.23.203.18 | DC·Flag",
+    "#77 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.243 | DC·Flag",
+    "#78 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
+    "#79 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.7Mbps | 170.101.101.211 | DC·Clean",
+    "#80 🇺🇸 US | Datacamp AS212238 | ↓13.8 ↑8.1Mbps | 37.19.198.244 | DC·Flag",
+    "#81 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑7.8Mbps | 170.101.101.131 | DC·Flag",
+    "#82 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑5.8Mbps | 170.101.101.207 | DC·Clean",
+    "#83 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.8Mbps | 170.101.101.237 | DC·Clean",
+    "#84 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑5.7Mbps | 66.163.122.30 | DC·Flag",
+    "#85 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑7.5Mbps | 66.163.122.25 | DC·Flag",
+    "#86 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑1.6Mbps | 66.163.122.30 | DC·Flag",
+    "#87 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑?Mbps | 66.163.122.30 | DC·Flag",
+    "#88 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑3.4Mbps | 67.220.95.49 | DC·Flag",
+    "#89 🇺🇸 US | OVH AS16276 | ↓13.4 ↑8.4Mbps | 40.160.86.43 | DC·Clean",
+    "#90 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑4.4Mbps | 216.152.147.85 | RES·Flag",
+    "#91 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓13.2 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+    "#92 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑7.2Mbps | 185.215.132.134 | DC·Flag",
+    "#93 🇺🇸 US | Datacamp AS212238 | ↓13.2 ↑8.7Mbps | 149.40.57.133 | DC·Flag",
+    "#94 🇺🇸 US | OVH AS16276 | ↓13.1 ↑0.3Mbps | 15.204.246.132 | DC·Flag",
+    "#95 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑2.0Mbps | 66.163.122.46 | DC·Flag",
+    "#96 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑8.3Mbps | 216.152.155.59 | DC·Flag",
+    "#97 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.0 ↑1.1Mbps | 216.152.147.152 | RES·Flag",
+    "#98 🇺🇸 US | Cogent Communications AS63023 | ↓12.9 ↑6.9Mbps | 38.22.17.219 | RES·Flag",
+    "#99 🇺🇸 US | GTHost AS63023 | ↓12.9 ↑7.3Mbps | 38.91.100.39 | DC·Flag",
+    "#100 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 172.111.36.123 | DC·Clean",
+    "#101 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 38.107.226.5 | RES·Flag",
+    "#102 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑6.5Mbps | 38.121.43.231 | RES·Flag",
+    "#103 🇺🇸 US | Wedeploy AS210699 | ↓12.8 ↑?Mbps | 200.102.179.179 | DC·Clean",
+    "#104 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.7Mbps | 38.22.17.214 | RES·Flag",
+    "#105 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.4Mbps | 38.22.17.89 | RES·Flag",
+    "#106 🇺🇸 US | OVH AS16276 | ↓12.8 ↑8.5Mbps | 135.148.42.13 | DC·Flag",
+    "#107 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑5.7Mbps | 38.22.17.129 | RES·Flag",
+    "#108 🇺🇸 US | Datacamp AS212238 | ↓12.7 ↑7.3Mbps | 37.19.198.236 | DC·Flag",
+    "#109 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑7.1Mbps | 38.22.17.139 | RES·Flag",
+    "#110 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.3Mbps | 172.111.36.126 | DC·Clean",
+    "#111 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.0Mbps | 216.152.156.242 | RES·Flag",
+    "#112 🇺🇸 US | New Jersey AS63023 | ↓12.6 ↑5.6Mbps | 193.151.163.139 | DC·Flag",
+    "#113 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.3Mbps | 38.121.43.18 | RES·Flag",
+    "#114 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑4.4Mbps | 216.152.156.242 | RES·Flag",
+    "#115 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.2Mbps | 167.88.63.39 | DC·Flag",
+    "#116 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑5.7Mbps | 172.111.38.246 | DC·Flag",
+    "#117 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.8Mbps | 172.111.36.253 | DC·Clean",
+    "#118 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
+    "#119 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.4Mbps | 15.204.246.111 | DC·Flag",
+    "#120 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑1.5Mbps | 216.152.156.242 | RES·Flag",
+    "#121 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.5Mbps | 15.204.233.41 | DC·Flag",
+    "#122 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑9.2Mbps | 216.152.155.176 | DC·Flag",
+    "#123 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 216.152.156.242 | RES·Flag",
+    "#124 🇺🇸 US | OVH AS16276 | ↓12.3 ↑2.8Mbps | 15.204.246.107 | DC·Flag",
+    "#125 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.3 ↑6.8Mbps | 185.95.231.156 | RES·Flag",
+    "#126 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 172.111.36.123 | DC·Clean",
+    "#127 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓12.3 ↑0.9Mbps | 216.152.147.74 | RES·Flag",
+    "#128 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓12.3 ↑7.3Mbps | 45.76.115.243 | DC·Clean",
+    "#129 🇨🇦 CA | Leaseweb Canada AS32613 | ↓12.2 ↑7.3Mbps | 184.107.106.77 | DC·Clean",
+    "#130 🇺🇸 US | Clouvider AS62240 | ↓12.2 ↑2.1Mbps | 162.120.69.84 | RES·Flag",
+    "#131 🇺🇸 US | Cogent Communications AS63023 | ↓12.2 ↑6.1Mbps | 38.22.17.251 | RES·Flag",
+    "#132 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑5.8Mbps | 38.91.100.16 | DC·Flag",
+    "#133 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑8.0Mbps | 185.215.132.144 | DC·Flag",
+    "#134 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.3Mbps | 142.202.48.87 | DC·Flag",
+    "#135 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
+    "#136 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.0Mbps | 193.151.160.141 | DC·Flag",
+    "#137 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.6Mbps | 170.101.101.211 | DC·Clean",
+    "#138 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.1 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+    "#139 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑2.0Mbps | 216.152.156.65 | RES·Flag",
+    "#140 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.5Mbps | 170.101.101.207 | DC·Clean",
+    "#141 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑8.0Mbps | 162.251.60.97 | DC·Flag",
+    "#142 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑7.1Mbps | 193.151.160.131 | DC·Clean",
+    "#143 🇺🇸 US | Clouvider AS62240 | ↓12.0 ↑5.4Mbps | 45.144.112.54 | DC·Flag",
+    "#144 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 66.163.122.46 | DC·Flag",
+    "#145 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 169.197.140.247 | DC·Flag",
+    "#146 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.6Mbps | 38.91.107.57 | DC·Flag",
+    "#147 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.8 ↑7.4Mbps | 134.195.198.212 | DC·Flag",
+    "#148 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑3.3Mbps | 216.152.147.48 | RES·Flag",
+    "#149 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.0Mbps | 172.111.36.137 | DC·Flag",
+    "#150 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.5Mbps | 38.22.17.64 | RES·Flag"
    ],
    "url": "https://www.gstatic.com/generate_204",
    "interval": "10m"
   },
   {
-   "tag": "#1 🇺🇸 US | Datacamp AS60068 | ↓60.1 ↑57.0Mbps | 84.17.41.2 | ?",
-   "server": "84.17.41.2",
-   "server_port": 18000,
-   "type": "vmess",
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0
-  },
-  {
-   "tag": "#2 🇨🇦 CA | Datacamp AS212238 | ↓58.9 ↑49.1Mbps | 149.22.95.183 | DC·Flag",
-   "server": "149.22.95.183",
-   "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#3 🇺🇸 US | GTHost AS63023 | ↓58.6 ↑0.4Mbps | 38.143.66.146 | RES·Flag",
+   "tag": "#1 🇺🇸 US | GTHost AS63023 | ↓76.6 ↑48.2Mbps | 38.143.66.146 | RES·Flag",
    "server": "38.143.66.146",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -369,29 +352,7 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#4 🇺🇸 US | OVH AS16276 | ↓54.8 ↑19.8Mbps | 15.204.97.198 | DC·Flag",
-   "server": "15.204.97.198",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#5 🇺🇸 US | OVH AS16276 | ↓54.5 ↑38.5Mbps | 15.204.97.197 | DC·Flag",
+   "tag": "#2 🇺🇸 US | OVH AS16276 | ↓63.0 ↑19.8Mbps | 15.204.97.197 | DC·Flag",
    "server": "15.204.97.197",
    "server_port": 23576,
    "type": "vless",
@@ -413,117 +374,7 @@
    }
   },
   {
-   "tag": "#6 🇺🇸 US | OVH AS16276 | ↓53.9 ↑29.9Mbps | 15.204.97.216 | DC·Flag",
-   "server": "15.204.97.216",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#7 🇺🇸 US | OVH AS16276 | ↓53.7 ↑38.6Mbps | 15.204.97.195 | DC·Flag",
-   "server": "15.204.97.195",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#8 🇺🇸 US | OVH AS16276 | ↓52.6 ↑38.5Mbps | 15.204.97.209 | DC·Flag",
-   "server": "15.204.97.209",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#9 🇺🇸 US | OVH AS16276 | ↓50.4 ↑38.7Mbps | 15.204.97.214 | DC·Flag",
-   "server": "15.204.97.214",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#10 🇺🇸 US | OVH AS16276 | ↓46.1 ↑39.9Mbps | 15.204.97.206 | DC·Flag",
-   "server": "15.204.97.206",
-   "server_port": 23576,
-   "type": "vless",
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "tag": "#11 🇺🇸 US | OVH AS16276 | ↓45.5 ↑40.7Mbps | 15.204.97.219 | DC·Flag",
+   "tag": "#3 🇺🇸 US | OVH AS16276 | ↓59.5 ↑41.4Mbps | 15.204.97.219 | DC·Flag",
    "server": "15.204.97.219",
    "server_port": 23576,
    "type": "vless",
@@ -545,7 +396,173 @@
    }
   },
   {
-   "tag": "#12 🇺🇸 US | DigitalOcean AS14061 | ↓31.2 ↑4.9Mbps | 137.184.89.151 | DC·Flag",
+   "tag": "#4 🇺🇸 US | OVH AS16276 | ↓47.2 ↑41.4Mbps | 15.204.97.198 | DC·Flag",
+   "server": "15.204.97.198",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#5 🇨🇦 CA | Datacamp AS212238 | ↓45.8 ↑46.7Mbps | 149.22.95.183 | DC·Flag",
+   "server": "149.22.95.183",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#6 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓44.7 ↑58.7Mbps | 45.76.115.243 | DC·Clean",
+   "server": "84.17.41.2",
+   "server_port": 18000,
+   "type": "vmess",
+   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+   "security": "auto",
+   "alter_id": 0
+  },
+  {
+   "tag": "#7 🇺🇸 US | OVH AS16276 | ↓42.9 ↑14.3Mbps | 15.204.97.206 | DC·Flag",
+   "server": "15.204.97.206",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#8 🇺🇸 US | OVH AS16276 | ↓42.3 ↑27.5Mbps | 15.204.97.214 | DC·Flag",
+   "server": "15.204.97.214",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#9 🇺🇸 US | OVH AS16276 | ↓40.9 ↑35.1Mbps | 15.204.97.195 | DC·Flag",
+   "server": "15.204.97.195",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#10 🇺🇸 US | OVH AS16276 | ↓39.3 ↑39.4Mbps | 15.204.97.209 | DC·Flag",
+   "server": "15.204.97.209",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#11 🇺🇸 US | Alibaba Cloud AS45102 | ↓29.0 ↑24.2Mbps | 47.89.232.46 | DC·Clean",
+   "server": "47.89.232.46",
+   "server_port": 8443,
+   "type": "hysteria2",
+   "password": "4afd4e1b1b0edd429b10d800a1cf64a7",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "hysteria2.local",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "tag": "#12 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.9 ↑16.6Mbps | 167.88.61.20 | DC·Flag",
+   "server": "167.88.61.175",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "blog.browseseniorrolesandenhanceyourcareertoday.com"
+   }
+  },
+  {
+   "tag": "#13 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.8 ↑15.4Mbps | 167.88.61.85 | DC·Clean",
+   "server": "167.88.61.193",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "browseseniorrolesandenhanceyourcareertoday.com"
+   }
+  },
+  {
+   "tag": "#14 🇺🇸 US | DigitalOcean AS14061 | ↓27.1 ↑16.9Mbps | 137.184.89.151 | DC·Flag",
    "server": "137.184.89.151",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -553,28 +570,19 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#13 🇺🇸 US | Oracle AS31898 | ↓28.8 ↑10.2Mbps | 147.224.54.25 | DC·Clean",
-   "server": "147.224.54.25",
-   "server_port": 2053,
-   "type": "vless",
-   "uuid": "cdb7fa1d-6e7a-467c-da9c-da363c7bf779",
+   "tag": "#15 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.9 ↑15.0Mbps | 167.88.61.159 | DC·Flag",
+   "server": "167.88.61.198",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "DEFJSLdILrvauMpwtpvFZddadpt3rNtv03Dui2EkmRk",
-     "short_id": "68"
-    }
+    "server_name": "cdn.browseseniorrolesandenhanceyourcareertoday.com"
    }
   },
   {
-   "tag": "#14 🇺🇸 US | GTHost AS63023 | ↓27.4 ↑13.3Mbps | 169.197.142.68 | DC·Flag",
+   "tag": "#16 🇺🇸 US | GTHost AS63023 | ↓26.2 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
    "server": "169.197.142.68",
    "server_port": 1270,
    "type": "vmess",
@@ -588,7 +596,61 @@
    }
   },
   {
-   "tag": "#15 🇺🇸 US | GTHost AS63023 | ↓27.3 ↑15.0Mbps | 169.197.142.68 | DC·Flag",
+   "tag": "#17 🇺🇸 US | OVH AS16276 | ↓25.1 ↑40.1Mbps | 15.204.97.216 | DC·Flag",
+   "server": "15.204.97.216",
+   "server_port": 23576,
+   "type": "vless",
+   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "fuck.rkn",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+     "short_id": "01"
+    }
+   }
+  },
+  {
+   "tag": "#18 🇺🇸 US | GTT Americ AS48529 | ↓24.8 ↑18.7Mbps | 69.17.3.150 | RES·Flag",
+   "server": "69.17.3.150",
+   "server_port": 2001,
+   "type": "vless",
+   "uuid": "140d6fc9-2c6d-41bd-a487-182b52c0184f",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "google.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   },
+   "transport": {
+    "type": "grpc",
+    "service_name": "UCLOUD"
+   }
+  },
+  {
+   "tag": "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.7 ↑16.4Mbps | 167.88.61.193 | DC·Flag",
+   "server": "167.88.61.85",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.browseseniorrolesandenhanceyourcareertoday.com"
+   }
+  },
+  {
+   "tag": "#20 🇺🇸 US | GTHost AS63023 | ↓24.7 ↑14.9Mbps | 169.197.142.68 | DC·Flag",
    "server": "169.197.142.68",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -596,7 +658,67 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#16 🇺🇸 US | OVH AS16276 | ↓27.0 ↑33.0Mbps | 15.204.97.206 | DC·Flag",
+   "tag": "#21 🇺🇸 US | GlobalTeleHost AS63023 | ↓24.5 ↑8.3Mbps | 167.88.61.52 | DC·Clean",
+   "server": "167.88.61.20",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "api.browseseniorrolesandenhanceyourcareertoday.com"
+   }
+  },
+  {
+   "tag": "#22 🇺🇸 US | GTHost AS63023 | ↓24.1 ↑7.0Mbps | 23.150.152.65 | RES·Flag",
+   "server": "23.150.152.65",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#23 🇺🇸 US | GTHost AS63023 | ↓23.4 ↑10.9Mbps | 23.150.152.38 | RES·Flag",
+   "server": "23.150.152.38",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#24 🇺🇸 US | NetLab Global AS979 | ↓23.3 ↑9.9Mbps | 154.12.49.239 | RES·Clean",
+   "server": "154.12.49.239",
+   "server_port": 80,
+   "type": "vless",
+   "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+   "transport": {
+    "type": "ws",
+    "path": "/platform103"
+   }
+  },
+  {
+   "tag": "#25 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓23.2 ↑18.7Mbps | 179.254.94.184 | RES·Clean",
+   "server": "179.254.94.184",
+   "server_port": 8443,
+   "type": "hysteria2",
+   "password": "0b396097d052915ef304b40d2bda6a2d",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "www.bing.com",
+    "alpn": [
+     "h3"
+    ]
+   }
+  },
+  {
+   "tag": "#26 🇺🇸 US | OVH AS16276 | ↓22.9 ↑16.1Mbps | 15.204.97.206 | DC·Flag",
    "server": "ww13.levikogjgfdd.ir",
    "server_port": 23576,
    "type": "vless",
@@ -618,31 +740,7 @@
    }
   },
   {
-   "tag": "#17 🇺🇸 US | GlobalTeleHost AS63023 | ↓27.0 ↑15.3Mbps | 167.88.61.20 | DC·Flag",
-   "server": "167.88.61.85",
-   "server_port": 443,
-   "type": "trojan",
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "resources.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "tag": "#18 🇺🇸 US | GlobalTeleHost AS63023 | ↓26.1 ↑12.8Mbps | 167.88.61.85 | DC·Clean",
-   "server": "167.88.61.175",
-   "server_port": 443,
-   "type": "trojan",
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "blog.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "tag": "#19 🇺🇸 US | GlobalTeleHost AS63023 | ↓25.2 ↑15.3Mbps | 167.88.61.159 | DC·Flag",
+   "tag": "#27 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.7 ↑16.7Mbps | 167.88.61.198 | DC·Clean",
    "server": "167.88.61.52",
    "server_port": 443,
    "type": "trojan",
@@ -654,259 +752,19 @@
    }
   },
   {
-   "tag": "#20 🇺🇸 US | Oracle AS31898 | ↓24.8 ↑14.6Mbps | 147.224.54.25 | DC·Clean",
-   "server": "panel.apexkey.store",
-   "server_port": 2053,
-   "type": "vless",
-   "uuid": "cdb7fa1d-6e7a-467c-da9c-da363c7bf779",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "DEFJSLdILrvauMpwtpvFZddadpt3rNtv03Dui2EkmRk",
-     "short_id": "68"
-    }
-   }
-  },
-  {
-   "tag": "#21 🇺🇸 US | GTHost AS63023 | ↓23.0 ↑12.7Mbps | 23.150.152.65 | RES·Flag",
-   "server": "23.150.152.65",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#22 🇺🇸 US | Akamai Technologies AS63949 | ↓22.9 ↑13.3Mbps | 172.235.49.52 | DC·Clean",
-   "server": "172.235.49.52",
+   "tag": "#28 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓22.1 ↑13.1Mbps | 66.163.113.3 | DC·Clean",
+   "server": "kuruish.org",
    "server_port": 443,
    "type": "vless",
-   "uuid": "ff5fc681-8548-4621-87d1-6b123db48f64",
+   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "Md-qJgtcKVbuLuwCX8r-VZnfKq3z_3CtyPt3CRcqdQE",
-     "short_id": "270d474c"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "itunes.apple.com"
-    }
+    "server_name": "kuruish.org"
    }
   },
   {
-   "tag": "#23 🇺🇸 US | Akamai Technologies AS63949 | ↓22.8 ↑11.1Mbps | 172.239.67.142 | DC·Clean",
-   "server": "172.239.67.142",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "b0d814b5-7232-4fe9-9ce9-e552c9abbae8",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "Knpni0SBmL6d1nGWtqmHRDsOQvQxcD2Wd0eOf2KZtgs",
-     "short_id": "ba356a45"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "itunes.apple.com"
-    }
-   }
-  },
-  {
-   "tag": "#24 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑15.5Mbps | 167.88.61.85 | DC·Clean",
-   "server": "167.88.61.20",
-   "server_port": 443,
-   "type": "trojan",
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "api.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "tag": "#25 🇺🇸 US | GlobalTeleHost AS63023 | ↓22.8 ↑14.4Mbps | 167.88.61.159 | DC·Flag",
-   "server": "167.88.61.193",
-   "server_port": 443,
-   "type": "trojan",
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "tag": "#26 🇺🇸 US | Akamai Technologies AS63949 | ↓22.4 ↑12.1Mbps | 172.236.233.130 | DC·Clean",
-   "server": "172.236.233.130",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "a663dc28-28dc-4f97-9665-6ac215c8e567",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "4wXbhUoSy9s9bGy9PaK18XVTTw3wXkBDjEusiMHaMB4",
-     "short_id": "53908445"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "itunes.apple.com"
-    }
-   }
-  },
-  {
-   "tag": "#27 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑9.4Mbps | 45.63.53.81 | DC·Flag",
-   "server": "45.63.53.81",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "c512dcbd-1847-40a2-9c99-989c8bfe4717",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0",
-     "short_id": "f436f707"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws"
-   }
-  },
-  {
-   "tag": "#28 🇺🇸 US | The Constant AS20473 | ↓22.0 ↑12.2Mbps | 45.32.70.42 | DC·Clean",
-   "server": "45.32.70.42",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "8c392beb-524d-4d0a-a3a6-4d542d54a1ff",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "cQZ-dTY4QSQteDYpngP2PavOsn9yY9lIP-OscwzwAio",
-     "short_id": "4dda4608"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "itunes.apple.com"
-    }
-   }
-  },
-  {
-   "tag": "#29 🇺🇸 US | Akamai Technologies AS63949 | ↓21.9 ↑13.1Mbps | 172.236.231.45 | DC·Clean",
-   "server": "172.236.231.45",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "4c4f7955-3b05-4795-b3b7-6c83b7f82b0f",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "itunes.apple.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ",
-     "short_id": "8353867a"
-    }
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/ws",
-    "headers": {
-     "Host": "itunes.apple.com"
-    }
-   }
-  },
-  {
-   "tag": "#30 🇺🇸 US | GTHost AS63023 | ↓21.5 ↑11.8Mbps | 95.215.201.143 | DC·Clean",
-   "server": "95.215.201.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#31 🇺🇸 US | GTT Americ AS48529 | ↓19.9 ↑17.9Mbps | 69.17.3.150 | RES·Flag",
-   "server": "69.17.3.150",
-   "server_port": 2001,
-   "type": "vless",
-   "uuid": "140d6fc9-2c6d-41bd-a487-182b52c0184f",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "google.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    }
-   },
-   "transport": {
-    "type": "grpc",
-    "service_name": "UCLOUD"
-   }
-  },
-  {
-   "tag": "#32 🇺🇸 US | The Constant AS20473 | ↓19.7 ↑12.6Mbps | 45.76.172.197 | DC·Flag",
+   "tag": "#29 🇺🇸 US | The Constant AS20473 | ↓22.1 ↑12.9Mbps | 45.76.172.197 | DC·Flag",
    "server": "45.76.172.197",
    "server_port": 443,
    "type": "vless",
@@ -934,28 +792,40 @@
    }
   },
   {
-   "tag": "#33 🇺🇸 US | GTHost AS63023 | ↓19.5 ↑6.0Mbps | 216.106.185.141 | DC·Flag",
-   "server": "kuruish.org",
+   "tag": "#30 🇺🇸 US | GTHost AS63023 | ↓21.9 ↑13.1Mbps | 95.215.201.143 | DC·Clean",
+   "server": "95.215.201.18",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#31 🇺🇸 US | The Constant AS20473 | ↓21.2 ↑10.8Mbps | 45.63.53.81 | DC·Flag",
+   "server": "45.63.53.81",
    "server_port": 443,
    "type": "vless",
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "uuid": "c512dcbd-1847-40a2-9c99-989c8bfe4717",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "kuruish.org"
+    "server_name": "itunes.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0",
+     "short_id": "f436f707"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws"
    }
   },
   {
-   "tag": "#34 🇺🇸 US | GTHost AS63023 | ↓19.2 ↑14.9Mbps | 169.197.142.22 | ?",
-   "server": "169.197.142.22",
-   "server_port": 18000,
-   "type": "vmess",
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0
-  },
-  {
-   "tag": "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓18.8 ↑8.2Mbps | 172.236.227.60 | DC·Clean",
+   "tag": "#32 🇺🇸 US | Akamai Technologies AS63949 | ↓21.2 ↑11.8Mbps | 172.236.227.60 | DC·Clean",
    "server": "172.236.227.60",
    "server_port": 443,
    "type": "vless",
@@ -983,34 +853,128 @@
    }
   },
   {
-   "tag": "#36 🇺🇸 US | NetLab Global AS979 | ↓18.0 ↑12.6Mbps | 154.12.49.239 | RES·Clean",
-   "server": "154.12.49.239",
-   "server_port": 80,
+   "tag": "#33 🇺🇸 US | Akamai Technologies AS63949 | ↓20.8 ↑12.7Mbps | 172.239.67.142 | DC·Clean",
+   "server": "172.239.67.142",
+   "server_port": 443,
    "type": "vless",
-   "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+   "uuid": "b0d814b5-7232-4fe9-9ce9-e552c9abbae8",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "itunes.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "Knpni0SBmL6d1nGWtqmHRDsOQvQxcD2Wd0eOf2KZtgs",
+     "short_id": "ba356a45"
+    }
+   },
    "transport": {
     "type": "ws",
-    "path": "/platform103"
+    "path": "/ws",
+    "headers": {
+     "Host": "itunes.apple.com"
+    }
    }
   },
   {
-   "tag": "#37 🇺🇸 US | GSL Networks AS137409 | ↓17.9 ↑10.0Mbps | 173.244.56.9 | DC·Flag",
-   "server": "173.244.56.9",
+   "tag": "#34 🇺🇸 US | Cogent Communications AS197196 | ↓20.7 ↑9.0Mbps | 38.244.5.231 | RES·Clean",
+   "server": "38.244.5.231",
    "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
+   "type": "vless",
+   "uuid": "1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "www.cloudflare.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM",
+     "short_id": "ab0a5b56"
+    }
+   }
   },
   {
-   "tag": "#38 🇺🇸 US | Datacamp AS60068 | ↓17.8 ↑8.4Mbps | 156.146.38.170 | DC·Flag",
-   "server": "156.146.38.170",
+   "tag": "#35 🇺🇸 US | Akamai Technologies AS63949 | ↓20.5 ↑12.7Mbps | 172.236.231.45 | DC·Clean",
+   "server": "172.236.231.45",
    "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
+   "type": "vless",
+   "uuid": "4c4f7955-3b05-4795-b3b7-6c83b7f82b0f",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "itunes.apple.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ",
+     "short_id": "8353867a"
+    }
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/ws",
+    "headers": {
+     "Host": "itunes.apple.com"
+    }
+   }
   },
   {
-   "tag": "#39 🇺🇸 US | GSL Networks AS137409 | ↓17.5 ↑10.7Mbps | 173.244.56.6 | DC·Flag",
+   "tag": "#36 🇺🇸 US | Uscloud AS402169 | ↓19.7 ↑15.7Mbps | 186.241.113.196 | DC·Clean",
+   "server": "186.241.113.196",
+   "server_port": 24605,
+   "type": "vless",
+   "uuid": "38a3c008-b730-4b5c-b654-1a5453d24e8e",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "gateway.icloud.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "firefox"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "OMw1bo_JwLG61eycCxczLlK4BUViVp4SHcD8eh2Aol4",
+     "short_id": "4ef4b7e137b38248"
+    }
+   }
+  },
+  {
+   "tag": "#37 🇺🇸 US | Catixs AS213169 | ↓19.0 ↑11.5Mbps | 156.229.167.109 | DC·Clean",
+   "server": "156.229.167.109",
+   "server_port": 8443,
+   "type": "vless",
+   "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "github.githubassets.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA",
+     "short_id": "4ad2e4e660550e43"
+    }
+   }
+  },
+  {
+   "tag": "#38 🇺🇸 US | GSL Networks AS137409 | ↓18.8 ↑10.1Mbps | 173.244.56.6 | DC·Flag",
    "server": "173.244.56.6",
    "server_port": 443,
    "type": "shadowsocks",
@@ -1018,29 +982,50 @@
    "password": "shadowsocks"
   },
   {
-   "tag": "#40 🇺🇸 US | NTT America AS2914 | ↓17.4 ↑14.1Mbps | 198.247.127.131 | RES·Clean",
-   "server": "198.247.127.131",
+   "tag": "#39 🇺🇸 US | GSL Networks AS137409 | ↓18.4 ↑11.2Mbps | 173.244.56.9 | DC·Flag",
+   "server": "173.244.56.9",
    "server_port": 443,
-   "type": "vless",
-   "uuid": "59548d2d-5d7c-4328-aa81-0d5614da0c1b",
-   "flow": "xtls-rprx-vision",
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#40 🇺🇸 US | HostPapa AS36352 | ↓18.0 ↑9.7Mbps | 107.175.54.116 | ?",
+   "server": "nomino.11hi8itbaf.workers.dev",
+   "server_port": 443,
+   "type": "vmess",
+   "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+   "security": "auto",
+   "alter_id": 0,
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "addons.mozilla.org",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "vmHHRwA9ER6c8dfgtL-gh2HBMCvjySy1xLimqYpLiCI",
-     "short_id": ""
-    }
+    "server_name": "nomino.11hi8itbaf.workers.dev"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/guanwang.awsno.com/hls/cctv5phd.m3u8"
    }
   },
   {
-   "tag": "#41 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
+   "tag": "#41 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓17.6 ↑17.2Mbps | 45.76.115.243 | DC·Clean",
+   "server": "169.197.142.22",
+   "server_port": 18000,
+   "type": "vmess",
+   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+   "security": "auto",
+   "alter_id": 0
+  },
+  {
+   "tag": "#42 🇺🇸 US | Datacamp AS60068 | ↓17.5 ↑10.2Mbps | 156.146.38.168 | DC·Flag",
+   "server": "156.146.38.168",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#43 🇺🇸 US | Datacamp AS60068 | ↓17.3 ↑10.3Mbps | 156.146.38.169 | DC·Flag",
    "server": "156.146.38.169",
    "server_port": 443,
    "type": "shadowsocks",
@@ -1048,7 +1033,23 @@
    "password": "shadowsocks"
   },
   {
-   "tag": "#42 🇺🇸 US | Oracle AS31898 | ↓17.3 ↑8.8Mbps | 129.146.77.248 | DC·Flag",
+   "tag": "#44 🇺🇸 US | GTHost AS63023 | ↓17.0 ↑9.6Mbps | 38.64.138.135 | RES·Flag",
+   "server": "38.64.138.135",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#45 🇺🇸 US | GTHost AS63023 | ↓16.6 ↑10.1Mbps | 67.220.73.178 | DC·Flag",
+   "server": "67.220.73.178",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#46 🇺🇸 US | Oracle AS31898 | ↓16.5 ↑8.3Mbps | 129.146.77.248 | DC·Flag",
    "server": "129.146.77.248",
    "server_port": 39495,
    "type": "vmess",
@@ -1064,61 +1065,60 @@
    }
   },
   {
-   "tag": "#43 🇺🇸 US | GTHost AS63023 | ↓17.1 ↑8.0Mbps | 38.64.138.135 | RES·Flag",
-   "server": "38.64.138.135",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#44 🇺🇸 US | Datacamp AS60068 | ↓16.8 ↑7.9Mbps | 156.146.38.168 | DC·Flag",
-   "server": "156.146.38.168",
+   "tag": "#47 🇺🇸 US | GTHost AS63023 | ↓16.4 ↑6.7Mbps | 216.152.155.158 | DC·Flag",
+   "server": "216.152.155.131",
    "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#45 🇺🇸 US | HostPapa AS36352 | ↓16.7 ↑6.1Mbps | 107.175.54.116 | ?",
-   "server": "188.114.99.137",
-   "server_port": 443,
-   "type": "vmess",
-   "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-   "security": "auto",
-   "alter_id": 0,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "guanwang.awsno.com",
+    "server_name": "www.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "tag": "#48 🇺🇸 US | Akamai Technologies AS63949 | ↓16.4 ↑9.2Mbps | 172.236.233.130 | DC·Clean",
+   "server": "172.236.233.130",
+   "server_port": 443,
+   "type": "vless",
+   "uuid": "a663dc28-28dc-4f97-9665-6ac215c8e567",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "itunes.apple.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "4wXbhUoSy9s9bGy9PaK18XVTTw3wXkBDjEusiMHaMB4",
+     "short_id": "53908445"
     }
    },
    "transport": {
     "type": "ws",
-    "path": "/hls/cctv5phd.m3u8",
+    "path": "/ws",
     "headers": {
-     "Host": "guanwang.awsno.com"
+     "Host": "itunes.apple.com"
     }
    }
   },
   {
-   "tag": "#46 🇺🇸 US | GTHost AS63023 | ↓16.3 ↑9.7Mbps | 216.106.185.141 | DC·Flag",
-   "server": "216.106.185.158",
+   "tag": "#49 🇺🇸 US | GTHost AS63023 | ↓16.2 ↑8.9Mbps | 216.152.155.176 | DC·Flag",
+   "server": "216.152.155.50",
    "server_port": 443,
-   "type": "vless",
-   "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "kuruish.org"
+    "server_name": "cdn.nextjobopportunityandclaimyouridealrole.com"
    }
   },
   {
-   "tag": "#47 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.7Mbps | 38.128.66.241 | DC·Flag",
-   "server": "38.128.66.241",
+   "tag": "#50 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.249 | DC·Flag",
+   "server": "38.128.66.249",
    "server_port": 1270,
    "type": "vmess",
    "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -1131,15 +1131,42 @@
    }
   },
   {
-   "tag": "#48 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑8.1Mbps | 216.106.178.169 | RES·Flag",
-   "server": "216.106.178.169",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+   "tag": "#51 🇺🇸 US | HostPapa AS36352 | ↓16.1 ↑10.7Mbps | 107.175.54.116 | ?",
+   "server": "www.shopify.com",
+   "server_port": 443,
+   "type": "vmess",
+   "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "guanwang.awsno.com"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/hls/cctv5phd.m3u8",
+    "headers": {
+     "Host": "guanwang.awsno.com"
+    }
+   }
   },
   {
-   "tag": "#49 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑2.4Mbps | 38.128.66.212 | DC·Flag",
+   "tag": "#52 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.9Mbps | 38.64.138.135 | RES·Flag",
+   "server": "38.64.138.135",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#53 🇺🇸 US | GTHost AS63023 | ↓16.1 ↑8.1Mbps | 38.128.66.212 | DC·Flag",
    "server": "38.128.66.212",
    "server_port": 1270,
    "type": "vmess",
@@ -1153,47 +1180,7 @@
    }
   },
   {
-   "tag": "#50 🇺🇸 US | HostPapa AS36352 | ↓15.7 ↑7.5Mbps | 107.175.54.116 | ?",
-   "server": "guanwang.awsno.com",
-   "server_port": 443,
-   "type": "vmess",
-   "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "guanwang.awsno.com"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/hls/cctv5phd.m3u8"
-   }
-  },
-  {
-   "tag": "#51 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
-   "server": "38.64.138.187",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#52 🇺🇸 US | GTHost AS63023 | ↓15.5 ↑7.7Mbps | 67.220.73.178 | DC·Flag",
-   "server": "67.220.73.178",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#53 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑7.8Mbps | 162.251.61.46 | DC·Flag",
+   "tag": "#54 🇺🇸 US | GTHost AS63023 | ↓16.0 ↑7.9Mbps | 162.251.61.46 | DC·Flag",
    "server": "162.251.61.46",
    "server_port": 1270,
    "type": "vmess",
@@ -1207,8 +1194,8 @@
    }
   },
   {
-   "tag": "#54 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.7Mbps | 38.64.138.135 | RES·Flag",
-   "server": "38.64.138.135",
+   "tag": "#55 🇺🇸 US | GTHost AS63023 | ↓15.9 ↑7.6Mbps | 38.64.138.187 | RES·Flag",
+   "server": "38.64.138.187",
    "server_port": 1270,
    "type": "vmess",
    "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -1221,7 +1208,31 @@
    }
   },
   {
-   "tag": "#55 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑7.8Mbps | 38.128.66.32 | DC·Flag",
+   "tag": "#56 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑9.0Mbps | 216.106.178.169 | RES·Flag",
+   "server": "216.106.178.169",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#57 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑2.5Mbps | 216.152.155.63 | DC·Flag",
+   "server": "216.152.155.59",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "www.findconnectwithemployersandbuildprofessionalnetwork.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#58 🇺🇸 US | GTHost AS63023 | ↓15.6 ↑7.1Mbps | 38.128.66.32 | DC·Flag",
    "server": "38.128.66.32",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -1229,29 +1240,63 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#56 🇺🇸 US | GTHost AS63023 | ↓15.0 ↑8.3Mbps | 67.220.73.204 | DC·Flag",
-   "server": "67.220.73.204",
-   "server_port": 16016,
+   "tag": "#59 🇺🇸 US | GTHost AS63023 | ↓15.4 ↑8.0Mbps | 38.128.66.241 | DC·Flag",
+   "server": "38.128.66.241",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#60 🇺🇸 US | Datacamp AS60068 | ↓15.1 ↑9.1Mbps | 156.146.38.170 | DC·Flag",
+   "server": "156.146.38.170",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#61 🇺🇸 US | GTHost AS63023 | ↓15.1 ↑9.2Mbps | 216.152.155.59 | DC·Flag",
+   "server": "216.152.155.54",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "learn.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "tag": "#62 🇺🇸 US | Multacom AS35916 | ↓14.9 ↑9.6Mbps | 148.135.86.162 | RES·Clean",
+   "server": "148.135.86.162",
+   "server_port": 10000,
    "type": "vless",
-   "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+   "uuid": "327b1113-049e-4256-8d72-8815643dbb65",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "www.apple.com",
+    "server_name": "addons.mozilla.org",
     "utls": {
      "enabled": true,
-     "fingerprint": "firefox"
+     "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-     "short_id": "48050fab"
+     "public_key": "DCbnS4mIPc1W2-wI0MGHhykwzf2nVuZvBadErSE6MxU",
+     "short_id": "a1b2c3d4"
     }
    }
   },
   {
-   "tag": "#57 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑6.4Mbps | 107.175.54.116 | ?",
+   "tag": "#63 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.9Mbps | 107.175.54.116 | ?",
    "server": "172.67.190.164",
    "server_port": 443,
    "type": "vmess",
@@ -1272,107 +1317,7 @@
    }
   },
   {
-   "tag": "#58 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓14.5 ↑6.5Mbps | 23.162.200.198 | ?",
-   "server": "23.162.200.198",
-   "server_port": 18000,
-   "type": "vmess",
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0
-  },
-  {
-   "tag": "#59 🇺🇸 US | GlobalTeleHost AS63023 | ↓14.3 ↑14.2Mbps | 167.88.61.198 | DC·Clean",
-   "server": "167.88.61.198",
-   "server_port": 443,
-   "type": "trojan",
-   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "cdn.browseseniorrolesandenhanceyourcareertoday.com"
-   }
-  },
-  {
-   "tag": "#60 🇺🇸 US | Alibaba Cloud AS45102 | ↓14.1 ↑19.8Mbps | 47.89.232.46 | DC·Clean",
-   "server": "47.89.232.46",
-   "server_port": 8443,
-   "type": "hysteria2",
-   "password": "4afd4e1b1b0edd429b10d800a1cf64a7",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "hysteria2.local",
-    "alpn": [
-     "h3"
-    ]
-   }
-  },
-  {
-   "tag": "#61 🇺🇸 US | Datacamp AS212238 | ↓14.1 ↑8.3Mbps | 149.40.57.138 | DC·Flag",
-   "server": "149.40.57.138",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#62 🇺🇸 US | Datacamp AS212238 | ↓14.0 ↑8.0Mbps | 37.19.198.243 | DC·Flag",
-   "server": "37.19.198.243",
-   "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#63 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
-   "server": "37.19.198.160",
-   "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#64 🇺🇸 US | GTHost AS63023 | ↓13.9 ↑8.3Mbps | 45.86.51.144 | DC·Flag",
-   "server": "45.86.51.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#65 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.3Mbps | 172.111.38.72 | DC·Flag",
-   "server": "172.111.38.72",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#66 🇺🇸 US | Washington DC AS63023 | ↓13.8 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
-   "server": "185.230.230.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#67 🇺🇸 US | Datacamp AS212238 | ↓13.7 ↑8.3Mbps | 149.40.57.133 | DC·Flag",
-   "server": "149.40.57.133",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#68 🇺🇸 US | Datacamp AS212238 | ↓13.6 ↑8.0Mbps | 37.19.198.244 | DC·Flag",
-   "server": "37.19.198.244",
-   "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#69 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓13.5 ↑7.3Mbps | 107.175.54.116 | ?",
+   "tag": "#64 🇨🇦 CA → 🇺🇸 US | HostPapa AS36352 | ↓14.8 ↑10.2Mbps | 107.175.54.116 | ?",
    "server": "104.18.42.163",
    "server_port": 443,
    "type": "vmess",
@@ -1393,32 +1338,7 @@
    }
   },
   {
-   "tag": "#70 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.7Mbps | 185.215.132.134 | DC·Flag",
-   "server": "185.215.132.9",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#71 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑8.2Mbps | 134.195.196.211 | ?",
-   "server": "134.195.196.211",
-   "server_port": 18000,
-   "type": "vmess",
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0
-  },
-  {
-   "tag": "#72 🇺🇸 US | Datacamp AS212238 | ↓13.3 ↑?Mbps | 37.19.198.236 | DC·Flag",
-   "server": "37.19.198.236",
-   "server_port": 443,
-   "type": "shadowsocks",
-   "method": "aes-128-gcm",
-   "password": "shadowsocks"
-  },
-  {
-   "tag": "#73 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑9.2Mbps | 67.220.73.167 | DC·Flag",
+   "tag": "#65 🇺🇸 US | GTHost AS63023 | ↓14.8 ↑9.8Mbps | 67.220.73.167 | DC·Flag",
    "server": "67.220.73.247",
    "server_port": 443,
    "type": "shadowsocks",
@@ -1426,182 +1346,7 @@
    "password": "DGjtV63aPW3E"
   },
   {
-   "tag": "#74 🇺🇸 US | PEG TECH AS54600 | ↓12.9 ↑0.8Mbps | 38.11.50.193 | RES·Flag",
-   "server": "38.11.69.48",
-   "server_port": 30004,
-   "type": "vmess",
-   "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-   "security": "auto",
-   "alter_id": 64,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "www.83761815.xyz"
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/path/1698843555400",
-    "headers": {
-     "Host": "www.83761815.xyz"
-    }
-   }
-  },
-  {
-   "tag": "#75 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.6Mbps | 38.128.66.249 | DC·Flag",
-   "server": "38.128.66.249",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#76 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.1Mbps | 38.22.17.89 | RES·Flag",
-   "server": "38.22.17.89",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#77 🇺🇸 US | GTHost AS63023 | ↓12.7 ↑6.3Mbps | 38.107.226.5 | RES·Flag",
-   "server": "38.107.226.5",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#78 🇺🇸 US | Cogent Communications AS63023 | ↓12.6 ↑6.7Mbps | 38.22.17.139 | RES·Flag",
-   "server": "38.22.17.139",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#79 🇺🇸 US | Hetzner Online AS213230 | ↓12.6 ↑7.0Mbps | 178.156.194.168 | DC·Clean",
-   "server": "slot4.ipoxxo.online",
-   "server_port": 2083,
-   "type": "vless",
-   "uuid": "7e2f4de7-4ba9-4944-8791-809ff49d03dd",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "github.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "nsygKb893m_SuA1BfH55efjT0sQlJQDCwIWGM8krawQ",
-     "short_id": "b5870ad75616c0da"
-    }
-   }
-  },
-  {
-   "tag": "#80 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.6Mbps | 167.88.63.39 | DC·Flag",
-   "server": "167.88.63.39",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#81 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.6 ↑1.2Mbps | 45.138.100.248 | RES·Flag",
-   "server": "45.138.100.248",
-   "server_port": 10443,
-   "type": "vless",
-   "uuid": "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
-  },
-  {
-   "tag": "#82 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.2Mbps | 172.111.38.246 | DC·Flag",
-   "server": "172.111.38.246",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#83 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.3Mbps | 38.121.43.231 | RES·Flag",
-   "server": "38.121.43.231",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#84 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.1Mbps | 38.91.100.39 | DC·Flag",
-   "server": "38.91.100.39",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#85 🇺🇸 US | Cogent Communications AS63023 | ↓12.5 ↑6.5Mbps | 38.22.17.219 | RES·Flag",
-   "server": "38.22.17.219",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#86 🇺🇸 US | New Jersey AS63023 | ↓12.5 ↑7.3Mbps | 193.151.163.139 | DC·Flag",
-   "server": "193.151.163.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#87 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑6.4Mbps | 38.121.43.18 | RES·Flag",
-   "server": "38.121.43.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#88 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.1Mbps | 167.88.63.47 | DC·Flag",
-   "server": "167.88.63.47",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#89 🇺🇸 US | HostPapa AS36352 | ↓12.2 ↑5.5Mbps | 107.175.54.116 | ?",
+   "tag": "#66 🇺🇸 US | HostPapa AS36352 | ↓14.7 ↑10.8Mbps | 107.175.54.116 | ?",
    "server": "172.64.145.93",
    "server_port": 443,
    "type": "vmess",
@@ -1622,15 +1367,354 @@
    }
   },
   {
-   "tag": "#90 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑7.9Mbps | 185.215.132.144 | DC·Flag",
-   "server": "185.215.132.18",
+   "tag": "#67 🇺🇸 US | Datacamp AS212238 | ↓14.6 ↑8.6Mbps | 149.40.57.138 | DC·Flag",
+   "server": "149.40.57.138",
    "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#91 🇺🇸 US | GTHost AS63023 | ↓12.2 ↑6.6Mbps | 172.111.36.123 | DC·Clean",
+   "tag": "#68 🇺🇸 US | Datacamp AS212238 | ↓14.5 ↑8.6Mbps | 149.40.57.135 | DC·Flag",
+   "server": "149.40.57.135",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#69 🇺🇸 US | GTHost AS63023 | ↓14.5 ↑5.3Mbps | 216.152.155.50 | DC·Flag",
+   "server": "216.152.155.176",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "blog.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "tag": "#70 🇺🇸 US | Washington DC AS63023 | ↓14.5 ↑7.6Mbps | 185.230.230.142 | DC·Flag",
+   "server": "185.230.230.18",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#71 🇺🇸 US | GTHost AS63023 | ↓14.4 ↑8.4Mbps | 45.86.51.144 | DC·Flag",
+   "server": "45.86.51.18",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#72 🇺🇸 US | Datacamp AS212238 | ↓14.4 ↑8.6Mbps | 149.40.57.134 | DC·Flag",
+   "server": "149.40.57.134",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#73 🇺🇸 US | GTHost AS63023 | ↓14.3 ↑7.1Mbps | 172.111.38.72 | DC·Flag",
+   "server": "172.111.38.72",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#74 🇨🇦 CA → 🇦🇺 AU | The Constant AS20473 | ↓14.2 ↑8.6Mbps | 45.76.115.243 | DC·Clean",
+   "server": "23.162.200.198",
+   "server_port": 18000,
+   "type": "vmess",
+   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+   "security": "auto",
+   "alter_id": 0
+  },
+  {
+   "tag": "#75 🇺🇸 US | HostPapa AS36352 | ↓14.1 ↑10.1Mbps | 107.175.54.116 | ?",
+   "server": "172.67.137.158",
+   "server_port": 443,
+   "type": "vmess",
+   "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "nomino.11hi8itbaf.workers.dev"
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/guanwang.awsno.com/hls/cctv5phd.m3u8",
+    "headers": {
+     "Host": "nomino.11hi8itbaf.workers.dev"
+    }
+   }
+  },
+  {
+   "tag": "#76 🇺🇸 US | Dedicated.com AS63018 | ↓14.0 ↑?Mbps | 66.23.203.18 | DC·Flag",
+   "server": "66.23.203.21",
+   "server_port": 59689,
+   "type": "trojan",
+   "password": "ae7eb4dwyaz25pxwgq59",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "66.23.203.21"
+   }
+  },
+  {
+   "tag": "#77 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.243 | DC·Flag",
+   "server": "37.19.198.243",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#78 🇺🇸 US | Datacamp AS212238 | ↓13.9 ↑8.1Mbps | 37.19.198.160 | DC·Flag",
+   "server": "37.19.198.160",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#79 🇺🇸 US | GTHost AS63023 | ↓13.8 ↑7.7Mbps | 170.101.101.211 | DC·Clean",
+   "server": "170.101.101.67",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "courses.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "tag": "#80 🇺🇸 US | Datacamp AS212238 | ↓13.8 ↑8.1Mbps | 37.19.198.244 | DC·Flag",
+   "server": "37.19.198.244",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
+  },
+  {
+   "tag": "#81 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑7.8Mbps | 170.101.101.131 | DC·Flag",
+   "server": "170.101.101.211",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "api.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "tag": "#82 🇺🇸 US | GTHost AS63023 | ↓13.7 ↑5.8Mbps | 170.101.101.207 | DC·Clean",
+   "server": "170.101.101.53",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "www.explorecreativejobsandenhanceyourcareerportfolio.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#83 🇺🇸 US | GTHost AS63023 | ↓13.5 ↑7.8Mbps | 170.101.101.237 | DC·Clean",
+   "server": "170.101.101.112",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "tag": "#84 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑5.7Mbps | 66.163.122.30 | DC·Flag",
+   "server": "66.163.122.25",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "cdn.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "tag": "#85 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑7.5Mbps | 66.163.122.25 | DC·Flag",
+   "server": "66.163.122.30",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.searchnationwidecareerchangehelperandguidancetoday.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    }
+   }
+  },
+  {
+   "tag": "#86 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑1.6Mbps | 66.163.122.30 | DC·Flag",
+   "server": "66.163.122.81",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "courses.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "tag": "#87 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑?Mbps | 66.163.122.30 | DC·Flag",
+   "server": "66.163.122.26",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "blog.searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "tag": "#88 🇺🇸 US | GTHost AS63023 | ↓13.4 ↑3.4Mbps | 67.220.95.49 | DC·Flag",
+   "server": "67.220.95.49",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#89 🇺🇸 US | OVH AS16276 | ↓13.4 ↑8.4Mbps | 40.160.86.43 | DC·Clean",
+   "server": "40.160.86.43",
+   "server_port": 8388,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "itzvpn@321"
+  },
+  {
+   "tag": "#90 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.3 ↑4.4Mbps | 216.152.147.85 | RES·Flag",
+   "server": "216.152.147.74",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "api.connectingpeoplewithgreatjobs.com"
+   }
+  },
+  {
+   "tag": "#91 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓13.2 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+   "server": "45.138.100.248",
+   "server_port": 10443,
+   "type": "vless",
+   "uuid": "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
+  },
+  {
+   "tag": "#92 🇺🇸 US | GTHost AS63023 | ↓13.2 ↑7.2Mbps | 185.215.132.134 | DC·Flag",
+   "server": "185.215.132.9",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#93 🇺🇸 US | Datacamp AS212238 | ↓13.2 ↑8.7Mbps | 149.40.57.133 | DC·Flag",
+   "server": "149.40.57.133",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#94 🇺🇸 US | OVH AS16276 | ↓13.1 ↑0.3Mbps | 15.204.246.132 | DC·Flag",
+   "server": "15.204.246.132",
+   "server_port": 7307,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "FoOiGlkAA9yPEGP"
+  },
+  {
+   "tag": "#95 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑2.0Mbps | 66.163.122.46 | DC·Flag",
+   "server": "66.163.122.46",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "searchnationwidecareerchangehelperandguidancetoday.com"
+   }
+  },
+  {
+   "tag": "#96 🇺🇸 US | GTHost AS63023 | ↓13.0 ↑8.3Mbps | 216.152.155.59 | DC·Flag",
+   "server": "216.152.155.23",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "courses.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "tag": "#97 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓13.0 ↑1.1Mbps | 216.152.147.152 | RES·Flag",
+   "server": "216.152.147.201",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.connectingpeoplewithgreatjobs.com"
+   }
+  },
+  {
+   "tag": "#98 🇺🇸 US | Cogent Communications AS63023 | ↓12.9 ↑6.9Mbps | 38.22.17.219 | RES·Flag",
+   "server": "38.22.17.219",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#99 🇺🇸 US | GTHost AS63023 | ↓12.9 ↑7.3Mbps | 38.91.100.39 | DC·Flag",
+   "server": "38.91.100.39",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#100 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 172.111.36.123 | DC·Clean",
    "server": "172.111.36.123",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -1638,37 +1722,67 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#92 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.6Mbps | 38.121.43.225 | RES·Flag",
-   "server": "38.121.43.225",
+   "tag": "#101 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑7.0Mbps | 38.107.226.5 | RES·Flag",
+   "server": "38.107.226.5",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#102 🇺🇸 US | GTHost AS63023 | ↓12.8 ↑6.5Mbps | 38.121.43.231 | RES·Flag",
+   "server": "38.121.43.231",
    "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#93 🇺🇸 US | Clouvider AS62240 | ↓11.9 ↑6.1Mbps | 185.195.57.174 | DC·Flag",
-   "server": "169.40.42.74",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
+   "tag": "#103 🇺🇸 US | Wedeploy AS210699 | ↓12.8 ↑?Mbps | 200.102.179.179 | DC·Clean",
+   "server": "200.102.179.179",
+   "server_port": 8388,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "itzvpn@321"
+  },
+  {
+   "tag": "#104 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.7Mbps | 38.22.17.214 | RES·Flag",
+   "server": "38.22.17.214",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#105 🇺🇸 US | Cogent Communications AS63023 | ↓12.8 ↑6.4Mbps | 38.22.17.89 | RES·Flag",
+   "server": "38.22.17.89",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
+    "server_name": "xmfhlpy.com"
    }
   },
   {
-   "tag": "#94 🇺🇸 US | Cogent Communications AS63023 | ↓11.9 ↑6.6Mbps | 38.22.17.129 | RES·Flag",
+   "tag": "#106 🇺🇸 US | OVH AS16276 | ↓12.8 ↑8.5Mbps | 135.148.42.13 | DC·Flag",
+   "server": "135.148.42.13",
+   "server_port": 8388,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "itzvpn@321"
+  },
+  {
+   "tag": "#107 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑5.7Mbps | 38.22.17.129 | RES·Flag",
    "server": "38.22.17.129",
    "server_port": 19999,
    "type": "shadowsocks",
@@ -1676,261 +1790,23 @@
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#95 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑6.0Mbps | 167.88.63.99 | DC·Flag",
-   "server": "167.88.63.99",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#96 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
-   "server": "167.88.63.99",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#97 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.5Mbps | 193.151.160.131 | DC·Clean",
-   "server": "193.151.160.9",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#98 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 172.111.36.253 | DC·Clean",
-   "server": "172.111.36.253",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#99 🇺🇸 US | Cogent Communications AS63023 | ↓11.8 ↑6.2Mbps | 38.22.17.64 | RES·Flag",
-   "server": "38.22.17.64",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#100 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-   "server": "38.91.107.57",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#101 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 172.111.36.137 | DC·Flag",
-   "server": "172.111.36.137",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#102 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.5Mbps | 193.151.160.141 | DC·Flag",
-   "server": "193.151.160.18",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#103 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑6.8Mbps | 134.195.198.212 | DC·Flag",
-   "server": "134.195.198.163",
+   "tag": "#108 🇺🇸 US | Datacamp AS212238 | ↓12.7 ↑7.3Mbps | 37.19.198.236 | DC·Flag",
+   "server": "37.19.198.236",
    "server_port": 443,
    "type": "shadowsocks",
-   "method": "chacha20-ietf-poly1305",
-   "password": "PmCqK98WqhSC"
+   "method": "aes-128-gcm",
+   "password": "shadowsocks"
   },
   {
-   "tag": "#104 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.0Mbps | 38.22.17.251 | RES·Flag",
-   "server": "38.22.17.251",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#105 🇺🇸 US | 2E TELEKOMUNIKASYON AS209604 | ↓11.6 ↑11.9Mbps | 179.254.94.184 | RES·Clean",
-   "server": "179.254.94.184",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "www.bing.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "q49v36UVMNsNION3nn-cQU6_8VwgM_psm1s5z7XVaWc",
-     "short_id": "e6052385636f0700"
-    }
-   }
-  },
-  {
-   "tag": "#106 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 167.88.63.39 | DC·Flag",
-   "server": "167.88.63.39",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#107 🇺🇸 US | OVH AS16276 | ↓11.6 ↑8.2Mbps | 15.204.246.107 | DC·Flag",
-   "server": "15.204.246.107",
-   "server_port": 8888,
+   "tag": "#109 🇺🇸 US | Cogent Communications AS63023 | ↓12.7 ↑7.1Mbps | 38.22.17.139 | RES·Flag",
+   "server": "38.22.17.139",
+   "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
-   "password": "Y6R9pAtvxxzmGC"
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#108 🇺🇸 US | GTHost AS63023 | ↓11.6 ↑6.0Mbps | 38.91.100.69 | DC·Flag",
-   "server": "38.91.100.69",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#109 🇺🇸 US | Cogent Communications AS63023 | ↓11.6 ↑6.0Mbps | 38.22.17.197 | RES·Flag",
-   "server": "38.22.17.197",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#110 🇺🇸 US | Oracle AS31898 | ↓11.5 ↑8.2Mbps | 129.146.200.49 | DC·Clean",
-   "server": "129.146.200.49",
-   "server_port": 50356,
-   "type": "shadowsocks",
-   "method": "2022-blake3-chacha20-poly1305",
-   "password": "011mfoSmYFVhBNbKk0V5DxqGs9PwrsqY+9EAhOll+58="
-  },
-  {
-   "tag": "#111 🇨🇦 CA | iWeb Technologies AS32613 | ↓11.5 ↑7.6Mbps | 184.107.106.78 | ?",
-   "server": "184.107.106.78",
-   "server_port": 8388,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "itzvpn@321"
-  },
-  {
-   "tag": "#112 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑6.0Mbps | 172.111.36.123 | DC·Clean",
-   "server": "172.111.36.123",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#113 🇺🇸 US | GTHost AS63023 | ↓11.4 ↑5.7Mbps | 142.202.48.87 | DC·Flag",
-   "server": "142.202.48.87",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#114 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑5.5Mbps | 38.91.100.16 | DC·Flag",
-   "server": "38.91.100.16",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#115 🇺🇸 US | GTHost AS63023 | ↓11.3 ↑6.2Mbps | 38.91.107.57 | DC·Flag",
-   "server": "38.91.107.57",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#116 🇺🇸 US | GTHost AS63023 | ↓11.2 ↑6.7Mbps | 172.111.36.126 | DC·Clean",
+   "tag": "#110 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑6.3Mbps | 172.111.36.126 | DC·Clean",
    "server": "172.111.36.126",
    "server_port": 1270,
    "type": "vmess",
@@ -1944,35 +1820,56 @@
    }
   },
   {
-   "tag": "#117 🇺🇸 US | Digital Ocean AS14061 | ↓11.2 ↑7.0Mbps | 206.189.229.48 | ?",
-   "server": "206.189.229.48",
+   "tag": "#111 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.0Mbps | 216.152.156.242 | RES·Flag",
+   "server": "216.152.156.42",
    "server_port": 443,
-   "type": "hysteria2",
-   "password": "YV1sd3tfCZngTtnvRmy7",
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "www.microsoft.com",
-    "alpn": [
-     "h3"
-    ]
-   },
-   "obfs": {
-    "type": "salamander",
-    "password": "ZuPf4OcXKvotJdDxlTus"
+    "server_name": "blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
    }
   },
   {
-   "tag": "#118 🇨🇦 CA | OVHcloud AS16276 | ↓11.1 ↑6.5Mbps | 192.99.151.230 | ?",
-   "server": "192.99.151.230",
-   "server_port": 8388,
+   "tag": "#112 🇺🇸 US | New Jersey AS63023 | ↓12.6 ↑5.6Mbps | 193.151.163.139 | DC·Flag",
+   "server": "193.151.163.18",
+   "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
-   "password": "itzvpn@321"
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#119 🇺🇸 US | GTHost AS63023 | ↓11.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
-   "server": "167.88.63.37",
+   "tag": "#113 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.3Mbps | 38.121.43.18 | RES·Flag",
+   "server": "38.121.43.18",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#114 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑4.4Mbps | 216.152.156.242 | RES·Flag",
+   "server": "216.152.156.212",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "tag": "#115 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑7.2Mbps | 167.88.63.39 | DC·Flag",
+   "server": "167.88.63.39",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#116 🇺🇸 US | GTHost AS63023 | ↓12.6 ↑5.7Mbps | 172.111.38.246 | DC·Flag",
+   "server": "172.111.38.246",
    "server_port": 1270,
    "type": "vmess",
    "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -1985,51 +1882,141 @@
    }
   },
   {
-   "tag": "#120 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑5.9Mbps | 185.195.57.177 | DC·Flag",
-   "server": "169.40.42.231",
+   "tag": "#117 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑6.8Mbps | 172.111.36.253 | DC·Clean",
+   "server": "172.111.36.253",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#118 🇺🇸 US | GTHost AS63023 | ↓12.5 ↑7.2Mbps | 167.88.63.99 | DC·Flag",
+   "server": "167.88.63.99",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#119 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.4Mbps | 15.204.246.111 | DC·Flag",
+   "server": "15.204.246.111",
+   "server_port": 5498,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "lGqs95QkFHo2NV"
+  },
+  {
+   "tag": "#120 🇺🇸 US | GTHost AS63023 | ↓12.4 ↑1.5Mbps | 216.152.156.242 | RES·Flag",
+   "server": "216.152.156.81",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "www.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "tag": "#121 🇺🇸 US | OVH AS16276 | ↓12.4 ↑8.5Mbps | 15.204.233.41 | DC·Flag",
+   "server": "15.204.233.41",
+   "server_port": 8882,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "kDWvXYZoTBcGkC4"
+  },
+  {
+   "tag": "#122 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑9.2Mbps | 216.152.155.176 | DC·Flag",
+   "server": "216.152.155.158",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.nextjobopportunityandclaimyouridealrole.com"
+   }
+  },
+  {
+   "tag": "#123 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 216.152.156.242 | RES·Flag",
+   "server": "216.152.156.159",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "resources.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
+   }
+  },
+  {
+   "tag": "#124 🇺🇸 US | OVH AS16276 | ↓12.3 ↑2.8Mbps | 15.204.246.107 | DC·Flag",
+   "server": "15.204.246.107",
+   "server_port": 8888,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "Y6R9pAtvxxzmGC"
+  },
+  {
+   "tag": "#125 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.3 ↑6.8Mbps | 185.95.231.156 | RES·Flag",
+   "server": "185.95.231.156",
    "server_port": 443,
    "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+   "uuid": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "yahoo.com",
+    "server_name": "www.apple.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "ios"
+     "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "public_key": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+     "short_id": "a3a578ab"
     }
    }
   },
   {
-   "tag": "#121 🇺🇸 US | Clouvider AS62240 | ↓11.0 ↑6.6Mbps | 162.120.69.88 | RES·Flag",
-   "server": "169.40.42.163",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
+   "tag": "#126 🇺🇸 US | GTHost AS63023 | ↓12.3 ↑6.4Mbps | 172.111.36.123 | DC·Clean",
+   "server": "172.111.36.123",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "yahoo.com",
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#127 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓12.3 ↑0.9Mbps | 216.152.147.74 | RES·Flag",
+   "server": "216.152.147.48",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "courses.connectingpeoplewithgreatjobs.com",
     "utls": {
      "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+     "fingerprint": "chrome"
     }
    }
   },
   {
-   "tag": "#122 🇺🇸 US | GTHost AS63023 | ↓11.0 ↑7.0Mbps | 67.220.85.46 | ?",
+   "tag": "#128 🇺🇸 US → 🇦🇺 AU | The Constant AS20473 | ↓12.3 ↑7.3Mbps | 45.76.115.243 | DC·Clean",
    "server": "67.220.85.46",
    "server_port": 18000,
    "type": "vmess",
@@ -2038,75 +2025,15 @@
    "alter_id": 0
   },
   {
-   "tag": "#123 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑6.4Mbps | 169.197.140.247 | DC·Flag",
-   "server": "169.197.140.247",
-   "server_port": 19999,
+   "tag": "#129 🇨🇦 CA | Leaseweb Canada AS32613 | ↓12.2 ↑7.3Mbps | 184.107.106.77 | DC·Clean",
+   "server": "184.107.106.77",
+   "server_port": 8388,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+   "password": "itzvpn@321"
   },
   {
-   "tag": "#124 🇺🇸 US | Clouvider AS62240 | ↓10.9 ↑5.7Mbps | 45.144.112.54 | DC·Flag",
-   "server": "169.40.42.202",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
-   }
-  },
-  {
-   "tag": "#125 🇺🇸 US | GTHost AS63023 | ↓10.9 ↑5.6Mbps | 38.91.107.188 | DC·Flag",
-   "server": "38.91.107.188",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#126 🇨🇦 CA | OVH AS16276 | ↓10.8 ↑5.7Mbps | 51.222.12.127 | DC·Flag",
-   "server": "51.222.12.127",
-   "server_port": 445,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "zDNVedRFPQexG9v"
-  },
-  {
-   "tag": "#127 🇨🇦 CA | Regxa Company for AS215311 | ↓10.8 ↑6.2Mbps | 209.200.246.148 | DC·Flag",
-   "server": "209.200.246.148",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "www.cloudflare.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "firefox"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-     "short_id": "f98843107912e782"
-    }
-   }
-  },
-  {
-   "tag": "#128 🇺🇸 US | Clouvider AS62240 | ↓10.7 ↑5.4Mbps | 162.120.69.84 | RES·Flag",
+   "tag": "#130 🇺🇸 US | Clouvider AS62240 | ↓12.2 ↑2.1Mbps | 162.120.69.84 | RES·Flag",
    "server": "169.40.42.229",
    "server_port": 443,
    "type": "vless",
@@ -2128,235 +2055,152 @@
    }
   },
   {
-   "tag": "#129 🇺🇸 US | GTHost AS63023 | ↓10.6 ↑15.9Mbps | 23.150.152.38 | RES·Flag",
-   "server": "23.150.152.38",
+   "tag": "#131 🇺🇸 US | Cogent Communications AS63023 | ↓12.2 ↑6.1Mbps | 38.22.17.251 | RES·Flag",
+   "server": "38.22.17.251",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#132 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑5.8Mbps | 38.91.100.16 | DC·Flag",
+   "server": "38.91.100.16",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#133 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑8.0Mbps | 185.215.132.144 | DC·Flag",
+   "server": "185.215.132.18",
    "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#130 🇺🇸 US | Clouvider AS62240 | ↓10.6 ↑5.4Mbps | 185.195.57.168 | DC·Flag",
-   "server": "169.40.42.90",
-   "server_port": 443,
-   "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
+   "tag": "#134 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.3Mbps | 142.202.48.87 | DC·Flag",
+   "server": "142.202.48.87",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "ios"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#135 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑6.0Mbps | 167.88.63.37 | DC·Flag",
+   "server": "167.88.63.37",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#136 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.0Mbps | 193.151.160.141 | DC·Flag",
+   "server": "193.151.160.18",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#137 🇺🇸 US | GTHost AS63023 | ↓12.1 ↑7.6Mbps | 170.101.101.211 | DC·Clean",
+   "server": "170.101.101.131",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "blog.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "tag": "#138 🇺🇸 US | Baykov Ilya Sergeevich AS41745 | ↓12.1 ↑6.8Mbps | 45.138.100.248 | RES·Flag",
+   "server": "45.138.100.248",
+   "server_port": 14430,
+   "type": "vless",
+   "uuid": "ae908ff5-f749-402c-af25-e6e9aef4d6bb",
+   "transport": {
+    "type": "ws",
+    "path": "/vless",
+    "headers": {
+     "Host": "45.138.100.248"
     }
    }
   },
   {
-   "tag": "#131 🇺🇸 US | Datacamp AS212238 | ↓10.3 ↑8.4Mbps | 149.40.57.134 | DC·Flag",
-   "server": "149.40.57.134",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#132 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.0Mbps | 162.251.62.42 | DC·Flag",
-   "server": "162.251.62.42",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#133 🇺🇸 US | Clouvider AS62240 | ↓10.3 ↑5.2Mbps | 45.144.112.55 | DC·Flag",
-   "server": "169.40.42.168",
+   "tag": "#139 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑2.0Mbps | 216.152.156.65 | RES·Flag",
+   "server": "216.152.156.49",
    "server_port": 443,
-   "type": "vless",
-   "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-   "flow": "xtls-rprx-vision",
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "yahoo.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-     "short_id": "c39cc7310a"
-    }
+    "server_name": "cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com"
    }
   },
   {
-   "tag": "#134 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑1.8Mbps | 66.163.125.120 | RES·Flag",
-   "server": "66.163.125.120",
+   "tag": "#140 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑6.5Mbps | 170.101.101.207 | DC·Clean",
+   "server": "170.101.101.237",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "cdn.explorecreativejobsandenhanceyourcareerportfolio.com"
+   }
+  },
+  {
+   "tag": "#141 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑8.0Mbps | 162.251.60.97 | DC·Flag",
+   "server": "162.251.60.97",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#142 🇺🇸 US | GTHost AS63023 | ↓12.0 ↑7.1Mbps | 193.151.160.131 | DC·Clean",
+   "server": "193.151.160.9",
    "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
    "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
   },
   {
-   "tag": "#135 🇺🇸 US | GTHost AS63023 | ↓10.3 ↑5.6Mbps | 162.251.62.31 | DC·Flag",
-   "server": "162.251.62.31",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#136 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.3Mbps | 162.251.62.31 | DC·Flag",
-   "server": "162.251.62.31",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#137 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.7Mbps | 67.220.74.197 | DC·Flag",
-   "server": "67.220.74.197",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#138 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.1Mbps | 38.91.107.188 | DC·Flag",
-   "server": "38.91.107.188",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#139 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑5.0Mbps | 162.251.62.35 | DC·Flag",
-   "server": "162.251.62.35",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#140 🇺🇸 US | GTHost AS63023 | ↓10.2 ↑4.9Mbps | 162.251.62.44 | DC·Flag",
-   "server": "162.251.62.44",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#141 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 67.220.74.188 | DC·Flag",
-   "server": "67.220.74.188",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#142 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.7Mbps | 216.106.182.225 | RES·Flag",
-   "server": "216.106.182.225",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#143 🇺🇸 US | GTHost AS63023 | ↓10.1 ↑5.1Mbps | 66.163.125.51 | RES·Flag",
-   "server": "66.163.125.51",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#144 🇺🇸 US | GTHost AS63023 | ↓10.0 ↑5.7Mbps | 38.91.107.19 | DC·Flag",
-   "server": "38.91.107.19",
-   "server_port": 19999,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-  },
-  {
-   "tag": "#145 🇺🇸 US | OVH AS16276 | ↓10.0 ↑8.3Mbps | 15.204.246.111 | DC·Flag",
-   "server": "15.204.246.111",
-   "server_port": 5498,
-   "type": "shadowsocks",
-   "method": "aes-256-gcm",
-   "password": "lGqs95QkFHo2NV"
-  },
-  {
-   "tag": "#146 🇺🇸 US | GTHost AS63023 | ↓9.9 ↑5.7Mbps | 38.110.1.246 | ?",
-   "server": "38.110.1.246",
-   "server_port": 18000,
-   "type": "vmess",
-   "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-   "security": "auto",
-   "alter_id": 0
-  },
-  {
-   "tag": "#147 🇺🇸 US | Clouvider AS62240 | ↓9.8 ↑5.7Mbps | 45.144.112.55 | DC·Flag",
-   "server": "45.144.112.55",
+   "tag": "#143 🇺🇸 US | Clouvider AS62240 | ↓12.0 ↑5.4Mbps | 45.144.112.54 | DC·Flag",
+   "server": "169.40.42.202",
    "server_port": 443,
    "type": "vless",
    "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
@@ -2377,40 +2221,80 @@
    }
   },
   {
-   "tag": "#148 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.4Mbps | 38.91.107.84 | DC·Flag",
-   "server": "38.91.107.84",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
+   "tag": "#144 🇺🇸 US | GTHost AS63023 | ↓11.9 ↑7.2Mbps | 66.163.122.46 | DC·Flag",
+   "server": "66.163.122.7",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
    "tls": {
     "enabled": true,
     "insecure": true,
-    "server_name": "xmfhlpy.com"
+    "server_name": "www.searchnationwidecareerchangehelperandguidancetoday.com"
    }
   },
   {
-   "tag": "#149 🇺🇸 US | GTHost AS63023 | ↓9.6 ↑5.8Mbps | 172.111.36.147 | DC·Clean",
-   "server": "172.111.36.147",
-   "server_port": 1270,
-   "type": "vmess",
-   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-   "security": "auto",
-   "alter_id": 0,
-   "tls": {
-    "enabled": true,
-    "insecure": true,
-    "server_name": "xmfhlpy.com"
-   }
-  },
-  {
-   "tag": "#150 🇨🇦 CA | OVH AS16276 | ↓9.5 ↑5.5Mbps | 51.222.136.236 | DC·Flag",
-   "server": "51.222.136.236",
-   "server_port": 8882,
+   "tag": "#145 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.2Mbps | 169.197.140.247 | DC·Flag",
+   "server": "169.197.140.247",
+   "server_port": 19999,
    "type": "shadowsocks",
    "method": "aes-256-gcm",
-   "password": "kDWvXYZoTBcGkC4"
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#146 🇺🇸 US | GTHost AS63023 | ↓11.8 ↑6.6Mbps | 38.91.107.57 | DC·Flag",
+   "server": "38.91.107.57",
+   "server_port": 19999,
+   "type": "shadowsocks",
+   "method": "aes-256-gcm",
+   "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+  },
+  {
+   "tag": "#147 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.8 ↑7.4Mbps | 134.195.198.212 | DC·Flag",
+   "server": "134.195.198.163",
+   "server_port": 443,
+   "type": "shadowsocks",
+   "method": "chacha20-ietf-poly1305",
+   "password": "PmCqK98WqhSC"
+  },
+  {
+   "tag": "#148 🇨🇦 CA | GLOBALTELEHOST AS62563 | ↓11.7 ↑3.3Mbps | 216.152.147.48 | RES·Flag",
+   "server": "216.152.147.79",
+   "server_port": 443,
+   "type": "trojan",
+   "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "blog.connectingpeoplewithgreatjobs.com"
+   }
+  },
+  {
+   "tag": "#149 🇺🇸 US | GTHost AS63023 | ↓11.7 ↑6.0Mbps | 172.111.36.137 | DC·Flag",
+   "server": "172.111.36.137",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
+  },
+  {
+   "tag": "#150 🇺🇸 US | Cogent Communications AS63023 | ↓11.7 ↑6.5Mbps | 38.22.17.64 | RES·Flag",
+   "server": "38.22.17.64",
+   "server_port": 1270,
+   "type": "vmess",
+   "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+   "security": "auto",
+   "alter_id": 0,
+   "tls": {
+    "enabled": true,
+    "insecure": true,
+    "server_name": "xmfhlpy.com"
+   }
   },
   {
    "type": "direct",
