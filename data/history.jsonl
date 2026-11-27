@@ -35,3 +35,4 @@
 {"ts":1795533466,"date":"2026-11-24 15:17","tested":4518,"alive":1039,"working":979,"unique":124797,"avg_kbps":6429,"max_kbps":60118,"avg_up_kbps":4055,"clean":310,"duration_s":2733}
 {"ts":1795583298,"date":"2026-11-25 05:08","tested":4511,"alive":1108,"working":1053,"unique":125594,"avg_kbps":6453,"max_kbps":76620,"avg_up_kbps":4028,"clean":341,"duration_s":2430}
 {"ts":1795669364,"date":"2026-11-26 05:02","tested":4523,"alive":1027,"working":968,"unique":124750,"avg_kbps":10528,"max_kbps":141649,"avg_up_kbps":7433,"clean":295,"duration_s":2333}
+{"ts":1795756054,"date":"2026-11-27 05:07","tested":4521,"alive":1181,"working":1147,"unique":125498,"avg_kbps":7639,"max_kbps":72750,"avg_up_kbps":4894,"clean":412,"duration_s":2451}
